@@ -1,0 +1,63 @@
+---
+import Basis from '../../layouts/Basis.astro';
+import StatusMarke from '../../components/StatusMarke.astro';
+import { getCollection } from 'astro:content';
+
+const symbole = (await getCollection('symbole')).sort(
+  (a, b) => a.data.order - b.data.order
+);
+---
+
+<Basis
+  title="Die Symbolsprache der Omnizedenz"
+  description="Eine Zeichenwelt, inspiriert von der Phaistos-Scheibe — Verdichtung statt Definition."
+>
+  <section class="seitenkopf">
+    <div class="column">
+      <span class="eyebrow">Ebene III — Sprache</span>
+      <h1>Die Symbolsprache</h1>
+      <p class="lead">
+        Manche Qualitäten entziehen sich dem Begriff. Symbole verdichten sie, ohne sie
+        festzunageln — Fingerzeige auf das Unsagbare.
+      </p>
+    </div>
+  </section>
+  <hr class="rule" />
+
+  <section class="section artikel">
+    <div class="column">
+      <h2>Die Phaistos-Scheibe als Pate</h2>
+      <p>
+        Der Diskos von Phaistos, um 1700 v. Chr. auf Kreta entstanden, trägt 241
+        eingestempelte Zeichen in einer Spirale — und ist bis heute nicht entziffert.
+        Genau darin liegt seine Eignung als Vorbild: Er ist eine Form, die Bedeutung
+        trägt, ohne sie preiszugeben.
+      </p>
+      <p>
+        Die Symbolsprache übernimmt dieses Prinzip — nicht die Zeichen selbst. Sie ist
+        keine Entzifferungsbehauptung und kein archäologischer Anspruch.
+      </p>
+    </div>
+  </section>
+
+  <section class="section section--tint">
+    <div class="wrap">
+      <div class="column" style="margin-inline:0;">
+        <span class="eyebrow">Das Glossar</span>
+        <h2>Zeichen und Bedeutung</h2>
+      </div>
+      <div class="prinzipien" style="margin-top:2.5rem;">
+        {symbole.map((s) => (
+          <a class="prinzip" href={`/symbolsprache/${s.slug}/`} data-farbe={s.data.farbe}>
+            <div class="prinzip__kopf">
+              <span class="prinzip__zeichen" aria-hidden="true">{s.data.zeichen}</span>
+              <span class="prinzip__name">{s.data.title}</span>
+            </div>
+            <p>{s.data.kurz}</p>
+            <p class="prinzip__status"><StatusMarke status={s.data.status} /></p>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</Basis>

@@ -1,0 +1,51 @@
+---
+import Basis from '../../layouts/Basis.astro';
+import StatusMarke from '../../components/StatusMarke.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const symbole = await getCollection('symbole');
+  return symbole.map((s) => ({ params: { slug: s.slug }, props: { symbol: s } }));
+}
+
+const { symbol } = Astro.props;
+const { Content } = await symbol.render();
+
+const texte = (await getCollection('texte')).filter((t) =>
+  t.data.symbole.some((r) => r.id === symbol.slug)
+);
+---
+
+<Basis title={`${symbol.data.title} — Symbolsprache der Omnizedenz`} description={symbol.data.kurz}>
+  <section class="seitenkopf">
+    <div class="column">
+      <span class="eyebrow">Symbol · Ebene {symbol.data.ebene}</span>
+      <h1><span class="zeichen-gross" data-farbe={symbol.data.farbe}>{symbol.data.zeichen}</span> {symbol.data.title}</h1>
+      <p class="lead">{symbol.data.kurz}</p>
+      <p class="meta">
+        <StatusMarke status={symbol.data.status} />
+        {symbol.data.entity_id && <span class="kg-id">KG: {symbol.data.entity_id}</span>}
+      </p>
+    </div>
+  </section>
+  <hr class="rule" />
+
+  <section class="section artikel">
+    <div class="column">
+      <Content />
+
+      {texte.length > 0 && (
+        <aside class="verweise">
+          <div>
+            <span class="eyebrow">Texte zu diesem Symbol</span>
+            <ul>{texte.map((t) => <li><a href={`/texte/${t.slug}/`}>{t.data.title}</a></li>)}</ul>
+          </div>
+        </aside>
+      )}
+
+      <div class="btn-row">
+        <a class="btn btn--ghost" href="/symbolsprache/">Zurück zum Glossar</a>
+      </div>
+    </div>
+  </section>
+</Basis>

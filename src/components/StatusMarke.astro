@@ -1,0 +1,21 @@
+---
+interface Props { status: string; }
+const { status } = Astro.props;
+
+/** Klartext zu den KG-Statusmarkern.
+ *  ACHTUNG: Semantik noch nicht aus OTA-ARC-0005/0006/0007 verifiziert. */
+const klartext: Record<string, string> = {
+  '[R]': 'belegt',
+  '[T]': 'theoretisch',
+  '[H]': 'hypothetisch',
+  '[S]': 'spekulativ',
+  '[F]': 'fiktional',
+  '[I]': 'interpretiert',
+  '[W]': 'in Arbeit',
+  '[OFFEN]': 'offen',
+};
+---
+<span class="statusmarke" title={klartext[status] ?? 'unbestimmt'}>
+  <span class="statusmarke__code">{status}</span>
+  <span class="statusmarke__text">{klartext[status] ?? 'unbestimmt'}</span>
+</span>

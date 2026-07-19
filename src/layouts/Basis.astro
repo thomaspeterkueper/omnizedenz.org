@@ -1,0 +1,91 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description: string;
+}
+
+const { title, description } = Astro.props;
+const kanonisch = new URL(Astro.url.pathname, Astro.site);
+const pfad = Astro.url.pathname;
+
+const navigation = [
+  { href: '/philosophie/', text: 'Die Philosophie' },
+  { href: '/resonanzethik/', text: 'Resonanzethik' },
+  { href: '/symbolsprache/', text: 'Symbolsprache' },
+  { href: '/bibliothek/', text: 'Bibliothek' },
+  { href: '/ueber/', text: 'Über' },
+];
+---
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{title}</title>
+  <meta name="description" content={description} />
+  <link rel="canonical" href={kanonisch} />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content={kanonisch} />
+  <link rel="sitemap" href="/sitemap-index.xml" />
+</head>
+<body>
+  <a class="skip" href="#inhalt">Zum Inhalt springen</a>
+
+  <header class="topbar">
+    <div class="wrap topbar__inner">
+      <a class="brand" href="/">
+        <svg viewBox="0 0 32 32" aria-hidden="true">
+          <circle cx="16" cy="16" r="13" fill="none" stroke="#2DD4BF" stroke-width="1.4" />
+          <circle cx="16" cy="16" r="8" fill="none" stroke="#F59E0B" stroke-width="1.2" stroke-dasharray="3 3" />
+          <circle cx="16" cy="16" r="3.4" fill="#8B5CF6" />
+        </svg>
+        Omnizedenz
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="hauptnavigation">Menü</button>
+      <nav class="nav" id="hauptnavigation" aria-label="Hauptnavigation">
+        {navigation.map((e) => (
+          <a href={e.href} aria-current={pfad.startsWith(e.href) ? 'page' : undefined}>{e.text}</a>
+        ))}
+      </nav>
+    </div>
+  </header>
+
+  <main id="inhalt">
+    <slot />
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__grid">
+      <div>
+        <p><strong>Omnizedenz</strong><br />Philosophie · Resonanzethik · Symbolsprache</p>
+        <p class="muted">© {new Date().getFullYear()} Thomas Peter Küper</p>
+      </div>
+      <ul>
+        <li><a href="/philosophie/">Die Philosophie</a></li>
+        <li><a href="/resonanzethik/">Resonanzethik</a></li>
+        <li><a href="/symbolsprache/">Symbolsprache</a></li>
+      </ul>
+      <ul>
+        <li><a href="/bibliothek/">Bibliothek</a></li>
+        <li><a href="/ueber/">Über das Projekt</a></li>
+        <li><a href="https://thomas-kueper.de">thomas-kueper.de</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const nav = document.getElementById('hauptnavigation');
+    toggle?.addEventListener('click', () => {
+      const offen = nav?.classList.toggle('is-open');
+      toggle.setAttribute('aria-expanded', offen ? 'true' : 'false');
+      toggle.textContent = offen ? 'Schließen' : 'Menü';
+    });
+  </script>
+</body>
+</html>

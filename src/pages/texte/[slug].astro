@@ -1,0 +1,48 @@
+---
+import Basis from '../../layouts/Basis.astro';
+import StatusMarke from '../../components/StatusMarke.astro';
+import Rueckverweise from '../../components/Rueckverweise.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const texte = await getCollection('texte');
+  return texte.map((t) => ({ params: { slug: t.slug }, props: { text: t } }));
+}
+
+const { text } = Astro.props;
+const { Content } = await text.render();
+
+const symbole = await getCollection('symbole');
+const verwendet = symbole.filter((s) => text.data.symbole.some((r) => r.id === s.slug));
+---
+
+<Basis title={`${text.data.title} — Omnizedenz`} description={text.data.description}>
+  <section class="seitenkopf">
+    <div class="column">
+      <span class="eyebrow">{text.data.typ}{text.data.band ? ` · ${text.data.band}` : ''}</span>
+      <h1>{text.data.title}</h1>
+      {text.data.subtitle && <p class="lead">{text.data.subtitle}</p>}
+      <p class="meta">
+        <StatusMarke status={text.data.status} />
+        {verwendet.length > 0 && (
+          <span class="symbolzeile">
+            {verwendet.map((s) => (
+              <a href={`/symbolsprache/${s.slug}/`} title={s.data.title} data-farbe={s.data.farbe}>{s.data.zeichen}</a>
+            ))}
+          </span>
+        )}
+      </p>
+    </div>
+  </section>
+  <hr class="rule" />
+
+  <section class="section artikel">
+    <div class="column">
+      <Content />
+      <Rueckverweise slug={text.slug} />
+      <div class="btn-row">
+        <a class="btn btn--ghost" href="/bibliothek/">Zurück zur Bibliothek</a>
+      </div>
+    </div>
+  </section>
+</Basis>

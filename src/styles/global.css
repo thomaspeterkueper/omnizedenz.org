@@ -1,0 +1,393 @@
+/* =========================================================
+   Omnizedenz — Corporate Design nach Design-Fibel (T. Küper)
+   Farbwelt: Avi/Chrona/Reso/Lume · Typo: Inter + Crimson Text
+   ========================================================= */
+
+:root{
+  /* Symbolfarben */
+  --avi:      #8B5CF6;   /* Violett  — Ungewissheit, Potentialität */
+  --chrona:   #2DD4BF;   /* Türkis   — Zeit, Fluss, Bewusstsein   */
+  --reso:     #F59E0B;   /* Gold     — Resonanz, Verbindung        */
+  --lume:     #FFFFFF;   /* Licht    — Verkörperung                */
+
+  /* Neutrale */
+  --ink:      #1F2937;   /* Haupttext, Anthrazit */
+  --ink-soft: #6B7280;   /* Marginalie, Subtitle */
+  --paper:    #FEFEFE;   /* Hintergrund digital  */
+  --paper-2:  #F7F6F3;   /* Ruheflächen          */
+  --line:     #E5E3DE;
+
+  /* Maße */
+  --measure: 34rem;      /* Textkolumne für kontemplatives Lesen */
+  --wide:    76rem;
+  --step:    clamp(3.5rem, 8vw, 7rem);
+
+  --serif: "Crimson Text", Georgia, "Times New Roman", serif;
+  --sans:  "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+*,*::before,*::after{ box-sizing:border-box; }
+
+html{ scroll-behavior:smooth; }
+
+body{
+  margin:0;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:var(--serif);
+  font-size:1.125rem;
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+
+img,svg{ max-width:100%; height:auto; display:block; }
+
+/* ---------- Typografie ---------- */
+h1,h2,h3,h4,.eyebrow,.nav,.btn,figcaption,th,.meta{
+  font-family:var(--sans);
+}
+
+h1{
+  font-size:clamp(2.4rem,6vw,4.1rem);
+  line-height:1.04;
+  letter-spacing:-.035em;
+  font-weight:600;
+  margin:0 0 1.2rem;
+}
+h2{
+  font-size:clamp(1.6rem,3.2vw,2.3rem);
+  line-height:1.15;
+  letter-spacing:-.025em;
+  font-weight:600;
+  margin:0 0 1rem;
+}
+h3{
+  font-size:1.22rem;
+  letter-spacing:-.012em;
+  font-weight:600;
+  margin:0 0 .5rem;
+}
+
+p{ margin:0 0 1.15rem; }
+a{ color:inherit; }
+
+.lead{
+  font-size:clamp(1.25rem,2.1vw,1.5rem);
+  line-height:1.55;
+  color:var(--ink);
+}
+
+.eyebrow{
+  font-size:.72rem;
+  letter-spacing:.22em;
+  text-transform:uppercase;
+  font-weight:600;
+  color:var(--ink-soft);
+  margin:0 0 1.1rem;
+  display:block;
+}
+
+.muted{ color:var(--ink-soft); }
+
+blockquote{
+  margin:2.4rem 0;
+  padding-left:1.4rem;
+  border-left:2px solid var(--reso);
+  font-style:italic;
+  font-size:1.24rem;
+  line-height:1.55;
+}
+blockquote cite{
+  display:block;
+  margin-top:.6rem;
+  font-family:var(--sans);
+  font-style:normal;
+  font-size:.78rem;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+  color:var(--ink-soft);
+}
+
+/* ---------- Layout ---------- */
+.wrap{ width:min(100% - 2.5rem, var(--wide)); margin-inline:auto; }
+.column{ width:min(100% - 2.5rem, var(--measure)); margin-inline:auto; }
+.section{ padding-block:var(--step); }
+.section--tint{ background:var(--paper-2); }
+.rule{ border:0; border-top:1px solid var(--line); margin:0; }
+
+/* ---------- Navigation ---------- */
+.topbar{
+  position:sticky; top:0; z-index:40;
+  background:rgba(254,254,254,.86);
+  backdrop-filter:saturate(140%) blur(10px);
+  border-bottom:1px solid var(--line);
+}
+.topbar__inner{
+  display:flex; align-items:center; justify-content:space-between;
+  gap:1.5rem; padding-block:.85rem;
+}
+.brand{
+  display:flex; align-items:center; gap:.6rem;
+  text-decoration:none; font-family:var(--sans);
+  font-weight:600; letter-spacing:-.02em;
+}
+.brand svg{ width:26px; height:26px; }
+.nav{ display:flex; gap:1.6rem; font-size:.9rem; }
+.nav a{
+  text-decoration:none; color:var(--ink-soft);
+  padding-block:.2rem; border-bottom:1px solid transparent;
+  transition:color .2s ease, border-color .2s ease;
+}
+.nav a:hover{ color:var(--ink); }
+.nav a[aria-current="page"]{ color:var(--ink); border-bottom-color:var(--reso); }
+
+.nav-toggle{
+  display:none; background:none; border:0; cursor:pointer;
+  font-family:var(--sans); font-size:.85rem; color:var(--ink);
+  padding:.4rem .2rem;
+}
+
+@media (max-width:760px){
+  .nav-toggle{ display:block; }
+  .nav{
+    position:absolute; inset:100% 0 auto 0;
+    flex-direction:column; gap:0;
+    background:var(--paper); border-bottom:1px solid var(--line);
+    padding:.5rem 1.25rem 1.25rem;
+    display:none;
+  }
+  .nav.is-open{ display:flex; }
+  .nav a{ padding-block:.7rem; border-bottom:1px solid var(--line); }
+}
+
+/* ---------- Hero: Das Feld ---------- */
+.hero{
+  padding-block:clamp(3rem,7vw,6rem) var(--step);
+  overflow:hidden;
+}
+.hero__grid{
+  display:grid;
+  grid-template-columns:1.05fr .95fr;
+  gap:clamp(2rem,5vw,4.5rem);
+  align-items:center;
+}
+@media (max-width:900px){
+  .hero__grid{ grid-template-columns:1fr; }
+  .hero__figure{ order:-1; }
+}
+.hero__figure{ position:relative; }
+.hero__caption{
+  font-family:var(--sans);
+  font-size:.72rem; letter-spacing:.14em; text-transform:uppercase;
+  color:var(--ink-soft); text-align:center; margin-top:1.2rem;
+}
+
+/* Feld-Animation */
+.feld{ width:100%; max-width:520px; margin-inline:auto; }
+.feld .ring-chrona{ animation:drehen 90s linear infinite; transform-origin:50% 50%; }
+.feld .ring-reso{ animation:drehen-rueck 60s linear infinite; transform-origin:50% 50%; }
+.feld .kern-avi{ animation:pulsen 7s ease-in-out infinite; transform-origin:50% 50%; }
+.feld .achse-lume{ animation:leuchten 9s ease-in-out infinite; }
+.feld .marke{ font-family:var(--sans); font-size:11px; letter-spacing:.18em; fill:var(--ink-soft); }
+
+@keyframes drehen{ to{ transform:rotate(360deg); } }
+@keyframes drehen-rueck{ to{ transform:rotate(-360deg); } }
+@keyframes pulsen{
+  0%,100%{ transform:scale(1);    opacity:.95; }
+  50%    { transform:scale(1.07); opacity:.7;  }
+}
+@keyframes leuchten{
+  0%,100%{ opacity:.28; }
+  50%    { opacity:.62; }
+}
+
+@media (prefers-reduced-motion:reduce){
+  *{ animation:none !important; transition:none !important; }
+  html{ scroll-behavior:auto; }
+}
+
+/* ---------- Buttons ---------- */
+.btn{
+  display:inline-flex; align-items:center; gap:.5rem;
+  font-size:.86rem; font-weight:500; letter-spacing:.01em;
+  text-decoration:none; padding:.72rem 1.3rem;
+  border:1px solid var(--ink); border-radius:2px;
+  transition:background .2s ease, color .2s ease, transform .2s ease;
+}
+.btn:hover{ background:var(--ink); color:var(--paper); }
+.btn--ghost{ border-color:var(--line); color:var(--ink-soft); }
+.btn--ghost:hover{ background:none; border-color:var(--ink); color:var(--ink); }
+.btn-row{ display:flex; flex-wrap:wrap; gap:.75rem; margin-top:1.8rem; }
+
+/* ---------- Drei Zugänge ---------- */
+.zugaenge{
+  display:grid; grid-template-columns:repeat(3,1fr);
+  gap:1px; background:var(--line); border-block:1px solid var(--line);
+}
+@media (max-width:800px){ .zugaenge{ grid-template-columns:1fr; } }
+.zugang{
+  background:var(--paper);
+  padding:clamp(1.8rem,3vw,2.6rem);
+  text-decoration:none; display:block;
+  transition:background .25s ease;
+}
+.zugang:hover{ background:var(--paper-2); }
+.zugang__num{
+  font-family:var(--sans); font-size:.72rem; letter-spacing:.2em;
+  color:var(--ink-soft); display:block; margin-bottom:1.4rem;
+}
+.zugang__glyph{ width:38px; height:38px; margin-bottom:1.2rem; }
+.zugang p{ font-size:1rem; color:var(--ink-soft); margin-bottom:0; }
+.zugang h3{ margin-bottom:.55rem; }
+
+/* ---------- Prinzipien / Symbol-Karten ---------- */
+.prinzipien{
+  display:grid; gap:1px;
+  grid-template-columns:repeat(auto-fit,minmax(270px,1fr));
+  background:var(--line); border:1px solid var(--line);
+}
+.prinzip{ background:var(--paper); padding:clamp(1.5rem,3vw,2.2rem); }
+.prinzip__kopf{ display:flex; align-items:baseline; gap:.8rem; margin-bottom:.6rem; }
+.prinzip__zeichen{
+  font-size:1.5rem; line-height:1;
+  font-family:var(--sans);
+}
+.prinzip__name{ font-family:var(--sans); font-weight:600; font-size:1.15rem; letter-spacing:-.01em; }
+.prinzip__rolle{
+  font-family:var(--sans); font-size:.72rem; letter-spacing:.16em;
+  text-transform:uppercase; color:var(--ink-soft);
+}
+.prinzip p{ margin-bottom:.6rem; font-size:1.02rem; }
+.prinzip__status{
+  font-family:var(--sans); font-size:.78rem; color:var(--ink-soft);
+  border-top:1px dotted var(--line); padding-top:.7rem; margin-top:1rem;
+}
+.prinzip[data-farbe="avi"]    .prinzip__zeichen{ color:var(--avi); }
+.prinzip[data-farbe="chrona"] .prinzip__zeichen{ color:var(--chrona); }
+.prinzip[data-farbe="reso"]   .prinzip__zeichen{ color:var(--reso); }
+.prinzip[data-farbe="ink"]    .prinzip__zeichen{ color:var(--ink); }
+
+/* ---------- Bibliothek ---------- */
+.regal{ margin-top:2.5rem; }
+.regal__kopf{
+  display:flex; align-items:baseline; gap:1rem;
+  border-bottom:1px solid var(--ink); padding-bottom:.6rem; margin-bottom:.2rem;
+}
+.regal__kopf h3{ margin:0; }
+.regal__zahl{ font-family:var(--sans); font-size:.78rem; color:var(--ink-soft); margin-left:auto; }
+.werke{ list-style:none; margin:0; padding:0; }
+.werk{
+  display:grid; grid-template-columns:2.2rem 1fr auto;
+  gap:1rem; align-items:baseline;
+  padding:.85rem 0; border-bottom:1px solid var(--line);
+}
+.werk__marke{ font-family:var(--sans); font-size:.72rem; color:var(--ink-soft); letter-spacing:.08em; }
+.werk__titel{ font-size:1.05rem; }
+.werk__note{ display:block; font-size:.92rem; color:var(--ink-soft); line-height:1.45; }
+.werk__status{
+  font-family:var(--sans); font-size:.68rem; letter-spacing:.12em; text-transform:uppercase;
+  color:var(--ink-soft); white-space:nowrap;
+}
+@media (max-width:640px){
+  .werk{ grid-template-columns:1.8rem 1fr; }
+  .werk__status{ grid-column:2; }
+}
+
+/* ---------- Text-Seiten ---------- */
+.artikel h2{ margin-top:3rem; }
+.artikel h3{ margin-top:2rem; }
+.artikel ul{ padding-left:1.1rem; }
+.artikel li{ margin-bottom:.5rem; }
+.artikel .kasten{
+  background:var(--paper-2);
+  border-left:2px solid var(--chrona);
+  padding:1.4rem 1.5rem;
+  margin:2.2rem 0;
+  font-size:1.02rem;
+}
+.artikel .kasten h3{ margin-top:0; }
+.artikel .kasten p:last-child{ margin-bottom:0; }
+
+.seitenkopf{ padding-block:clamp(3rem,6vw,5rem) 2rem; }
+.seitenkopf .lead{ color:var(--ink-soft); }
+
+/* ---------- Fußzeile ---------- */
+.footer{
+  border-top:1px solid var(--line);
+  padding-block:3rem 4rem;
+  font-size:.92rem; color:var(--ink-soft);
+}
+.footer__grid{ display:flex; flex-wrap:wrap; gap:2.5rem; justify-content:space-between; }
+.footer a{ text-decoration:none; }
+.footer a:hover{ color:var(--ink); }
+.footer ul{ list-style:none; margin:0; padding:0; }
+.footer li{ margin-bottom:.4rem; }
+
+/* ---------- Enthüllung beim Scrollen ---------- */
+.reveal{ opacity:0; transform:translateY(14px); transition:opacity .7s ease, transform .7s ease; }
+.reveal.is-visible{ opacity:1; transform:none; }
+
+/* ---------- Fokus ---------- */
+a:focus-visible, button:focus-visible{
+  outline:2px solid var(--reso); outline-offset:3px; border-radius:1px;
+}
+
+.skip{
+  position:absolute; left:-9999px;
+  background:var(--ink); color:var(--paper);
+  padding:.7rem 1rem; font-family:var(--sans); font-size:.85rem; z-index:80;
+}
+.skip:focus{ left:1rem; top:1rem; }
+
+
+/* ---------- Ergänzungen für die Astro-Fassung ---------- */
+
+/* Lokale Fonts: nach Ablage der .woff2-Dateien einkommentieren.
+@font-face{ font-family:"Crimson Text"; src:url("/fonts/CrimsonText-Regular.woff2") format("woff2");
+  font-weight:400; font-style:normal; font-display:swap; }
+@font-face{ font-family:"Inter"; src:url("/fonts/Inter-Regular.woff2") format("woff2");
+  font-weight:400; font-style:normal; font-display:swap; }
+*/
+
+.statusmarke{ display:inline-flex; align-items:center; gap:.4rem; font-family:var(--sans); }
+.statusmarke__code{
+  font-size:.7rem; letter-spacing:.06em; color:var(--ink-soft);
+  border:1px solid var(--line); border-radius:2px; padding:.1rem .35rem;
+}
+.statusmarke__text{ font-size:.72rem; letter-spacing:.1em; text-transform:uppercase; color:var(--ink-soft); }
+
+.kg-id{
+  font-family:var(--sans); font-size:.7rem; letter-spacing:.08em;
+  color:var(--ink-soft); margin-left:.9rem;
+}
+
+.meta{ display:flex; flex-wrap:wrap; align-items:center; gap:1rem; margin-top:1.4rem; }
+
+.zeichen-gross{ font-family:var(--sans); margin-right:.4rem; }
+.zeichen-gross[data-farbe="avi"]{ color:var(--avi); }
+.zeichen-gross[data-farbe="chrona"]{ color:var(--chrona); }
+.zeichen-gross[data-farbe="reso"]{ color:var(--reso); }
+
+.symbolzeile{ display:inline-flex; gap:.7rem; font-family:var(--sans); font-size:1.2rem; }
+.symbolzeile a{ text-decoration:none; }
+.symbolzeile a[data-farbe="avi"]{ color:var(--avi); }
+.symbolzeile a[data-farbe="chrona"]{ color:var(--chrona); }
+.symbolzeile a[data-farbe="reso"]{ color:var(--reso); }
+
+a.prinzip{ text-decoration:none; color:inherit; transition:background .2s ease; }
+a.prinzip:hover{ background:var(--paper-2); }
+.prinzip__status{ display:flex; flex-wrap:wrap; gap:1rem; align-items:center; }
+.prinzip__status a{ font-size:.78rem; }
+
+.verweise{
+  display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr));
+  gap:2rem; margin:3rem 0 0; padding-top:1.8rem; border-top:1px solid var(--line);
+}
+.verweise ul{ list-style:none; margin:0; padding:0; }
+.verweise li{ margin-bottom:.5rem; font-size:.98rem; }
+.verweise a{ text-decoration:none; border-bottom:1px solid var(--line); }
+.verweise a:hover{ border-bottom-color:var(--ink); }
+
+a.werk__titel{ text-decoration:none; border-bottom:1px solid var(--line); }
+a.werk__titel:hover{ border-bottom-color:var(--ink); }

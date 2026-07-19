@@ -1,0 +1,46 @@
+---
+// Das Feldmodell nach Design-Fibel: Chrona, Reso, Avi, Lume.
+---
+<svg class="feld" viewBox="0 0 400 400" role="img"
+     aria-label="Das Omnizedenz-Feldmodell: äußerer türkiser Ring (Chrona), goldener gestrichelter Ring (Reso), violetter pulsierender Kern (Avi), senkrechte Lichtachse (Lume).">
+  <defs>
+    <linearGradient id="lume" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0" />
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity=".9" />
+      <stop offset="100%" stop-color="#2DD4BF" stop-opacity="0" />
+    </linearGradient>
+    <radialGradient id="kern">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity=".9" />
+      <stop offset="70%" stop-color="#8B5CF6" stop-opacity=".18" />
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <rect class="achse-lume" x="196" y="10" width="8" height="380" fill="url(#lume)" />
+
+  <g class="ring-chrona">
+    <circle cx="200" cy="200" r="168" fill="none" stroke="#2DD4BF" stroke-width="2" />
+    <line x1="200" y1="24" x2="200" y2="42" stroke="#2DD4BF" stroke-width="2" />
+    <line x1="376" y1="200" x2="358" y2="200" stroke="#2DD4BF" stroke-width="2" />
+    <line x1="200" y1="376" x2="200" y2="358" stroke="#2DD4BF" stroke-width="2" />
+    <line x1="24" y1="200" x2="42" y2="200" stroke="#2DD4BF" stroke-width="2" />
+  </g>
+
+  <g class="ring-reso">
+    <circle cx="200" cy="200" r="118" fill="none" stroke="#F59E0B" stroke-width="1.2" stroke-dasharray="9 7" />
+    <circle cx="200" cy="200" r="92" fill="none" stroke="#F59E0B" stroke-width="1" stroke-dasharray="3 9" opacity=".65" />
+  </g>
+
+  <g class="kern-avi">
+    <circle cx="200" cy="200" r="62" fill="url(#kern)" />
+    <path d="M200 148c22 8 40 20 44 44s-14 44-38 52-46-4-56-24 4-52 24-62 20-12 26-10z"
+          fill="none" stroke="#8B5CF6" stroke-width="1.6" />
+    <path d="M200 162c16 4 30 16 32 34s-12 34-30 38-34-6-40-20 2-38 20-46 14-8 18-6z"
+          fill="none" stroke="#8B5CF6" stroke-width="1" opacity=".6" />
+  </g>
+
+  <text class="marke" x="200" y="14" text-anchor="middle">CHRONA</text>
+  <text class="marke" x="200" y="298" text-anchor="middle">RESO</text>
+  <text class="marke" x="200" y="205" text-anchor="middle" fill="#8B5CF6">AVI</text>
+  <text class="marke" x="200" y="396" text-anchor="middle">LUME</text>
+</svg>

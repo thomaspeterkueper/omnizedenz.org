@@ -1,0 +1,62 @@
+---
+import Basis from '../layouts/Basis.astro';
+import StatusMarke from '../components/StatusMarke.astro';
+import { getCollection } from 'astro:content';
+
+const texte = await getCollection('texte');
+
+const ebenen = [
+  { key: 'ontologie', titel: 'Fundament — Die Omnizedenz' },
+  { key: 'ethik', titel: 'Praxis — Resonanzethik' },
+  { key: 'symbolsprache', titel: 'Sprache — Symbolsystem' },
+];
+
+const regale = ebenen.map((e) => ({
+  ...e,
+  werke: texte
+    .filter((t) => t.data.ebene === e.key)
+    .sort((a, b) => a.data.order - b.data.order),
+}));
+---
+
+<Basis
+  title="Bibliothek — Alle Texte der Omnizedenz"
+  description="Kapitel, Essays, Werkstattbücher: die vollständige Werkübersicht mit epistemischem Status."
+>
+  <section class="seitenkopf">
+    <div class="column">
+      <span class="eyebrow">Das Archiv</span>
+      <h1>Bibliothek</h1>
+      <p class="lead">
+        Alles, was bislang entstanden ist — ausgearbeitete Kapitel neben Fragmenten. Der
+        epistemische Status steht jeweils dabei.
+      </p>
+    </div>
+  </section>
+  <hr class="rule" />
+
+  <section class="section">
+    <div class="wrap">
+      {regale.map((r) => r.werke.length > 0 && (
+        <section class="regal">
+          <div class="regal__kopf">
+            <h3>{r.titel}</h3>
+            <span class="regal__zahl">{r.werke.length} Titel</span>
+          </div>
+          <ul class="werke">
+            {r.werke.map((t, i) => (
+              <li class="werk">
+                <span class="werk__marke">{String(i + 1).padStart(2, '0')}</span>
+                <span>
+                  <a class="werk__titel" href={`/texte/${t.slug}/`}>{t.data.title}</a>
+                  <span class="werk__note">{t.data.description}</span>
+                </span>
+                <span class="werk__status"><StatusMarke status={t.data.status} /></span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
+    </div>
+  </section>
+</Basis>

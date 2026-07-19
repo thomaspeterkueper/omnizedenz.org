@@ -1,0 +1,40 @@
+---
+import { getCollection } from 'astro:content';
+
+interface Props { slug: string; }
+const { slug } = Astro.props;
+
+const alle = await getCollection('texte');
+const dieser = alle.find((t) => t.slug === slug);
+
+/** Referenzen lösen zu { id, collection } auf; id entspricht dem Slug. */
+const nachSlug = (liste: { id: string }[] = []) =>
+  liste.map((r) => alle.find((t) => t.slug === r.id)).filter(Boolean);
+
+const vorwaerts = nachSlug(dieser?.data.bautAuf);
+const resonanz = nachSlug(dieser?.data.resoniertMit);
+const rueckwaerts = alle.filter((t) => t.data.bautAuf.some((r) => r.id === slug));
+---
+
+{(vorwaerts.length > 0 || rueckwaerts.length > 0 || resonanz.length > 0) && (
+  <aside class="verweise">
+    {vorwaerts.length > 0 && (
+      <div>
+        <span class="eyebrow">Baut auf</span>
+        <ul>{vorwaerts.map((t) => <li><a href={`/texte/${t.slug}/`}>{t.data.title}</a></li>)}</ul>
+      </div>
+    )}
+    {rueckwaerts.length > 0 && (
+      <div>
+        <span class="eyebrow">Wird aufgegriffen von</span>
+        <ul>{rueckwaerts.map((t) => <li><a href={`/texte/${t.slug}/`}>{t.data.title}</a></li>)}</ul>
+      </div>
+    )}
+    {resonanz.length > 0 && (
+      <div>
+        <span class="eyebrow">Resoniert mit</span>
+        <ul>{resonanz.map((t) => <li><a href={`/texte/${t.slug}/`}>{t.data.title}</a></li>)}</ul>
+      </div>
+    )}
+  </aside>
+)}

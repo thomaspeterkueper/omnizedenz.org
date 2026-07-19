@@ -1,0 +1,103 @@
+---
+import Basis from '../layouts/Basis.astro';
+import StatusMarke from '../components/StatusMarke.astro';
+import { getCollection } from 'astro:content';
+
+// Die fuenf Kernprinzipien stammen aus der Symbol-Collection,
+// damit Zeichen und Definition nicht doppelt gepflegt werden.
+const reihenfolge = ['saha', 'palya', 'kesh', 'kora', 'mira'];
+const alle = await getCollection('symbole');
+const prinzipien = reihenfolge
+  .map((slug) => alle.find((s) => (s.slug ?? s.id) === slug))
+  .filter(Boolean);
+---
+
+<Basis
+  title="Resonanzethik — Die fünf Kernprinzipien"
+  description="Saha, Palya, Kesh, Kora, Mira: eine Ethik der Stimmigkeit statt der Regelbefolgung, gegründet auf der Omnizedenz."
+>
+
+
+  <section class="seitenkopf">
+    <div class="column">
+      <span class="eyebrow">Ebene II — Praxis</span>
+      <h1>Resonanzethik</h1>
+      <p class="lead">Was, wenn Ethik nicht primär eine Frage von Regeln und Sanktionen wäre, sondern von Stimmigkeit? Fünf Prinzipien für Entscheidungen in einem Feld, das antwortet.</p>
+    </div>
+  </section>
+  <hr class="rule">
+
+  <section class="section artikel">
+    <div class="column">
+      <h2>Warum eine weitere Ethik?</h2>
+      <p>Klimakrise, gesellschaftliche Spaltung, digitale Entfremdung: Die etablierten ethischen Systeme — religiöse Moral, Rechtspositivismus, utilitaristische Kalküle — wirken angesichts vernetzter Krisen oft zu starr oder zu mechanistisch. Es ist, als täten wir das Richtige, und es klänge trotzdem falsch.</p>
+      <p>Die Resonanzethik ersetzt diese Systeme nicht. Sie ergänzt sie um eine Dimension, die sie schlecht erfassen: die lebendige, relationale, verkörperte Seite ethischer Entscheidung.</p>
+
+      <blockquote>
+        Vielleicht ist Gerechtigkeit nicht das, was sich durchsetzt, sondern das, was stimmt.
+        <cite>Grundlagen der Resonanzethik</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <section class="section section--tint">
+    <div class="wrap">
+      <div class="column" style="margin-inline:0;">
+        <span class="eyebrow">Die fünf Kernprinzipien</span>
+        <h2>Kein System, ein Zusammenspiel</h2>
+        <p class="muted">Die Prinzipien greifen ineinander: Saha ermöglicht Wahrnehmung, Palya liefert das Maß, Kesh die Motivation, Kora den Umgang mit Konflikt, Mira die Qualität der Umsetzung.</p>
+      </div>
+      <div class="prinzipien reveal" style="margin-top:2.5rem;">
+        {prinzipien.map((s) => (
+          <article class="prinzip" data-farbe={s.data.farbe}>
+            <div class="prinzip__kopf">
+              <span class="prinzip__zeichen" aria-hidden="true">{s.data.zeichen}</span>
+              <span class="prinzip__name">{s.data.title.replace(s.data.zeichen, "").trim()}</span>
+              <span class="prinzip__rolle">{s.data.kurz}</span>
+            </div>
+            <p><a href={`/symbolsprache/${s.slug ?? s.id}/`}>Zeichen und Bedeutung</a></p>
+            <p class="prinzip__status"><StatusMarke status={s.data.status} /></p>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section artikel">
+    <div class="column">
+      <h2>Ein möglicher Entscheidungsweg</h2>
+      <ul>
+        <li><strong>Saha</strong> — die Gesamtsituation achtsam wahrnehmen, bevor bewertet wird.</li>
+        <li><strong>Palya</strong> — Handlungsoptionen auf Stimmigkeit prüfen, nicht nur auf Zulässigkeit.</li>
+        <li><strong>Kesh</strong> — die eigene Motivation aus der Beziehung heraus klären.</li>
+        <li><strong>Kora</strong> — bei Konflikt die integrative statt der halbierenden Lösung suchen.</li>
+        <li><strong>Mira</strong> — Rhythmus und Zeitpunkt der Umsetzung bewusst gestalten.</li>
+      </ul>
+
+      <h2>Woran erkennt man Selbsttäuschung?</h2>
+      <p>Die naheliegendste Kritik lautet: „Stimmigkeit“ könnte alles und nichts heißen. Vier Kriterien sollen die Grenze markieren — alle vier sind bislang Überlegung, nicht Befund:</p>
+      <ul>
+        <li><strong>Intersubjektive Validierung</strong> — mehrere Beteiligte nehmen ähnliche Qualitäten wahr.</li>
+        <li><strong>Zeitstabilität</strong> — die Entscheidung hält über Wochen und Monate.</li>
+        <li><strong>Systemische Wirkung</strong> — das größere Ganze profitiert, nicht nur der Entscheidende.</li>
+        <li><strong>Integration mit Rationalität</strong> — Resonanz ergänzt die Analyse, sie ersetzt sie nie.</li>
+      </ul>
+
+      <div class="kasten">
+        <h3>Offene Risiken — ausdrücklich benannt</h3>
+        <p><strong>Relativismus:</strong> „Stimmigkeit“ kann zur Beliebigkeit verkommen. <strong>Manipulation:</strong> „Resonanz“ kann Machtinteressen verschleiern. <strong>Exklusivität:</strong> Es droht eine Zweiteilung in resonanzfähige Eingeweihte und bloße Regelbefolger. <strong>Kulturimperialismus:</strong> Westliche Konzepte als universelle Wahrheit auszugeben, wäre ein Rückfall.</p>
+        <p>Ebenso die Grenzen der Anwendbarkeit: extreme Machtasymmetrien, akute psychische Krisen und hochfrequente Entscheidungsumgebungen lassen resonante Prozesse kaum zu. Dort sind Struktur und Regel vorrangig.</p>
+      </div>
+
+      <blockquote>
+        Die fünf Prinzipien sind nicht die Antwort, sondern die Frage: Können wir Ethik als lebendige Praxis kultivieren, die Kopf, Herz und Körper integriert?
+      </blockquote>
+
+      <div class="btn-row">
+        <a class="btn" href="/symbolsprache/">Weiter zur Symbolsprache</a>
+        <a class="btn btn--ghost" href="/bibliothek/">Kapitel und Werkstattbücher</a>
+      </div>
+    </div>
+  </section>
+
+</Basis>

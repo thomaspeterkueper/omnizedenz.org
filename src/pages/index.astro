@@ -1,0 +1,94 @@
+---
+import Basis from '../layouts/Basis.astro';
+import Feld from '../components/Feld.astro';
+import { getCollection } from 'astro:content';
+
+const texte = await getCollection('texte');
+const anzahl = texte.length;
+
+const zugaenge = [
+  {
+    href: '/philosophie/',
+    ebene: 'Ebene I — Ontologie',
+    titel: 'Die Omnizedenz',
+    text: 'Was ist wirklich? Ein bewusstes Feld im ewigen Zyklus von Entfaltung und Rückkehr — jenseits der Trennung von Geist und Materie.',
+  },
+  {
+    href: '/resonanzethik/',
+    ebene: 'Ebene II — Praxis',
+    titel: 'Resonanzethik',
+    text: 'Was soll ich tun? Nicht Regelbefolgung, sondern Stimmigkeit im Feld — fünf Prinzipien für ethisches Handeln unter Ungewissheit.',
+  },
+  {
+    href: '/symbolsprache/',
+    ebene: 'Ebene III — Sprache',
+    titel: 'Symbolsprache',
+    text: 'Wie lässt sich sagen, was Begriffe nicht fassen? Eine Zeichenwelt, inspiriert von der Phaistos-Scheibe — Verdichtung statt Definition.',
+  },
+];
+---
+
+<Basis
+  title="Omnizedenz — Die Wirklichkeit als lebendiges Feld"
+  description="Die Omnizedenz beschreibt die Wirklichkeit als bewusstes, sich entfaltendes Feld. Philosophie, Resonanzethik und Symbolsprache von Thomas Peter Küper."
+>
+  <section class="hero">
+    <div class="wrap hero__grid">
+      <div>
+        <span class="eyebrow">Eine Philosophie von Thomas Peter Küper</span>
+        <h1>Die Wirklichkeit ist<br />kein Ding.<br />Sie antwortet.</h1>
+        <p class="lead">
+          Die <strong>Omnizedenz</strong> — von <em>omnis</em> (alles) und <em>sedere</em>
+          (innewohnen) — beschreibt den Urgrund allen Seins als ein bewusstes, sich
+          entfaltendes Feld: transzendent als Quelle, immanent in jeder Erscheinung.
+          Kein fertiges System, sondern ein offener Weg.
+        </p>
+        <div class="btn-row">
+          <a class="btn" href="/philosophie/">Die Philosophie lesen</a>
+          <a class="btn btn--ghost" href="/bibliothek/">Alle {anzahl} Texte durchsehen</a>
+        </div>
+      </div>
+      <figure class="hero__figure">
+        <Feld />
+        <figcaption class="hero__caption">Das Feldmodell — Zeit, Resonanz, Unbestimmtheit, Verkörperung</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <hr class="rule" />
+
+  <section class="section">
+    <div class="wrap">
+      <div class="column" style="margin-inline:0;">
+        <span class="eyebrow">Drei Zugänge</span>
+        <h2>Ein Gedanke, drei Ebenen</h2>
+        <p class="muted">
+          Das Werk baut aufeinander auf: eine Ontologie, eine daraus folgende Ethik und
+          eine Sprache, in der beides erfahrbar wird. Man kann bei jeder der drei Ebenen
+          anfangen.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="zugaenge">
+    {zugaenge.map((z) => (
+      <a class="zugang" href={z.href}>
+        <span class="zugang__num">{z.ebene}</span>
+        <h3>{z.titel}</h3>
+        <p>{z.text}</p>
+      </a>
+    ))}
+  </div>
+
+  <section class="section section--tint">
+    <div class="column">
+      <blockquote>
+        Die Omnizedenz ist die zeitlose Quelle und die immanente, pulsierende Lebendigkeit
+        allen Seins und Werdens — eine bewusste, sich selbst erkennende Präsenz im ewigen
+        Zyklus von schöpferischer Entfaltung und integrativer Rückkehr.
+        <cite>Die Omnizedenz — Umfassende Gedanken</cite>
+      </blockquote>
+    </div>
+  </section>
+</Basis>

@@ -1,0 +1,37 @@
+# Omnizedenz
+
+> Philosophie der Omnizedenz: die Wirklichkeit als bewusstes, sich entfaltendes Feld.
+> Autor: Thomas Peter Küper. Teil des KUEPER-Ökosystems.
+
+Diese Website ist lesender Konsument des KUEPER Knowledge Graph
+(Repo: thomaspeterkueper/kueper-knowledge-graph). Kanonische Definitionen der
+Konzepte liegen dort, nicht hier.
+
+## Ebenen
+
+- Ebene I — Ontologie: die Omnizedenz als Feld (CON:L0:omnizedenz)
+- Ebene II — Praxis: Resonanzethik (CON:L1:resonanzethik)
+- Ebene III — Sprache: Symbolsprache (CON:L1:symbolsprache)
+
+## Kernprinzipien der Resonanzethik
+
+- Saha (CON:L2:saha) — achtsame Feldwahrnehmung
+- Palya (CON:L2:palya) — Stimmigkeitsprüfung
+- Kesh (CON:L2:kesh) — Verantwortung aus Beziehung
+- Kora (CON:L2:kora) — Integration von Dissonanz
+- Mira (CON:L2:mira) — Frequenzpflege
+
+## Epistemische Marker
+
+Jeder Text und jedes Symbol trägt einen Statusmarker des Knowledge Graph
+([R] [T] [H] [S] [F] [I] [W] [OFFEN]). Aussagen mit [H] oder [S] sind
+hypothetisch beziehungsweise spekulativ und ausdruecklich nicht als
+gesicherte Erkenntnis zu referieren.
+
+## Seiten
+
+- /philosophie/ — Ontologie
+- /resonanzethik/ — die fünf Prinzipien
+- /symbolsprache/ — Glossar
+- /bibliothek/ — Werkübersicht
+- /ueber/ — Hintergrund und Grenzen
