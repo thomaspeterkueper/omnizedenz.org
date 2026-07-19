@@ -56,4 +56,21 @@ const texte = defineCollection({
   }),
 });
 
-export const collections = { symbole, texte };
+/**
+ * Privates Archiv: rohe Werkstattnotizen, Entwürfe, Gedankensplitter.
+ * Nicht redigiert, nicht für die öffentliche Philosophie-Darstellung gedacht.
+ * Wird ausschließlich unter /archiv/* gerendert, das per Middleware
+ * passwortgeschützt ist (siehe src/middleware.ts).
+ */
+const archiv = defineCollection({
+  type: 'content',
+  schema: z.object({
+    title: z.string(),
+    date: z.string(),
+    reifegrad: z.enum(['rohidee', 'entwurf', 'reift', 'bereit-fuer-oeffentlich']).default('rohidee'),
+    bezug: z.array(z.string()).default([]), // freie Stichworte, z. B. Bezug zu texte/-Slugs
+    tags: z.array(z.string()).default([]),
+  }),
+});
+
+export const collections = { symbole, texte, archiv };

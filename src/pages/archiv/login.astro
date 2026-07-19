@@ -1,0 +1,45 @@
+---
+// Dateipfad: src/pages/archiv/login.astro
+export const prerender = false;
+
+import Basis from '../../layouts/Basis.astro';
+
+const fehler = Astro.url.searchParams.get('fehler') === '1';
+const weiter = Astro.url.searchParams.get('weiter') ?? '/archiv/';
+---
+
+<Basis
+  title="Archiv · Anmeldung — Omnizedenz"
+  description="Privater Archivbereich."
+  noindex
+>
+  <section class="wrap" style="max-width: 28rem; padding-block: 6rem;">
+    <p class="eyebrow">Privater Bereich</p>
+    <h1>Archiv</h1>
+    <p class="muted">
+      Dieser Bereich ist nicht öffentlich. Bitte mit Passwort anmelden.
+    </p>
+
+    {fehler && (
+      <p role="alert" style="color: #B91C1C; font-family: var(--sans); font-size: 0.95rem;">
+        Passwort ist nicht korrekt.
+      </p>
+    )}
+
+    <form method="POST" action="/api/archiv-login" style="margin-top: 1.5rem; display: grid; gap: 1rem;">
+      <label style="display: grid; gap: 0.4rem; font-family: var(--sans);">
+        Passwort
+        <input
+          type="password"
+          name="passwort"
+          required
+          autofocus
+          autocomplete="current-password"
+          style="padding: 0.6rem 0.8rem; border: 1px solid var(--line); border-radius: 0.4rem; font-size: 1rem;"
+        />
+      </label>
+      <input type="hidden" name="weiter" value={weiter} />
+      <button type="submit" class="btn">Anmelden</button>
+    </form>
+  </section>
+</Basis>

@@ -1,0 +1,59 @@
+---
+// Dateipfad: src/pages/archiv/index.astro
+export const prerender = false;
+
+import { getCollection } from 'astro:content';
+import Basis from '../../layouts/Basis.astro';
+
+const eintraege = (await getCollection('archiv')).sort(
+  (a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime()
+);
+
+const reifegradLabel: Record<string, string> = {
+  rohidee: 'Rohidee',
+  entwurf: 'Entwurf',
+  reift: 'Reift',
+  'bereit-fuer-oeffentlich': 'Bereit für öffentlich',
+};
+---
+
+<Basis title="Archiv — Omnizedenz" description="Privater Archivbereich." noindex>
+  <section class="wrap" style="padding-block: 4rem 2rem;">
+    <div style="display:flex; justify-content:space-between; align-items:baseline; flex-wrap:wrap; gap:1rem;">
+      <div>
+        <p class="eyebrow">Privat · nur für dich sichtbar</p>
+        <h1>Archiv</h1>
+        <p class="muted">Rohe Gedanken, Werkstattnotizen, Entwürfe — unredigiert.</p>
+      </div>
+      <form method="POST" action="/api/archiv-logout">
+        <button type="submit" class="btn btn--ghost">Abmelden</button>
+      </form>
+    </div>
+  </section>
+
+  <section class="wrap" style="padding-block: 0 5rem; display:grid; gap:1.25rem;">
+    {eintraege.length === 0 && (
+      <p class="muted">
+        Noch keine Einträge. Lege Markdown-Dateien unter
+        <code>src/content/archiv/</code> an.
+      </p>
+    )}
+
+    {eintraege.map((eintrag) => (
+      <a
+        href={`/archiv/${eintrag.slug}`}
+        style="display:block; padding:1.25rem 1.5rem; border:1px solid var(--line); border-radius:0.5rem; text-decoration:none; color:inherit;"
+      >
+        <p class="meta" style="margin:0 0 0.35rem; font-family: var(--sans); font-size:0.85rem; color:var(--ink-soft);">
+          {eintrag.data.date} · {reifegradLabel[eintrag.data.reifegrad]}
+        </p>
+        <h2 style="margin:0; font-size:1.25rem;">{eintrag.data.title}</h2>
+        {eintrag.data.tags.length > 0 && (
+          <p class="muted" style="margin-top:0.35rem; font-size:0.9rem;">
+            {eintrag.data.tags.join(' · ')}
+          </p>
+        )}
+      </a>
+    ))}
+  </section>
+</Basis>

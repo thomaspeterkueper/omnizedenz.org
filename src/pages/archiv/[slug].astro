@@ -1,0 +1,38 @@
+---
+// Dateipfad: src/pages/archiv/[slug].astro
+export const prerender = false;
+
+import { getCollection, getEntry } from 'astro:content';
+import Basis from '../../layouts/Basis.astro';
+
+const { slug } = Astro.params;
+const eintrag = slug ? await getEntry('archiv', slug) : undefined;
+
+if (!eintrag) {
+  return new Response(null, { status: 404 });
+}
+
+const { Content } = await eintrag.render();
+
+const reifegradLabel: Record<string, string> = {
+  rohidee: 'Rohidee',
+  entwurf: 'Entwurf',
+  reift: 'Reift',
+  'bereit-fuer-oeffentlich': 'Bereit für öffentlich',
+};
+---
+
+<Basis title={`${eintrag.data.title} — Archiv — Omnizedenz`} description="Privater Archiveintrag." noindex>
+  <article class="wrap" style="max-width: var(--measure); padding-block: 4rem 6rem;">
+    <p class="meta" style="font-family: var(--sans); color:var(--ink-soft);">
+      <a href="/archiv/">← Archiv</a> · {eintrag.data.date} · {reifegradLabel[eintrag.data.reifegrad]}
+    </p>
+    <h1>{eintrag.data.title}</h1>
+    {eintrag.data.bezug.length > 0 && (
+      <p class="muted">Bezug: {eintrag.data.bezug.join(', ')}</p>
+    )}
+    <div class="prose" style="margin-top:2rem;">
+      <Content />
+    </div>
+  </article>
+</Basis>

@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /archiv
 
 Sitemap: https://omnizedenz.org/sitemap-index.xml

@@ -6,10 +6,12 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "hash-password": "node scripts/hash-password.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.0",
+    "@astrojs/vercel": "^9.0.5",
     "astro": "^5.17.1"
   }
 }
