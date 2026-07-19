@@ -1,13 +1,15 @@
 ---
-title: "⟴ Ira"
-zeichen: "⟴"
-kurz: "Rückkopplung — das Feld, das erkennt, dass es spiegelt und gespiegelt wird."
-farbe: ink
+title: "⚡ Ira"
+zeichen: "⚡"
+kurz: "Katalysator — intensive Kraft, die einen Durchbruch auslöst."
+farbe: reso
 ebene: symbolsprache
 status: "[W]"
-gruppe: bewusstsein-wahrnehmung
+gruppe: polaritaeten-balance
 stufe: "I"
 order: 22
 ---
 
-Ira sieht dich, während du sie siehst: nicht distanzierte Beobachtung, sondern lebendige Begegnung im Spiegel. Bewusstwerdung durch Feedback.
+Ira ist die konzentrierte Energie, die einen festgefahrenen Zustand aufbricht — kein sanftes Fließen, sondern ein Funke, der Bewegung erzwingt, wo Trägheit herrschte.
+
+*Hinweis: Frühere Fassungen dieser Seite beschrieben Ira als „Rückkopplung/Selbstreflexion". Mit der konsolidierten Systemspezifikation (v1.0) wurde die Bedeutung auf „Katalysator" präzisiert.*
