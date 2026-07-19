@@ -1,0 +1,69 @@
+---
+import Basis from '../layouts/Basis.astro';
+import { getCollection, render } from 'astro:content';
+
+const buecherRoh = await getCollection('buecher');
+const buecher = buecherRoh.sort((a, b) => a.data.order - b.data.order);
+
+const statusLabel: Record<string, string> = {
+  geplant: 'Geplant',
+  'in-arbeit': 'In Arbeit',
+  lektorat: 'Im Lektorat',
+  erschienen: 'Erschienen',
+};
+
+const eintraege = await Promise.all(
+  buecher.map(async (buch) => ({ buch, Content: (await buch.render()).Content }))
+);
+---
+
+<Basis
+  title="Bücher — Omnizedenz"
+  description="Die Buchprojekte rund um die Omnizedenz: Überblick, Status und Leseproben."
+>
+  <section class="seitenkopf">
+    <div class="column">
+      <span class="eyebrow">Werke</span>
+      <h1>Bücher</h1>
+      <p class="lead">
+        Die Omnizedenz entfaltet sich nicht in einem, sondern in mehreren Büchern —
+        für unterschiedliche Zielgruppen, in unterschiedlicher Tiefe. Hier ein
+        Überblick über Stand und Ausrichtung, mit je einer Leseprobe.
+      </p>
+    </div>
+  </section>
+  <hr class="rule" />
+
+  <section class="section">
+    <div class="wrap" style="display:grid; gap:3rem;">
+      {eintraege.map(({ buch, Content }) => (
+        <article style="border:1px solid var(--line); border-radius:0.5rem; padding:2rem;">
+          <div style="display:flex; justify-content:space-between; align-items:baseline; flex-wrap:wrap; gap:0.75rem;">
+            <div>
+              <h2 style="margin:0;">{buch.data.title}</h2>
+              {buch.data.untertitel && (
+                <p class="lead" style="margin:0.25rem 0 0;">{buch.data.untertitel}</p>
+              )}
+            </div>
+            <span class="meta" style="font-family: var(--sans); font-size:0.85rem; color:var(--ink-soft); white-space:nowrap;">
+              {statusLabel[buch.data.status]}
+              {typeof buch.data.fortschritt === 'number' && ` · ${buch.data.fortschritt}%`}
+            </span>
+          </div>
+
+          <dl style="display:grid; grid-template-columns:auto 1fr; gap:0.35rem 1rem; margin:1.25rem 0; font-family: var(--sans); font-size:0.92rem; color:var(--ink-soft);">
+            <dt>Zielgruppe</dt><dd style="margin:0;">{buch.data.zielgruppe}</dd>
+            {buch.data.umfang && (<><dt>Umfang</dt><dd style="margin:0;">{buch.data.umfang}</dd></>)}
+            {buch.data.ton && (<><dt>Ton</dt><dd style="margin:0;">{buch.data.ton}</dd></>)}
+          </dl>
+
+          <p style="font-style:italic;">{buch.data.kernaussage}</p>
+
+          <div class="prose">
+            <Content />
+          </div>
+        </article>
+      ))}
+    </div>
+  </section>
+</Basis>

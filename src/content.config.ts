@@ -73,4 +73,26 @@ const archiv = defineCollection({
   }),
 });
 
-export const collections = { symbole, texte, archiv };
+/**
+ * Buchprojekte rund um die Omnizedenz — Übersicht mit Leseprobe.
+ * Diese Seite ist ein Schaufenster, kein Volltext: die eigentlichen
+ * Manuskripte liegen außerhalb des Repos. Wissenschaftliche Bezüge in den
+ * Leseproben tragen konsequent Statusmarker, da sie philosophische Deutung
+ * sind, keine belegte Wissenschaft.
+ */
+const buecher = defineCollection({
+  type: 'content',
+  schema: z.object({
+    title: z.string(),
+    untertitel: z.string().optional(),
+    zielgruppe: z.string(),
+    umfang: z.string().optional(),
+    ton: z.string().optional(),
+    status: z.enum(['geplant', 'in-arbeit', 'lektorat', 'erschienen']).default('geplant'),
+    fortschritt: z.number().min(0).max(100).optional(),
+    kernaussage: z.string(),
+    order: z.number().default(99),
+  }),
+});
+
+export const collections = { symbole, texte, archiv, buecher };
