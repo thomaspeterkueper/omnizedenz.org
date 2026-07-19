@@ -19,11 +19,16 @@ const gruppe = z.enum([
   'polaritaeten-balance',
   'kernprinzipien',
   'erweiterte-operatoren',
+  'chronoglyphen',
 ]);
 
 /**
  * Symbole der Omnizedenz-Symbolsprache.
  * entity_id verankert den Eintrag im KG (z. B. CON:L0:avi).
+ * Die minoisch-/Chronoglyphen-spezifischen Felder sind optional und nur
+ * bei stufe: "chronoglyph" befüllt — dieses Teilsystem entstand aus einem
+ * Gedankenexperiment zum Diskos von Phaistos (s. /texte/phaistos/) und ist
+ * ausdrücklich keine archäologische Entzifferungsbehauptung.
  */
 const symbole = defineCollection({
   type: 'content',
@@ -36,9 +41,16 @@ const symbole = defineCollection({
     ebene: ebene.default('symbolsprache'),
     status: status.default('[OFFEN]'),
     gruppe: gruppe.optional(),
-    stufe: z.enum(['I', 'II', 'kernprinzip']).default('I'),
+    stufe: z.enum(['I', 'II', 'kernprinzip', 'chronoglyph']).default('I'),
     order: z.number().default(99),
     tags: z.array(z.string()).default([]),
+    // Chronoglyphen-spezifisch (optional):
+    chronoglyphNr: z.string().optional(),
+    minoischerBezug: z.string().optional(),
+    hexFarbe: z.string().optional(),
+    moderneEntsprechung: z.string().optional(),
+    koerperhaltung: z.string().optional(),
+    klang: z.string().optional(),
   }),
 });
 
