@@ -22,7 +22,7 @@ Version 28.04.2025, Kapitel 1–10 (vollständig erhalten, 19.07.2026).
 |---|---|---|---|
 | 1 — Die Omnizedenz als Urgrund | `texte/die-zeitlose-omnizedenz` | konflikt-notiert | Platzhalter behauptet Kernduality „Energie und Bewusstsein" — kommt im Manuskript nirgends vor. Tatsächliche Polarität laut Buch: **Vya** (Ausatmen/Entfaltung) / **Avi** (Einatmen/Heimkehr). Siehe Entscheidung unten. |
 | 2 — Zeit und die Omnizedenz | `texte/zeit-und-omnizedenz` | konflikt-notiert | Platzhalter taggt Symbole `chrona, avi` und nennt „Chrona, Avi, Reso, Lume". Das tatsächliche Kapitel arbeitet rein in Prosa (lineare vs. zyklische Zeit, Blockzeit/Relativität), ohne diese Symbolglyphen zu verwenden. Herkunft der Symbol-Zuordnung unklar — vermutlich aus einer anderen Kapitel-2-Fassung (`Omnizedenz - Kapitel 02 - Zeit und Omnizedenz.docx`, separates Projektdokument). |
-| 3 — Schöpfung und Mitschöpfung | *(kein Site-Text bisher)* | ungeprüft | Führt Vya/Avi als Kernpolarität explizit ein — wird für Kapitel 1 relevant. Enthält Konzept „ko-kreativer Wille". |
+| 3 — Schöpfung und Mitschöpfung | `texte/schoepfung-und-mitschoepfung` | integriert | Führte ursprünglich eine vierte Avi-Bedeutung ein („Heimkehr/Integration" als Gegenpol zu Vya) — kollidierte mit `avi.md` (Ursprung/Leere). Siehe Entscheidung unten. |
 | 4 — Entwicklung und Selbstentfaltung | *(kein Site-Text bisher)* | ungeprüft | Erwähnt „Chronoglyphen" konzeptionell (4.5) — als *Lebensmuster-Metapher*, nicht identisch mit dem technischen Chronoglyphen-Symbolsystem (Diskos von Phaistos), das bereits unter `/texte/phaistos/` steht. Mögliche Namenskollision, prüfen. |
 | 5 — Der Tod als Rückkehr | *(kein Site-Text bisher)* | ungeprüft | — |
 | 6 — Paradoxien und das lebendige Mysterium | *(kein Site-Text bisher)* | ungeprüft | Erwähnt Symbolsprache-Begriffe „Axis" und „Umbra" (bereits als Chronoglyphen-nahe Stufe-II-Symbole auf der Seite vorhanden — `axis`, `umbra`). Bedeutung im Manuskript scheint kompatibel, nicht im Detail geprüft. |
@@ -43,6 +43,16 @@ Kapitel-2-Inhalt ersetzt. Symbol-Tags `chrona`/`reso`/`lume` entfernt, da im
 Manuskript nicht verwendet — bleibt vorerst ohne Symbolverweis. Falls die
 `Omnizedenz - Kapitel 02.docx`-Fassung mit Chrona/Reso/Lume eigenständig
 wertvoll ist, separat prüfen statt beide Fassungen zu vermischen. *(umgesetzt,
+siehe Commit)*
+
+**2026-07-19 — Avi-Doppelbedeutung (Kapitel 3):** Entscheidung: **„Schöpferische
+Leere — Ursprungspunkt, Potenzial vor jeder Festlegung" bleibt die maßgebliche
+Bedeutung** (wie in `avi.md`, im Physik-Nebenprojekt AVI-Theorie und in „Gott
+ist eine Wolke"). Kapitel 3 wird beim Einpflegen entsprechend reformuliert:
+Avi ist nicht ein eigenständiges zweites Prinzip „Heimkehr/Integration" neben
+der Leere, sondern die Rückkehr alles Entfalteten *in eben diese* Leere, aus
+der es hervorging. Vya/Avi damit als „Entfaltung / Rückkehr-in-die-Leere",
+nicht als „Ausatmen/Einatmen" zweier gleichrangiger Prinzipien. *(umgesetzt,
 siehe Commit)*
 
 ---
