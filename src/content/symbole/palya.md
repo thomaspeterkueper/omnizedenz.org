@@ -6,6 +6,8 @@ kurz: "Stimmigkeitsprüfung — nicht „Ist es erlaubt?“, sondern „Stimmt e
 farbe: chrona
 ebene: ethik
 status: "[H]"
+gruppe: kernprinzipien
+stufe: "kernprinzip"
 order: 2
 ---
 

@@ -6,6 +6,8 @@ kurz: "Die schöpferische Leere — der Punkt, an dem alle Wege offenstehen."
 farbe: avi
 ebene: symbolsprache
 status: "[W]"
+gruppe: ursprung-quelle
+stufe: "I"
 order: 6
 ---
 

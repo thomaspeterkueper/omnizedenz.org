@@ -10,6 +10,17 @@ const status = z.enum(['[R]', '[T]', '[H]', '[S]', '[F]', '[I]', '[W]', '[OFFEN]
 /** Die drei Ebenen des Werks. */
 const ebene = z.enum(['ontologie', 'ethik', 'symbolsprache']);
 
+/** Thematische Gruppen der Symbolsprache (für Filter im Glossar). */
+const gruppe = z.enum([
+  'ursprung-quelle',
+  'bewegung-wandlung',
+  'form-struktur',
+  'bewusstsein-wahrnehmung',
+  'polaritaeten-balance',
+  'kernprinzipien',
+  'erweiterte-operatoren',
+]);
+
 /**
  * Symbole der Omnizedenz-Symbolsprache.
  * entity_id verankert den Eintrag im KG (z. B. CON:L0:avi).
@@ -24,6 +35,8 @@ const symbole = defineCollection({
     farbe: z.enum(['avi', 'chrona', 'reso', 'ink']).default('ink'),
     ebene: ebene.default('symbolsprache'),
     status: status.default('[OFFEN]'),
+    gruppe: gruppe.optional(),
+    stufe: z.enum(['I', 'II', 'kernprinzip']).default('I'),
     order: z.number().default(99),
     tags: z.array(z.string()).default([]),
   }),

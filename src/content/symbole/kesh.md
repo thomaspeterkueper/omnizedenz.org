@@ -6,6 +6,8 @@ kurz: "Verantwortung aus Beziehung statt Pflicht auf Distanz."
 farbe: reso
 ebene: ethik
 status: "[H]"
+gruppe: kernprinzipien
+stufe: "kernprinzip"
 order: 3
 ---
 

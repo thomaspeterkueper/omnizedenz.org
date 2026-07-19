@@ -6,11 +6,48 @@ import { getCollection } from 'astro:content';
 const symbole = (await getCollection('symbole')).sort(
   (a, b) => a.data.order - b.data.order
 );
+
+const gruppenLabel: Record<string, string> = {
+  'ursprung-quelle': 'Ursprung & Quelle',
+  'bewegung-wandlung': 'Bewegung & Wandlung',
+  'form-struktur': 'Form & Struktur',
+  'bewusstsein-wahrnehmung': 'Bewusstsein & Wahrnehmung',
+  'polaritaeten-balance': 'Polaritäten & Balance',
+  kernprinzipien: 'Kernprinzipien der Resonanzethik',
+  'erweiterte-operatoren': 'Erweiterte Operatoren (Stufe II)',
+};
+
+const stufeLabel: Record<string, string> = {
+  I: 'Stufe I',
+  II: 'Stufe II',
+  kernprinzip: 'Kernprinzip',
+};
+
+const gruppenReihenfolge = [
+  'ursprung-quelle', 'bewegung-wandlung', 'form-struktur',
+  'bewusstsein-wahrnehmung', 'polaritaeten-balance', 'kernprinzipien',
+  'erweiterte-operatoren',
+];
+
+const formelBeispiele = [
+  {
+    formel: '● Sol ⇨ ∇ Val ⨁ ☐ Kran',
+    lesart: 'Ein Keim (Sol) führt zu Entfaltung (Val), die zugleich mit Struktur (Kran) wirkt.',
+  },
+  {
+    formel: '▼ Skha ⨁ ⟴ Ira ⇨ ♡ Amor ⨁ ⊕ Kora',
+    lesart: 'Dissonanz (Skha), zugleich wahrgenommen mit Selbstreflexion (Ira), führt zu einem Zustand, in dem Mitgefühl (Amor) und Integration (Kora) zusammenwirken.',
+  },
+  {
+    formel: '∅ Avi ⇨ ☄ Nadra ⇨ → Vya ⨁ Ψ Numa',
+    lesart: 'Aus Offenheit (Avi) kommt ein Funke (Nadra), der zu Handeln (Vya) führt, inspiriert vom tiefen Geist (Numa).',
+  },
+];
 ---
 
 <Basis
   title="Die Symbolsprache der Omnizedenz"
-  description="Eine Zeichenwelt, inspiriert von der Phaistos-Scheibe — Verdichtung statt Definition."
+  description="Ein Zeichensystem der Omnizedenz: Symbole, die Qualitäten verdichten, ohne sie festzunageln."
 >
   <section class="seitenkopf">
     <div class="column">
@@ -26,17 +63,29 @@ const symbole = (await getCollection('symbole')).sort(
 
   <section class="section artikel">
     <div class="column">
-      <h2>Die Phaistos-Scheibe als Pate</h2>
+      <h2>Mehr als ein Icon-Lexikon</h2>
       <p>
-        Der Diskos von Phaistos, um 1700 v. Chr. auf Kreta entstanden, trägt 241
-        eingestempelte Zeichen in einer Spirale — und ist bis heute nicht entziffert.
-        Genau darin liegt seine Eignung als Vorbild: Er ist eine Form, die Bedeutung
-        trägt, ohne sie preiszugeben.
+        Die Symbole stehen nicht isoliert. Sie lassen sich zu <strong>Formeln</strong>
+        verbinden — kleinen Sätzen, die einen Prozess oder eine Beziehung beschreiben.
+        Zwei Grundoperatoren genügen für den Einstieg:
       </p>
-      <p>
-        Die Symbolsprache übernimmt dieses Prinzip — nicht die Zeichen selbst. Sie ist
-        keine Entzifferungsbehauptung und kein archäologischer Anspruch.
+      <ul>
+        <li><strong>⇨</strong> — „führt zu“ / zeitliche oder logische Abfolge</li>
+        <li><strong>⨁</strong> — „zugleich mit“ / gleichzeitiges Wirken, keine Abfolge</li>
+      </ul>
+      <p class="muted">
+        Diese Syntax ist ein offenes Werkzeug zur Exploration, kein starres Kalkül. Die
+        Lesart einer Formel bleibt kontextabhängig und lädt zur eigenen Deutung ein
+        <StatusMarke status="[OFFEN]" />.
       </p>
+      <div style="display:grid; gap:1.25rem; margin-top:1.5rem;">
+        {formelBeispiele.map((f) => (
+          <div style="border:1px solid var(--line); border-radius:0.4rem; padding:1rem 1.25rem;">
+            <p style="font-family: var(--sans); font-size:1.15rem; margin:0 0 0.4rem;">{f.formel}</p>
+            <p class="muted" style="margin:0;">{f.lesart}</p>
+          </div>
+        ))}
+      </div>
     </div>
   </section>
 
@@ -45,19 +94,85 @@ const symbole = (await getCollection('symbole')).sort(
       <div class="column" style="margin-inline:0;">
         <span class="eyebrow">Das Glossar</span>
         <h2>Zeichen und Bedeutung</h2>
+        <p class="muted">{symbole.length} Symbole, filterbar nach Gruppe und Entwicklungsstufe.</p>
       </div>
-      <div class="prinzipien" style="margin-top:2.5rem;">
+
+      <div id="glossar-filter" style="display:flex; flex-wrap:wrap; gap:1rem; margin-top:2rem; font-family: var(--sans); font-size:0.92rem;">
+        <input
+          type="search"
+          id="glossar-suche"
+          placeholder="Suche nach Name oder Bedeutung…"
+          style="flex:1 1 16rem; padding:0.5rem 0.75rem; border:1px solid var(--line); border-radius:0.4rem;"
+        />
+        <select id="glossar-gruppe" style="padding:0.5rem 0.75rem; border:1px solid var(--line); border-radius:0.4rem;">
+          <option value="">Alle Gruppen</option>
+          {gruppenReihenfolge.map((g) => <option value={g}>{gruppenLabel[g]}</option>)}
+        </select>
+        <select id="glossar-stufe" style="padding:0.5rem 0.75rem; border:1px solid var(--line); border-radius:0.4rem;">
+          <option value="">Alle Stufen</option>
+          <option value="I">Stufe I</option>
+          <option value="II">Stufe II</option>
+          <option value="kernprinzip">Kernprinzip</option>
+        </select>
+      </div>
+
+      <p id="glossar-leer" class="muted" style="display:none; margin-top:2rem;">
+        Keine Symbole gefunden. Suche oder Filter anpassen.
+      </p>
+
+      <div class="prinzipien" id="glossar-liste" style="margin-top:2rem;">
         {symbole.map((s) => (
-          <a class="prinzip" href={`/symbolsprache/${s.slug}/`} data-farbe={s.data.farbe}>
+          <a
+            class="prinzip"
+            href={`/symbolsprache/${s.slug}/`}
+            data-farbe={s.data.farbe}
+            data-gruppe={s.data.gruppe ?? ''}
+            data-stufe={s.data.stufe}
+            data-suche={`${s.data.title} ${s.data.kurz}`.toLowerCase()}
+          >
             <div class="prinzip__kopf">
               <span class="prinzip__zeichen" aria-hidden="true">{s.data.zeichen}</span>
               <span class="prinzip__name">{s.data.title}</span>
             </div>
             <p>{s.data.kurz}</p>
-            <p class="prinzip__status"><StatusMarke status={s.data.status} /></p>
+            <p class="prinzip__status">
+              <StatusMarke status={s.data.status} />
+              {s.data.gruppe && <span class="muted" style="margin-left:0.5rem; font-size:0.85rem;">{gruppenLabel[s.data.gruppe]} · {stufeLabel[s.data.stufe]}</span>}
+            </p>
           </a>
         ))}
       </div>
     </div>
   </section>
+
+  <script>
+    const suche = document.getElementById('glossar-suche') as HTMLInputElement;
+    const gruppe = document.getElementById('glossar-gruppe') as HTMLSelectElement;
+    const stufe = document.getElementById('glossar-stufe') as HTMLSelectElement;
+    const liste = document.getElementById('glossar-liste');
+    const leer = document.getElementById('glossar-leer');
+    const karten = Array.from(liste?.children ?? []) as HTMLElement[];
+
+    function filtern() {
+      const s = suche.value.trim().toLowerCase();
+      const g = gruppe.value;
+      const st = stufe.value;
+      let sichtbar = 0;
+
+      for (const karte of karten) {
+        const passtSuche = !s || karte.dataset.suche?.includes(s);
+        const parstGruppe = !g || karte.dataset.gruppe === g;
+        const passtStufe = !st || karte.dataset.stufe === st;
+        const zeigen = passtSuche && parstGruppe && passtStufe;
+        karte.style.display = zeigen ? '' : 'none';
+        if (zeigen) sichtbar++;
+      }
+
+      if (leer) leer.style.display = sichtbar === 0 ? 'block' : 'none';
+    }
+
+    suche?.addEventListener('input', filtern);
+    gruppe?.addEventListener('change', filtern);
+    stufe?.addEventListener('change', filtern);
+  </script>
 </Basis>

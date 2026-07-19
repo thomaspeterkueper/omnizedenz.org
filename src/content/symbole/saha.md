@@ -6,6 +6,8 @@ kurz: "Achtsame Feldwahrnehmung — die bewusste Wahrnehmung relationaler Qualit
 farbe: ink
 ebene: ethik
 status: "[H]"
+gruppe: kernprinzipien
+stufe: "kernprinzip"
 order: 1
 ---
 

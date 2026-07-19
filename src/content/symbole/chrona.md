@@ -5,6 +5,8 @@ kurz: "Gelebte Zeit — der reife Moment, das Feld-Zeitgefühl."
 farbe: chrona
 ebene: ontologie
 status: "[W]"
+gruppe: bewegung-wandlung
+stufe: "I"
 order: 7
 ---
 

@@ -6,6 +6,8 @@ kurz: "Frequenzpflege — Aufmerksamkeit für Rhythmus und Timing."
 farbe: reso
 ebene: ethik
 status: "[S]"
+gruppe: kernprinzipien
+stufe: "kernprinzip"
 order: 5
 ---
 

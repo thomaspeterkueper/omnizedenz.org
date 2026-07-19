@@ -5,6 +5,8 @@ kurz: "Dissonanz — die Bruchstelle im Resonanznetz."
 farbe: ink
 ebene: ethik
 status: "[W]"
+gruppe: polaritaeten-balance
+stufe: "I"
 order: 9
 ---
 

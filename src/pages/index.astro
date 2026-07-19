@@ -3,8 +3,11 @@ import Basis from '../layouts/Basis.astro';
 import Feld from '../components/Feld.astro';
 import { getCollection } from 'astro:content';
 
-const texte = await getCollection('texte');
+const texte = (await getCollection('texte')).sort((a, b) => a.data.order - b.data.order);
 const anzahl = texte.length;
+
+const archivEintraege = await getCollection('archiv');
+const reifend = archivEintraege.filter((e) => e.data.reifegrad !== 'bereit-fuer-oeffentlich').length;
 
 const zugaenge = [
   {
@@ -23,7 +26,7 @@ const zugaenge = [
     href: '/symbolsprache/',
     ebene: 'Ebene III — Sprache',
     titel: 'Symbolsprache',
-    text: 'Wie lässt sich sagen, was Begriffe nicht fassen? Eine Zeichenwelt, inspiriert von der Phaistos-Scheibe — Verdichtung statt Definition.',
+    text: 'Wie lässt sich sagen, was Begriffe nicht fassen? Ein Zeichensystem, das Qualitäten verdichtet statt sie zu definieren.',
   },
 ];
 ---
@@ -80,6 +83,34 @@ const zugaenge = [
       </a>
     ))}
   </div>
+
+  <section class="section section--tint">
+    <div class="wrap">
+      <div class="column" style="margin-inline:0;">
+        <span class="eyebrow">Die Bibliothek</span>
+        <h2>{anzahl} Texte, kurz angeteasert</h2>
+      </div>
+      <ul style="list-style:none; margin:2rem 0 0; padding:0; display:grid; gap:1.25rem;">
+        {texte.map((t) => (
+          <li>
+            <a href={`/texte/${t.slug}/`} style="text-decoration:none; color:inherit;">
+              <strong>{t.data.title}</strong>
+              <span class="muted"> — {t.data.description}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+      <div class="btn-row">
+        <a class="btn btn--ghost" href="/bibliothek/">Zur vollständigen Bibliothek</a>
+      </div>
+      {reifend > 0 && (
+        <p class="muted" style="margin-top:2rem; font-family: var(--sans); font-size:0.92rem;">
+          Im privaten Archiv reifen gerade {reifend} weitere {reifend === 1 ? 'Text' : 'Texte'} —
+          sie erscheinen hier, sobald sie so weit sind.
+        </p>
+      )}
+    </div>
+  </section>
 
   <section class="section section--tint">
     <div class="column">

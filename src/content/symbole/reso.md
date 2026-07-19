@@ -5,6 +5,8 @@ kurz: "Resonanz durch wechselseitiges Hören — dialogische Ethik."
 farbe: reso
 ebene: ontologie
 status: "[W]"
+gruppe: bewegung-wandlung
+stufe: "I"
 order: 8
 ---
 

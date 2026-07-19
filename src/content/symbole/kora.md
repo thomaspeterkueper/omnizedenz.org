@@ -6,6 +6,8 @@ kurz: "Integration von Dissonanz — Konflikt als Information, nicht als Störfa
 farbe: avi
 ebene: ethik
 status: "[H]"
+gruppe: kernprinzipien
+stufe: "kernprinzip"
 order: 4
 ---
 
