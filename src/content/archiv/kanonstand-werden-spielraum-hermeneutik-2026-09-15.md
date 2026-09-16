@@ -1,7 +1,9 @@
 ---
 title: "Kanonstand: Werden, Spielraum und fluide Hermeneutik"
-datum: "2026-09-15"
-status: "kanonischer Arbeitsstand"
+date: "2026-09-15"
+reifegrad: "reift"
+bezug: ["Werden", "Spielraum", "fluide Hermeneutik", "Resonanzethik"]
+tags: ["kanon", "omnizedenz", "werden", "spielraum", "hermeneutik"]
 ---
 
 # Kanonstand: Werden, Spielraum und fluide Hermeneutik
