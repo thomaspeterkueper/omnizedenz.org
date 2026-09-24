@@ -6,7 +6,7 @@ umfang: "mehrbändig, Band 1 ca. 300 Seiten"
 ton: "Wissenschaftlich-philosophisch, mit praktischen Fallstudien"
 status: "in-arbeit"
 fortschritt: 20
-kernaussage: "Ethische Erkenntnis entsteht auch durch verkörperte Feldwahrnehmung, nicht nur durch abstrakte Rationalität — Resonanzethik ergänzt etablierte ethische Systeme, ersetzt sie nicht."
+kernaussage: "Resonanzethik verbindet verkörperte Wahrnehmung relationaler Situationen mit einer Spielraumprüfung: Welche Möglichkeiten werden bewahrt, eröffnet, verengt oder regenerierbar gehalten?"
 order: 4
 ---
 
@@ -18,27 +18,35 @@ auf dieser Seite). Angelegt als mehrbändiges Werk:
 - **Band 1 — Grundlagen:** philosophische und wissenschaftliche
   Fundierung der fünf Kernprinzipien
 - **Band 2 — Methodik und Praxis:** Fallstudien, Anwendungsprotokolle
-- **Band 3 — Organisationen und Gemeinschaften:** resonanzbasierte
-  Führung, Konfliktlösung
+- **Band 3 — Organisationen und Gemeinschaften:** relationale
+  Führung, Konfliktlösung und Gemeinräume
 - **Band 4 — Recht und Gesellschaft:** rechtspolitische Implikationen,
-  Restorative Justice
+  Zurechnung und Restorative Justice
 - **Band 5 — Planetare Ethik:** Klimaethik, Mensch-Natur-Beziehung
 
 ## Leseprobe (aus Band 1)
 
-Ethische Erkenntnis entsteht, so die These, auch durch verkörperte
-Feldwahrnehmung — nicht ausschließlich durch abstrakte Rationalität.
-Körper, Intuition und Ratio gelten als gleichwertige Erkenntnisquellen.
-Das ist eine methodische und epistemologische Setzung `[T]`, deren
-praktische Wirksamkeit sich erst durch Anwendung zeigen muss, nicht
-schon durch die Theorie selbst `[OFFEN]`.
+Resonanz bezeichnet im gegenwärtigen Arbeitsstand keine besondere
+Wahrheitsquelle und keinen moralischen Automatismus. Sie beschreibt zum
+einen Beziehungsgeschehen, in dem Beteiligte aufeinander antworten, und
+zum anderen eine Weise, solche relationalen Wirkungen verkörpert
+wahrzunehmen `[T]`.
 
-Resonanzethik will etablierte ethische Systeme ausdrücklich nicht
-ersetzen, sondern dort ergänzen, wo situative, feldbasierte Urteile
-gefragt sind.
+Körperliche Wahrnehmung, Intuition, Erfahrung und rationale Analyse können
+unterschiedliche Informationen erschließen; sie sind jedoch nicht in jedem
+Kontext gleich zuverlässig und ersetzen keine Evidenzprüfung. Resonanzethik
+fragt deshalb zusätzlich nach Folgen für individuelle, relationale und
+gemeinsame Spielräume: Welche Möglichkeiten bleiben real? Welche werden
+anderen entzogen? Kann nach Beschädigung neuer eigener Spielraum entstehen?
+Diese Methodik ist ein philosophischer Arbeitsansatz, dessen praktische
+Tragfähigkeit sich an konkreten Fällen bewähren muss `[OFFEN]`.
+
+Resonanzethik will etablierte ethische Systeme ausdrücklich nicht ersetzen.
+Sie ergänzt sie um eine relationale Prozessperspektive auf Spielraum,
+Gemeinraum, Macht, Folgewirkung und Regeneration.
 
 ## Zur Vertiefung
 
 Die ausführliche, mehrbändige Ausarbeitung entsteht in eigenem Tempo
 auf `resonanceethics.org`. Diese Seite hier bietet die kurze, aus der
-Omnizedenz-Ontologie abgeleitete Fassung.
+gegenwärtigen Omnizedenz-Ontologie entwickelte Fassung.
