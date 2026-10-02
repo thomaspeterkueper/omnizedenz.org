@@ -16,15 +16,15 @@ Status-Werte: `ungeprüft` · `geprüft-konsistent` · `konflikt-notiert` ·
 
 ## Übergreifende Kanonentscheidungen
 
-**2026-09-09 — Herkunft des Begriffs „Omnizedenz“:** Die bisher auf der Website
+**2026-09-09 — Herkunft des Begriffs „Omnizedenz“:** Die früher auf der Website
 verwendete Herleitung aus `omnis + sedere` ist nicht kanonisch und wird
 verworfen. Maßgeblich ist die ursprüngliche bewusste Wortbildung des Autors:
-**`omni + [Trans]zendenz → Omnizedenz`**. `Omni` steht für alles/allem;
-`-zedenz` ist aus *Transzendenz* gewonnen. Das Präfix `trans-` wurde entfernt,
-weil der Begriff nicht nur das Übersteigende, Jenseitige oder Außerhalb
-bezeichnen soll, sondern die Wirklichkeit als Ganzes — transzendente und
-immanente Aspekte eingeschlossen. Es handelt sich um eine philosophische
-Neuschöpfung, nicht um eine reguläre klassische lateinische Ableitung.
+**Omnizedenz = omni + Zedenz; Zedenz entsteht aus Transzendenz ohne trans-.**
+`Omni` steht für alles/allem. Das Präfix `trans-` entfällt, weil der Begriff
+nicht nur das Übersteigende, Jenseitige oder Außerhalb bezeichnen soll, sondern
+die Wirklichkeit als Ganzes — transzendente und immanente Aspekte eingeschlossen.
+Es handelt sich um eine philosophische Neuschöpfung, nicht um eine reguläre
+klassische lateinische Ableitung.
 Abweichende Herleitungen wie `omni + sentire` in älteren Roman-/Werkfassungen
 sind als historische oder figureninterne Deutungen zu behandeln, sofern sie
 nicht ausdrücklich an den heutigen Kanon angepasst werden.
