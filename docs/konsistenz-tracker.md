@@ -62,3 +62,47 @@ siehe Commit)*
 *(Noch nicht begonnen — werden nach Abschluss von „Einführung in die
 Omnizedenz" ergänzt: Gott ist eine Wolke, Umfassende Gedanken zur Omnizedenz,
 Resonanzethik.)*
+
+
+---
+
+## Themenkomplex: Biochemie der Verbundenheit / Neurobiologie
+**Kanonabgleich:** 06.10.2026  
+**Referenz:** `src/content/archiv/kanonabgleich-biochemie-neurobiologie-2026-10-06.md`
+
+Für wissenschaftsnahe Texte gilt zusätzlich zum Kanonstatus die Aussageebene
+`[EMP]` (empirisch), `[PHIL]` (philosophische Deutung), `[HERM]`
+(hermeneutische/symbolische Lesart) und `[HYP]` (offene Hypothese).
+Die Systeme dürfen nicht vermischt werden: Ein Gedanke kann z. B.
+`[K][PHIL]` sein, ohne dadurch empirischer Befund zu werden.
+
+| Text/Thema | Status | Redaktionsentscheidung |
+|---|---|---|
+| Präfrontaler Kortex / Amygdala | konflikt-notiert | Grundgedanke der Emotionsregulation bleibt; vereinfachten PFC-vs.-Amygdala-Dualismus durch Netzwerkperspektive ersetzen. „Resonanzorgan höherer Ordnung“ nur als `[PHIL]`/historische Metapher. |
+| Neuroplastizität | konflikt-notiert | Erfahrungsabhängige Plastizität `[EMP]`; „Verankerung des Omnizedenz-Bewusstseins“ nicht als wissenschaftlicher Mechanismus ausgeben. Brücke zum Spielraum ausdrücklich als `[PHIL]`. |
+| Epigenetik | konflikt-notiert | Beweisrhetorik streichen. Weder „wissenschaftlicher Beweis der Verbundenheit“ noch „jede Erfahrung wird als epigenetische Signatur gespeichert“ gelten als tragfähige Befundaussagen. |
+| Transgenerationale Epigenetik / Trauma | konflikt-notiert | Intergenerationale Wirkungen von strenger transgenerationaler epigenetischer Vererbung trennen. Menschliche Keimbahnübertragung psychischer Traumafolgen bleibt `[OFFEN][HYP]`; psychosoziale, kulturelle und entwicklungsbiologische Pfade mitführen. |
+| Isaak – archetypisches Resonanzmuster | konflikt-notiert | Als `[HIST][HERM]` bewahren. Genesis 22 berichtet weder eine psychologische Diagnose noch Epigenetik. Traumalesart als moderne Interpretation kennzeichnen. |
+| Isaak – rituelle Rückführung | konflikt-notiert | Historische Rückführungslogik dokumentieren, aktuelle Fassung auf Regenerierbarkeit umstellen: nicht Wiederherstellung des Zustands vor dem Ereignis, sondern Wiedergewinnung von Zukunft und Spielraum. |
+
+### Entscheidung 2026-10-06 — wissenschaftsnahe Aussagen
+
+Empirische Forschung darf die philosophische Arbeit informieren und begrenzen,
+aber nicht als nachträglicher Beweis der Omnizedenz verwendet werden. Bei jeder
+Überarbeitung ist sichtbar zu machen, ob ein Satz Befund, philosophische
+Interpretation, Hermeneutik oder Hypothese ist.
+
+### Entscheidung 2026-10-06 — Trauma und Regeneration
+
+Für Trauma-, Heilungs- und Isaak-Texte gilt künftig die Prozessfolge:
+
+```text
+Ereignis → Veränderung relationaler Bedingungen → Verengung von Spielraum
+→ historische Fortwirkung → Wahrnehmung/Anerkennung
+→ neue relationale Konfiguration → Regeneration von Spielraum
+→ Weiterwerden auf verändertem Grund
+```
+
+Sie ersetzt die Vorstellung, Heilung müsse eine Rückkehr in den Zustand vor
+dem Ereignis sein. Der ältere Rückkehrgedanke bleibt als historische Schicht
+sichtbar.
