@@ -410,6 +410,93 @@ Der nächste Prüfpunkt lautet deshalb nicht einfach „Wie stabil ist das Syste
 
 Diese Frage entscheidet darüber, ob organisationale Identität kategorial oder graduell verstanden werden sollte.
 
+### Individuation als mehrdimensionaler Organisationsraum
+
+Die Rede von „Grad der Individuation“ darf nicht vorschnell als eindimensionale Skala verstanden werden. Verschiedene Systeme können auf unterschiedliche Weise Einheit bilden.
+
+Ein Fels kann beispielsweise eine ausgeprägte materielle und räumliche Kohärenz besitzen, ohne seine Organisationsbedingungen aktiv zu regenerieren. Eine Firma kann dagegen ihre Mitglieder, Räume und technischen Mittel austauschen und dennoch eine starke institutionelle Kontinuität besitzen.
+
+Deshalb wird zunächst ein **Individuationsprofil** statt eines einzelnen Individuationswertes angenommen.
+
+Für ein System S seien mindestens folgende Dimensionen zu prüfen:
+
+**G — Grenzbildung:** Wie stark werden systeminterne von systemexternen Prozessen operational unterschieden oder physisch abgegrenzt?
+
+**K — interne Kopplung:** Wie stark hängen Zustände und Prozesse innerhalb von S kausal bzw. funktional voneinander ab, verglichen mit beliebigen externen Kopplungen?
+
+**R — rekursive Selbsterhaltung:** In welchem Maß erzeugen, erhalten oder regenerieren Prozesse von S Bedingungen der eigenen fortgesetzten Organisation?
+
+**F — funktionale Integration:** In welchem Maß entstehen Vermögen des Gesamtsystems, deren Manifestation koordinierte Beiträge mehrerer Komponenten voraussetzt?
+
+**H — historische Kontinuität:** In welchem Maß bleibt die Organisation durch Stoff-, Komponenten- oder Zustandswechsel hindurch als fortgesetzter Prozess identifizierbar?
+
+Provisorisch:
+
+**I(S) = <G, K, R, F, H>**
+
+Diese Schreibweise behauptet noch keine numerische Messbarkeit. Sie dient zunächst dazu, unterschiedliche Formen von Einheit nicht in eine einzige Rangordnung zu zwingen.
+
+### Vergleichende Probe
+
+**Fels:** G hoch bis mittel; K durch Materialstruktur vorhanden; R gering; F je nach betrachteter Systemeigenschaft gering; H oft hoch.
+
+**Flamme:** G dynamisch und unscharf; K vorhanden; R teilweise; F vorhanden; H prozessual trotz ständigem Stoffaustausch.
+
+**Wirbel:** ähnliche Prozessindividuation wie die Flamme, aber mit anderer Erhaltungsdynamik.
+
+**Zelle:** starke operative Grenze, hohe interne Kopplung, ausgeprägte rekursive Erhaltung, integrierte Systemvermögen und historische Kontinuität.
+
+**Mensch:** biologische Individuation plus zusätzliche neuronale, handlungsbezogene, soziale und biographische Integrationsformen. Die Person darf nicht einfach mit einem höheren Zahlenwert gegenüber der Zelle beschrieben werden; es treten zusätzliche Organisationsdimensionen hinzu.
+
+**Firma:** materielle Grenze gering, institutionelle und funktionale Kopplung dagegen hoch möglich; Selbsterhaltung über Regeln, Rollen, Ressourcen und Reproduktion von Mitgliedschaft; historische Kontinuität trotz vollständigem Personalaustausch möglich.
+
+**Ökosystem:** hohe wechselseitige Kopplung und teilweise rekursive Erhaltung, aber häufig unscharfe Grenzen und keine zentrale Regulation. Es kann deshalb stark organisiert sein, ohne im selben Sinn Individuum wie eine Zelle zu sein.
+
+### Individuation ist nicht Wert
+
+Aus einem stärkeren oder komplexeren Individuationsprofil folgt keinerlei höherer moralischer Wert.
+
+**ontologische Individuation ≠ Bewusstsein ≠ Empfindungsfähigkeit ≠ moralischer Status**
+
+Diese Ebenen benötigen eigene Kriterien.
+
+### Individuation ist skalenabhängig, aber nicht beliebig
+
+Dass ein System je nach Untersuchungsmaßstab unterschiedlich beschrieben werden kann, macht seine Individuation nicht bloß beobachterabhängig.
+
+Die relevante Frage lautet:
+
+> **Welche realen Abhängigkeiten, Grenzen, Rückkopplungen und Erhaltungsprozesse bestehen unabhängig davon, ob ein Beobachter gerade diese Einheit auswählt?**
+
+Beobachter wählen Beschreibungsmaßstäbe; sie erzeugen dadurch nicht automatisch die Organisationsstruktur.
+
+### Neue Hypothese: Individuen als stabile Knoten von Vermögensorganisation
+
+Aus O1, O2 und O5 ergibt sich damit eine neue, noch zu prüfende Hypothese:
+
+> **Ein organisationales Individuum ist ein relativ kohärenter Knoten verschachtelter Vermögen und Bedingungsabhängigkeiten, dessen Organisation eigene Systemvermögen trägt und eine charakteristische Form diachroner Fortsetzung besitzt.**
+
+„Relativ“ ist entscheidend. Individuen sind nicht relationslos abgeschlossen. Eine Zelle hängt von einer Umwelt ab; ein Mensch von sozialen und materiellen Bedingungen; eine Firma von Recht, Infrastruktur und Mitgliedern.
+
+Damit könnte die klassische Gegenüberstellung
+
+**Ding oder Relation**
+
+durch eine prozessuale Form ersetzt werden:
+
+**Dinge sind nicht das Gegenteil von Relationen; manche Dinge entstehen als relativ stabil individuierte Organisationen von Relationen und Vermögen.**
+
+Diese Formulierung wäre deutlich stärker als die frühere Behauptung, Dinge seien lediglich „stabilisierte relationale Kontinuitäten“, weil nun Kriterien angegeben werden, die willkürliche Aggregate ausschließen können.
+
+### Neue Prüfpflicht
+
+Der Individuationsraum muss nun an mindestens zwei Gefahren getestet werden:
+
+1. **Überinklusion:** Erklärt das Modell auch einen Wald, eine Stadt, das Internet oder die gesamte Biosphäre vorschnell zu Individuen?
+2. **Unterinklusion:** Schließt es reale, aber nicht selbstregulierende Gegenstände wie Felsen oder Kristalle fälschlich aus der Kategorie „Ding“ aus?
+
+Möglicherweise folgt daraus, dass **Gegenstand**, **System**, **Prozessindividuum**, **organisationales Individuum** und **Akteur** keine Synonyme sind, sondern verschiedene ontologische Kategorien bzw. Individuationsweisen.
+
 ### Die entscheidende Grenze: Normativität
 
 Ein Gesetz, eine Drohung, eine soziale Rolle oder Anerkennungsordnung wirkt nicht notwendig so wie eine mechanische Stütze oder Barriere. Soziale Bedingungen können über Gründe, Erwartungen, Bedeutungen, Normen und wechselseitige Anerkennung wirksam werden.
