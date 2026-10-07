@@ -23,13 +23,13 @@ Version 28.04.2025, Kapitel 1–10 (vollständig erhalten, 19.07.2026).
 | 1 — Die Omnizedenz als Urgrund | `texte/die-zeitlose-omnizedenz` | konflikt-notiert | Platzhalter behauptet Kernduality „Energie und Bewusstsein" — kommt im Manuskript nirgends vor. Tatsächliche Polarität laut Buch: **Vya** (Ausatmen/Entfaltung) / **Avi** (Einatmen/Heimkehr). Siehe Entscheidung unten. |
 | 2 — Zeit und die Omnizedenz | `texte/zeit-und-omnizedenz` | konflikt-notiert | Platzhalter taggt Symbole `chrona, avi` und nennt „Chrona, Avi, Reso, Lume". Das tatsächliche Kapitel arbeitet rein in Prosa (lineare vs. zyklische Zeit, Blockzeit/Relativität), ohne diese Symbolglyphen zu verwenden. Herkunft der Symbol-Zuordnung unklar — vermutlich aus einer anderen Kapitel-2-Fassung (`Omnizedenz - Kapitel 02 - Zeit und Omnizedenz.docx`, separates Projektdokument). |
 | 3 — Schöpfung und Mitschöpfung | `texte/schoepfung-und-mitschoepfung` | integriert | Führte ursprünglich eine vierte Avi-Bedeutung ein („Heimkehr/Integration" als Gegenpol zu Vya) — kollidierte mit `avi.md` (Ursprung/Leere). Siehe Entscheidung unten. |
-| 4 — Entwicklung und Selbstentfaltung | *(kein Site-Text bisher)* | ungeprüft | Erwähnt „Chronoglyphen" konzeptionell (4.5) — als *Lebensmuster-Metapher*, nicht identisch mit dem technischen Chronoglyphen-Symbolsystem (Diskos von Phaistos), das bereits unter `/texte/phaistos/` steht. Mögliche Namenskollision, prüfen. |
+| 4 — Entwicklung und Selbstentfaltung | `texte/entwicklung-ohne-vorgegebenes-ziel` | integriert | 07.10.2026 neu gefasst: historisches Weiterwerden ohne vorgegebenes wahres Selbst; Freiheit als realer Spielraum; Chronoglyphen-Lebensmuster nur Metapher. |
 | 5 — Der Tod als Rückkehr | `texte/tod-ende-und-geschichte` | integriert | 07.10.2026 neu gefasst: Tod wird nicht mehr als Rückkehr vorausgesetzt; Ende, historische Fortwirkung und offene metaphysische Hoffnung werden getrennt. |
-| 6 — Paradoxien und das lebendige Mysterium | *(kein Site-Text bisher)* | ungeprüft | Erwähnt Symbolsprache-Begriffe „Axis" und „Umbra" (bereits als Chronoglyphen-nahe Stufe-II-Symbole auf der Seite vorhanden — `axis`, `umbra`). Bedeutung im Manuskript scheint kompatibel, nicht im Detail geprüft. |
+| 6 — Paradoxien und das lebendige Mysterium | `texte/paradoxie-grenze-und-mysterium` | integriert | 07.10.2026 neu gefasst: Widerspruch, Perspektivendifferenz, epistemische Unentscheidbarkeit, ontologische Offenheit und Modellgrenze getrennt; Axis/Umbra präzisiert. |
 | 7 — Wissenschaftliche Resonanzen | `texte/wissenschaftliche-resonanzen` | integriert | 07.10.2026 neu gefasst: Quantenphysik, Relativität, Kosmologie und Biologie sind Gegenüber/Korrektiv, nicht Beweis der Omnizedenz; `[EMP]/[PHIL]/[HERM]/[HYP]` gelten verbindlich. |
 | 8 — Ethik und Praxis der Verbundenheit | `texte/ethik-des-gemeinsamen-weiterwerdens` | integriert | 07.10.2026 neu gefasst: Resonanz/Stimmigkeit sind keine moralischen Wahrheitskriterien. Ethik untersucht Wirklichkeit, Macht, realisierbaren Spielraum, Irreversibilität und Regenerierbarkeit. `kernprinzipien.md` bleibt als separates historisches Resonanzethik-Dokument bestehen. |
 | 9 — Die verkörperte Omnizedenz | `texte/verkoerperte-omnizedenz` | integriert | 07.10.2026 neu gefasst: Embodiment ohne kosmische Synchronitätsbehauptung; Resonanz/Intuition liefern keine automatische Wahrheit; körperliche Bedingungen werden als reale Spielraumbedingungen integriert. |
-| 10 — Offenheit und lebendige Erfahrung | *(kein Site-Text bisher)* | ungeprüft | Enthält Glossar (Anhang 1) — nützlich als Quelle für künftige Symbol-/Begriffsdefinitionen, gegenprüfen. |
+| 10 — Offenheit und lebendige Erfahrung | `texte/offenheit-und-verantwortliches-weiterwerden` | integriert | 07.10.2026 neu gefasst: epistemische Demut und verantwortliche Mitschöpfung; Weltgeschichte und Erkenntnisgeschichte verschränkt, aber nicht identisch. |
 
 ### Entscheidungen (Buch: Einführung in die Omnizedenz)
 
@@ -200,3 +200,30 @@ Wahrheit noch moralische Richtigkeit garantieren.
 `texte/kernprinzipien` wird ausdrücklich **nicht** zu Kapitel 8 umgewidmet. Es
 gehört zur separaten historischen Resonanzethik und wird später eigenständig
 gegen den neuen Kanon geprüft.
+
+
+### Entscheidung 2026-10-07 — Kapitel 4, 6 und 10
+
+Kapitel 4 fasst Entwicklung als historisches Weiterwerden ohne vorgegebenen
+Endzustand. Freiheit wird als realer, verkörperter und relational bedingter
+Spielraum verstanden.
+
+Kapitel 6 trennt verbindlich logischen Widerspruch, Perspektivendifferenz,
+epistemische Unentscheidbarkeit, ontologische Offenheit und Modellgrenze.
+Mysterium markiert die Grenze begründeter Rekonstruktion und ist weder
+Erklärung noch Wahrheitsprivileg.
+
+Kapitel 10 führt Ontologie, Epistemologie und Ethik zusammen, ohne sie
+gleichzusetzen. Zwei miteinander verschränkte Bewegungen werden unterschieden:
+
+```text
+Relation → Wechselwirkung → Bestimmung → Möglichkeit → Spielraum
+→ Aktualisierung → Geschichte → Weiterwerden
+
+Spur → Rekonstruktion → Behauptung → Wahrheitsprüfung
+→ Entscheidung → Handlung → neue Bedingungen
+```
+
+Die erste beschreibt Werden; die zweite den möglichen Erkenntnis- und
+Handlungsweg situierter Akteure. Beobachtung erzeugt nicht Wahrheit und
+Erkenntnis liest Wirklichkeit nicht unvermittelt ab.
