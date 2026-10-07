@@ -48,6 +48,18 @@ Wer die Bedingungen einer Situation falsch rekonstruiert, kann trotz aufrichtige
 
 Die Wahrheitsprüfung sagt noch nicht, was wir tun sollen. Aber eine Ethik, die sich gegenüber Wirklichkeit immunisiert, verliert ihre Grundlage.
 
+## Die normative Brücke
+
+Aus der Ontologie allein folgt kein Sollen. Dass Handlungen Spielräume verändern, beweist noch nicht, dass Spielraum geschützt werden soll.
+
+Die Ethik des gemeinsamen Weiterwerdens setzt deshalb ausdrücklich voraus:
+
+> **Die Fähigkeit betroffener Wesen, am eigenen Weiterwerden mitzuwirken, besitzt normatives Gewicht.**
+
+Das ist kein naturwissenschaftlicher Befund und keine logische Folgerung aus der Prozessontologie, sondern ein ethischer Ausgangspunkt `[PHIL]`. Er verlangt weitere Begründung und kann kritisiert werden.
+
+Daraus folgt kein Anspruch auf jede denkbare Handlung. Spielräume können kollidieren. Schutz, Fürsorge und gemeinsame Ordnungen können Begrenzungen erforderlich machen; solche Begrenzungen müssen ihrerseits begründbar und, soweit möglich, überprüfbar sein.
+
 ## Macht als Bestimmung fremder Möglichkeiten
 
 Macht ist in einer relationalen Ontologie kein Fremdkörper.
@@ -70,7 +82,7 @@ Eine erste Orientierung lautet:
 
 > **Bevorzuge Handlungen und Ordnungen, die legitimen gemeinsamen Spielraum erhalten oder erweitern und vermeidbare irreversible Verengungen vermindern.**
 
-Das Wort „legitim“ ist wesentlich. Mehr Handlungsmacht für einen Akteur kann den Spielraum vieler anderer zerstören. Eine Ethik des Spielraums ist daher kein Prinzip „je mehr Optionen, desto besser“.
+Mit „legitim“ ist hier kein bereits bewiesener moralischer Status gemeint. Gemeint ist Spielraum, dessen Schutz oder Erweiterung auch gegenüber den anderen Betroffenen begründet werden kann. Mehr Handlungsmacht für einen Akteur kann den Spielraum vieler anderer zerstören. Eine Ethik des Spielraums ist daher kein Prinzip „je mehr Optionen, desto besser“.
 
 ## Grenzen können Spielraum schützen
 
