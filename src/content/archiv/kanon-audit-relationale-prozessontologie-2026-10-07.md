@@ -1,10 +1,9 @@
 ---
 title: "Kanon-Audit — Relationale Prozessontologie"
-description: "Systematische Prüfung des Omnizedenz-Kanons auf Ebenenfehler, Zirkularität und begriffliche Mehrdeutigkeit."
-ebene: meta
-typ: Audit
-status: "[W]"
-datum: "2026-10-07"
+date: "2026-10-07"
+reifegrad: "reift"
+bezug: ["Prozessontologie", "Modalität", "Wahrheit", "Ethik", "Kanon"]
+tags: ["kanon", "audit", "prozessontologie", "epistemologie", "modalitaet"]
 ---
 
 # Kanon-Audit — Relationale Prozessontologie
