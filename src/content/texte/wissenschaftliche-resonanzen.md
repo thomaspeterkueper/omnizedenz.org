@@ -1,7 +1,7 @@
 ---
 title: "Wissenschaftliche Resonanzen"
 description: "Wissenschaft als Gegenüber und Korrektiv: Befunde können die Omnizedenz informieren und begrenzen, aber nicht nachträglich beweisen."
-ebene: erkenntnis
+ebene: ontologie
 typ: Kapitel
 band: "Einführung in die Omnizedenz"
 kapitel: 7
