@@ -12,25 +12,25 @@ Dieses Dokument ist noch kein neuer Kanon. Es macht sichtbar, **was die Omnizede
 
 Eine These ist hier nur dann philosophisch gehaltvoll, wenn ihre Verneinung eine ernsthafte Gegenposition ergibt. Offene Entscheidungen werden deshalb nicht durch scheinbare Neutralität verdeckt.
 
-## O1 — Relationale Konstitution
+## O1 — Relationale Individuation von Vermögen
 
-### Schwache Fassung
+Die frühere starke Fassung („keine vollständig relationsunabhängige intrinsische Natur“) geht weiter, als O2 und O5 benötigen, und übernimmt unnötig die Last eines radikalen Strukturrealismus.
 
-Relationen sind wirklich und können mitbestimmen, was ein Ding ist und was es vermag.
+Die belastbarere These lautet:
 
-Diese Fassung ist zu billig, um den Eigenstand der Omnizedenz zu tragen.
+> **Nicht alle realen Vermögen eines Trägers supervenieren auf dessen intrinsischen Eigenschaften allein; zumindest manche Vermögen können relational oder extrinsisch individuiert sein.**
 
-### Starke Fassung — Entscheidungsweiche
+Zwei intrinsisch gleiche Träger können deshalb in unterschiedlichen Relationen unterschiedliche Vermögen besitzen. Das bestreitet nicht, dass es daneben intrinsische Eigenschaften oder intrinsische Vermögen geben kann.
 
-> **Es gibt keine vollständig relationsunabhängige intrinsische Natur, die ein Ding für sich allein zu dem macht, was es ist.**
+**Gegenposition:** Alle echten Vermögen sind intrinsisch; scheinbar extrinsische Dispositionen sind nur relationale Beschreibungen, derivative Eigenschaften oder Abkürzungen für intrinsische Vermögen plus Umwelt.
 
-**Gegenposition:** Eine Substanz besitzt eine intrinsische Natur; Relationen verändern ihre Umstände, nicht ihre grundlegende Identität.
+**Evidenz- und Literaturanschluss:** Jennifer McKitrick verteidigt extrinsische Dispositionen anhand von Fällen wie Gewicht, Vulnerabilität, Sichtbarkeit und Erkennbarkeit. Dieser Anschluss zeigt, dass O1 eine etablierte bestreitbare Position aufnimmt; er beweist weder die starke relationale Ontologie noch die Omnizedenz.
 
-**Preis:** Die Unterscheidung zwischen intrinsischen Vermögen eines Trägers und bloß äußeren Manifestationsbedingungen kann nicht einfach vorausgesetzt werden.
+**Begründungsschuld:** Omnizedenz muss Kriterien dafür entwickeln, wann eine relationale Zuschreibung ein reales Vermögen und wann sie nur eine Beschreibung von Träger plus Umgebung ist.
 
-**Begründungsschuld:** Es muss gezeigt werden, ob und in welchem Sinn Vermögen selbst relational oder extrinsisch sein können, ohne den Begriff des Trägers aufzulösen.
+**Abgrenzung:** O1 behauptet ausdrücklich **nicht**, dass alle Eigenschaften relational sind oder dass intrinsische Natur nicht existiert. Eine solche stärkere These bleibt eine separate Option und wäre gegen Einwände aus der Metaphysik fundamentaler physikalischer Eigenschaften zu verteidigen.
 
-**Status:** [OFFEN] — starke Fassung noch nicht kanonisiert.
+**Status:** [ARBEITSTHESE]
 
 ## O2 — Realität von Vermögen
 
@@ -42,9 +42,9 @@ Ein Glas kann zerbrechlich sein, ohne zu zerbrechen. Ein Akteur kann eine Macht 
 
 **Begründungsschuld:** Omnizedenz muss erklären, warum Vermögen ontologisch und nicht nur sprachlich oder modelltheoretisch benötigt werden.
 
-### Spannung zu O1
+### Verhältnis zu O1
 
-Die klassische Form „Träger + intrinsisches Vermögen + äußere Bedingungen“ darf nicht unbesehen übernommen werden. Falls O1 stark gilt, muss geprüft werden, ob zumindest manche physischen Vermögen kraft Relationen bestehen können. Genau daran hängt, ob der Übergang zu sozialen capabilities eine gemeinsame Struktur oder nur eine Analogie ist.
+O2 sagt, **dass** nicht aktualisierte Vermögen wirklich sein können. O1 sagt zusätzlich, dass zumindest manche dieser Vermögen nicht allein durch intrinsische Eigenschaften des Trägers individuiert werden. Damit bleibt eine gemischte Ontologie intrinsischer und extrinsischer Vermögen möglich.
 
 **Status:** [ARBEITSTHESE]
 
@@ -102,9 +102,9 @@ Insbesondere gilt:
 
 Die frühere O6 wird zur eigentlichen fünften ontologischen Arbeitsthese:
 
-> **Vermögen und ihre Manifestationen sind auf mehreren Organisationsebenen von relationalen Bedingungen abhängig; diese Abhängigkeit kann selbst Gegenstand realer Vermögen anderer Systeme oder Akteure sein.**
+> **Über verschiedene Organisationsebenen hinweg können Vermögen relational individuiert sein oder in ihrer Manifestierbarkeit von relationalen Bedingungen abhängen; andere Systeme oder Akteure können wiederum reale Vermögen besitzen, solche Bedingungen zu verändern oder zu kontrollieren.**
 
-Das behauptet noch keine Identität physischer und sozialer Kausalität. Es behauptet eine gemeinsame ontologische Grammatik, deren Tragfähigkeit gezeigt werden muss.
+Die behauptete Invariante ist strukturell, nicht mechanistisch: **Träger/Relation — Vermögen — Manifestationsbedingungen — Manifestation bzw. Blockierung — Bedingungswirkung**. O5 behauptet weder, dass jedes Vermögen relational ist, noch dass ein Gesetz, eine Drohung und eine mechanische Barriere durch denselben Wirkungsmechanismus funktionieren.
 
 **Gegenposition:** Physische Dispositionen und soziale capabilities gehören zu kategorial verschiedenen Erklärungssystemen; die gemeinsame Sprache von Vermögen und Bedingungen ist nur metaphorisch.
 
@@ -126,7 +126,7 @@ Deshalb bleibt offen:
 
 > **Ist normative Bedingungswirkung eine organisierte Form relationaler Bedingungswirkung oder führt Normativität eine ontologisch neue Wirkungsart ein?**
 
-O5 ist erst dann mehr als eine Analogie, wenn die gemeinsame Struktur erklärt, **wie** diese Unterschiede bestehen können, ohne sie einzuebnen.
+O5 ist erst dann mehr als eine Analogie, wenn die gemeinsame Struktur erklärt, **wie** diese Unterschiede bestehen können, ohne sie einzuebnen. Der Capability-Ansatz liefert dafür auf sozialer Ebene bereits ein wichtiges Vergleichsstück: reale Fähigkeiten hängen von persönlichen, sozialen und Umweltbedingungen ab. Die Omnizedenz muss darüber hinaus begründen, warum diese Abhängigkeit mit extrinsischen bzw. relational individuierten Vermögen anderer Ebenen ontologisch verwandt und nicht nur sprachlich ähnlich ist.
 
 **Status:** [ARBEITSTHESE]
 
@@ -153,9 +153,9 @@ Der derzeit belastbarste Kern lautet:
 
 1. Nicht aktualisierte Vermögen können wirklich sein.
 2. Aktualisierung bzw. Werden gehört zur Wirklichkeit und ist nicht bloß perspektivische Beschreibung eines vollständig tenseless gegebenen Blocks.
-3. Vermögen und Manifestationen sind relational bedingt; möglicherweise sind auch Vermögen selbst teilweise relational konstituiert.
+3. Zumindest manche Vermögen können relational bzw. extrinsisch individuiert sein; daraus folgt nicht, dass intrinsische Eigenschaften oder intrinsische Vermögen ausgeschlossen sind.
 4. Soziale Macht kann als reales unmanifestiertes Vermögen zur Kontrolle von Manifestationsbedingungen anderer verstanden werden.
-5. Ob starke relationale Konstitution, starke Pfadabhängigkeit und eine organisationsübergreifend einheitliche Bedingungsontologie gelten, bleibt ausdrücklich zu begründen.
+5. Die organisationsübergreifende Invariante wird zunächst nur als gemeinsame Struktur von Vermögen, Manifestationsbedingungen und Bedingungswirkung behauptet; identische Wirkungsmechanismen werden ausdrücklich nicht vorausgesetzt. Starke Pfadabhängigkeit und eine vollständig relationale Ontologie bleiben offen.
 
 Damit ist Omnizedenz weder bloß eine Karte offener Fragen noch bereits ein abgeschlossenes System. Sie übernimmt konkrete ontologische Verpflichtungen und weist zugleich aus, an welchen Stellen ihre Eigenständigkeit noch erarbeitet werden muss.
 
