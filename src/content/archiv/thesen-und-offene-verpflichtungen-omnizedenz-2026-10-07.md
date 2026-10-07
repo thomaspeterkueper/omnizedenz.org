@@ -197,6 +197,82 @@ O5 wäre in seiner starken Form geschwächt, wenn sich zeigen ließe, dass alle 
 
 Umgekehrt gewinnt O5 ontologisches Gewicht, wenn solche Verfügungslagen systematisch unterschiedliche Gegenmöglichkeiten, Interventionsempfindlichkeiten oder Entwicklungspfade erzeugen, obwohl die aktuell beobachtete Handlung identisch ist.
 
+### Abwärtstest: Technik, Biologie, Physik
+
+Die verschachtelte Form **P_A(C(P_B))** ist nicht auf soziale Systeme beschränkt. Der Test zeigt aber, dass zwischen **Regulation** und **sozialer Kontrolle** unterschieden werden muss.
+
+#### Technik: Regler und Motor
+
+Ein Motor B besitzt ein Vermögen zur Drehmomentabgabe. Dessen Manifestierbarkeit hängt unter anderem von einer Versorgungs- oder Steuersituation C ab. Ein Regler A besitzt seinerseits das Vermögen, C innerhalb eines Bereichs zu verändern.
+
+Damit liegt eine echte Verschachtelung vor:
+
+**P_A(C(P_B))**
+
+Der Regler muss den Motor im betrachteten Moment nicht verändern. Seine vorhandene Regelkapazität macht dennoch einen Unterschied für die möglichen Systemverläufe.
+
+Das ist mehr als bloße Umweltabhängigkeit, weil A selbst über verschiedene mögliche Zustände von C disponieren kann.
+
+#### Biologie: regulatorische Systeme
+
+Ein biologisches System B kann ein Vermögen besitzen, einen Prozess oder ein Genprodukt hervorzubringen, dessen Manifestation von regulatorischen Bedingungen C abhängt. Ein regulatorischer Mechanismus A kann wiederum Zustände von C herstellen, erhalten oder unterdrücken.
+
+Auch hier kann die Verschachtelung bestehen, ohne Absicht, Bewusstsein oder Normativität vorauszusetzen.
+
+Der biologische Fall ist besonders wichtig, weil er zeigt, dass **Regulation von Manifestationsbedingungen** eine reale Organisationsstruktur sein kann, bevor soziale Macht entsteht.
+
+#### Physik: Grenzfall
+
+Ein Feld, eine Temperatur oder eine räumliche Konfiguration kann die Manifestation eines Vermögens verändern. Das ergibt zunächst nur:
+
+**C(P_B)**
+
+Damit **P_A(C(P_B))** vorliegt, muss zusätzlich ein unterscheidbares System A ein Vermögen besitzen, C zwischen relevanten Zuständen zu verändern oder stabil zu halten.
+
+Nicht jede physikalische Randbedingung ist deshalb bereits eine verschachtelte Potentialitätsstruktur. Diese Einschränkung verhindert, dass O5 trivial auf jede Wechselwirkung angewandt wird.
+
+### Ergebnis des Abwärtstests
+
+Es ergibt sich eine Ebenendifferenz:
+
+**Bedingungswirkung → Manifestationsabhängigkeit → Regulation → akteursbezogene Kontrolle → soziale Macht → Beherrschung**
+
+Dabei ist keine Stufe automatisch mit der nächsten identisch.
+
+**Regulation** bezeichnet die nicht notwendig intentionale Fähigkeit eines Systems, Manifestationsbedingungen eines anderen Prozesses oder Vermögens zustandsabhängig zu verändern oder stabil zu halten.
+
+**Kontrolle** wird enger für Systeme verwendet, bei denen eine Auswahl oder Verfügung über solche Regulationsmöglichkeiten einem Akteur oder einer funktional vergleichbaren Entscheidungsinstanz zugerechnet werden kann.
+
+**Soziale Macht** setzt zusätzlich soziale Relationen, institutionelle oder interpersonale Abhängigkeiten voraus.
+
+**Beherrschung** fügt normative Kriterien hinzu und darf nicht aus der bloßen Struktur der Regulation abgeleitet werden.
+
+Damit wird die organisationsübergreifende These präziser:
+
+> **Nicht Macht ist die universelle Invariante, sondern die mögliche Verschachtelung von Vermögen über Manifestationsbedingungen. Macht ist eine besondere, akteurs- und sozialstrukturierte Form dieser Verschachtelung.**
+
+Das ist eine stärkere und zugleich weniger anthropomorphe Fassung von O5.
+
+### Ausschlusstest
+
+O5 soll ausdrücklich **nicht** auf jeden Fall passen.
+
+Kein hinreichender Fall liegt vor, wenn:
+
+- C B lediglich kausal beeinflusst, ohne ein Vermögen oder dessen Manifestierbarkeit relevant zu strukturieren;
+- kein unterscheidbares A über alternative Zustände von C disponieren kann;
+- die vermeintliche Verschachtelung nur dadurch entsteht, dass dieselbe Wechselwirkung zweimal sprachlich beschrieben wird;
+- auf sozialer Ebene aus bloßer Regulation unmittelbar normative Beherrschung gefolgert wird.
+
+Ein positiver Fall verlangt dagegen mindestens:
+
+1. ein identifizierbares Vermögen P_B,
+2. eine für dessen Manifestation relevante Bedingung C,
+3. ein unterscheidbares System A mit einem realen Vermögen, C zwischen relevanten Zuständen zu verändern oder zu stabilisieren,
+4. unterschiedliche mögliche Folgedynamiken aufgrund dieser zweiten Disposition.
+
+Damit besitzt die Strukturinvariante erstmals echte Ausschlusskraft.
+
 ### Die entscheidende Grenze: Normativität
 
 Ein Gesetz, eine Drohung, eine soziale Rolle oder Anerkennungsordnung wirkt nicht notwendig so wie eine mechanische Stütze oder Barriere. Soziale Bedingungen können über Gründe, Erwartungen, Bedeutungen, Normen und wechselseitige Anerkennung wirksam werden.
