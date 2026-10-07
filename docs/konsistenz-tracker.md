@@ -27,7 +27,7 @@ Version 28.04.2025, Kapitel 1–10 (vollständig erhalten, 19.07.2026).
 | 5 — Der Tod als Rückkehr | `texte/tod-ende-und-geschichte` | integriert | 07.10.2026 neu gefasst: Tod wird nicht mehr als Rückkehr vorausgesetzt; Ende, historische Fortwirkung und offene metaphysische Hoffnung werden getrennt. |
 | 6 — Paradoxien und das lebendige Mysterium | *(kein Site-Text bisher)* | ungeprüft | Erwähnt Symbolsprache-Begriffe „Axis" und „Umbra" (bereits als Chronoglyphen-nahe Stufe-II-Symbole auf der Seite vorhanden — `axis`, `umbra`). Bedeutung im Manuskript scheint kompatibel, nicht im Detail geprüft. |
 | 7 — Wissenschaftliche Resonanzen | `texte/wissenschaftliche-resonanzen` | integriert | 07.10.2026 neu gefasst: Quantenphysik, Relativität, Kosmologie und Biologie sind Gegenüber/Korrektiv, nicht Beweis der Omnizedenz; `[EMP]/[PHIL]/[HERM]/[HYP]` gelten verbindlich. |
-| 8 — Ethik und Praxis der Verbundenheit | `texte/kernprinzipien` | geprüft-kein-bezug | Kein Widerspruch, aber auch keine Übereinstimmung: Kapitel 8 nennt Saha/Palya/Kesh/Kora/Mira **nicht**. `kernprinzipien.md` stammt erkennbar aus einem anderen, separaten Dokument (Resonanzethik-Kapitel). Bleibt unverändert, keine Aktion nötig. |
+| 8 — Ethik und Praxis der Verbundenheit | `texte/ethik-des-gemeinsamen-weiterwerdens` | integriert | 07.10.2026 neu gefasst: Resonanz/Stimmigkeit sind keine moralischen Wahrheitskriterien. Ethik untersucht Wirklichkeit, Macht, realisierbaren Spielraum, Irreversibilität und Regenerierbarkeit. `kernprinzipien.md` bleibt als separates historisches Resonanzethik-Dokument bestehen. |
 | 9 — Die verkörperte Omnizedenz | `texte/verkoerperte-omnizedenz` | integriert | 07.10.2026 neu gefasst: Embodiment ohne kosmische Synchronitätsbehauptung; Resonanz/Intuition liefern keine automatische Wahrheit; körperliche Bedingungen werden als reale Spielraumbedingungen integriert. |
 | 10 — Offenheit und lebendige Erfahrung | *(kein Site-Text bisher)* | ungeprüft | Enthält Glossar (Anhang 1) — nützlich als Quelle für künftige Symbol-/Begriffsdefinitionen, gegenprüfen. |
 
@@ -170,3 +170,33 @@ Besonders verworfen bzw. historisiert sind:
 Verbundenheit, Blockzeit als direkte Folgerung der Relativität, kosmischer
 Puls als biologischer Befund, Mond-Menstruations-Synchronität als
 Voraussetzung und Resonanz/Intuition als eigener Wahrheitsnachweis.
+
+
+### Entscheidung 2026-10-07 — Kapitel 8
+
+Kapitel 8 wurde als **„Ethik des gemeinsamen Weiterwerdens“** neu gefasst.
+
+Der normative Schwerpunkt verschiebt sich von einer Resonanz- oder Harmonieethik zu
+einer relationalen Folgen- und Bedingungsethik, ohne eine einzelne Größe zu
+maximieren:
+
+```text
+Handlung → Veränderung realer Relationen → neue Bestimmungen
+→ veränderter Spielraum → weitere Fortsetzungen
+```
+
+Leitdimensionen sind **Wirklichkeit, Macht, realisierbarer Spielraum,
+Irreversibilität und Regenerierbarkeit**.
+
+Macht wird dabei relational bestimmt als Fähigkeit, die möglichen Fortsetzungen
+anderer wirksam mitzubestimmen. Spielraum ist nicht bloß die Zahl abstrakter
+Optionen; entscheidend sind tatsächlich zugängliche Fortsetzungen unter
+körperlichen, materiellen, sozialen und institutionellen Bedingungen.
+
+Die frühere Leitfrage „Was resoniert mit dem Ganzen?“ ist damit kein
+Rechtfertigungskriterium mehr. Resonanz kann Erfahrung beschreiben, aber weder
+Wahrheit noch moralische Richtigkeit garantieren.
+
+`texte/kernprinzipien` wird ausdrücklich **nicht** zu Kapitel 8 umgewidmet. Es
+gehört zur separaten historischen Resonanzethik und wird später eigenständig
+gegen den neuen Kanon geprüft.
