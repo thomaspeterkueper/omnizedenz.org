@@ -1,8 +1,9 @@
 ---
 title: "Kanonstand: Wirklichkeit, Bestimmung und Wahrheit"
-datum: 2026-10-07
-status: "[K]"
-typ: kanonstand
+date: "2026-10-07"
+reifegrad: "reift"
+bezug: ["Wirklichkeit", "Bestimmung", "Wahrheit", "Prozessontologie"]
+tags: ["kanon", "ontologie", "epistemologie", "wahrheit"]
 ---
 
 # Wirklichkeit, Bestimmung und Wahrheit
