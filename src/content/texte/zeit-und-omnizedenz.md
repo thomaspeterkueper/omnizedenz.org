@@ -47,7 +47,7 @@ Die Omnizedenz kann sie stattdessen als Erinnerung daran lesen, dass **erlebte Z
 
 Dass Geschichte Bedingungen schafft, bedeutet nicht automatisch Determinismus. Ob ein konkreter Prozess mehr als einen realisierbaren Verlauf besitzt, muss auf der jeweiligen Ebene untersucht werden.
 
-Freiheit bezeichnet in der Omnizedenz daher nicht eine Lücke außerhalb aller Bedingungen, sondern die Offenheit eines Möglichkeitsraums für mehr als einen realisierbaren Verlauf `[PHIL]`.
+Ontologische Offenheit bezeichnet zunächst nur, dass mehr als ein realisierbarer Verlauf mit den gegenwärtigen Bedingungen kompatibel ist. **Freiheit** ist enger: Sie bezeichnet realen Spielraum, in dem einem Akteur mehr als eine Fortsetzung zugänglich ist und er an ihrer Aktualisierung mitwirken kann `[PHIL]`. Nicht jede ontologische Offenheit ist deshalb schon Freiheit.
 
 Der praktische Akzent verschiebt sich damit: nicht Flucht aus der Zeit, sondern Verantwortung innerhalb gewordener Bedingungen — für die Möglichkeiten, die aus dem gegenwärtigen Handeln hervorgehen.
 
