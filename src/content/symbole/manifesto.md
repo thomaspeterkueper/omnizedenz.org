@@ -1,7 +1,7 @@
 ---
 title: "⇣ Manifesto"
 zeichen: "⇣"
-kurz: "Kollaps ins Konkrete — ein Potenzial wird Wirklichkeit."
+kurz: "Aktualisierung — wirksames Geschehen bestimmt offene Fortsetzungen weiter."
 farbe: ink
 ebene: symbolsprache
 status: "[W]"
@@ -10,4 +10,10 @@ stufe: "II"
 order: 37
 ---
 
-Inspirationsquelle: Quantenphysik (Kollaps der Wellenfunktion, als Bild verwendet). Anwendung: entscheiden, fokussieren, ein Potenzial konkretisieren.
+Manifesto bezeichnet Aktualisierung: Wirksames Geschehen verändert Bedingungen und schränkt mögliche Fortsetzungen ein.
+
+Was offen war, kann dadurch bestimmt oder ausgeschlossen werden. Das setzt keinen bewussten Beobachter voraus und erzeugt Wahrheit nicht durch Wahrnehmung.
+
+Die frühere Quantenphysik-Analogie bleibt historische Bildquelle [HIST], nicht allgemeiner Mechanismus.
+
+**Möglichkeit → Aktualisierung → Folgen → veränderter Spielraum.**
