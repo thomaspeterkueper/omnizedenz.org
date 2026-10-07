@@ -1,7 +1,7 @@
 ---
 title: "⨂ Fluxa"
 zeichen: "⨂"
-kurz: "Kreative Unordnung — spontane Impulse, die Systemlogiken aufbrechen."
+kurz: "Kontingenz und Störung — unerwartete Veränderungen öffnen oder schließen Verläufe."
 farbe: ink
 ebene: symbolsprache
 status: "[W]"
@@ -10,4 +10,8 @@ stufe: "II"
 order: 35
 ---
 
-Inspirationsquelle: Quantenphysik (Fluktuation, als Bild verwendet). Anwendung: spontane kreative Impulse oder Brüche in Systemlogiken nutzen.
+Fluxa bezeichnet unerwartete Störungen, Abweichungen und kontingente Ereignisse, die bestehende Verläufe verändern können.
+
+Nicht jede Unordnung ist kreativ und nicht jeder Bruch eröffnet Spielraum. Fluxa fordert deshalb die Prüfung seiner tatsächlichen Folgen.
+
+Die frühere Inspiration durch Quantenfluktuationen bleibt historische Metapher [HIST], nicht Erklärung makroskopischer Kreativität.
