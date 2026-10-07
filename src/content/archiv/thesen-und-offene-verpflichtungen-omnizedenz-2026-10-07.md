@@ -118,6 +118,47 @@ Damit lässt sich Beherrschung als gegenwärtiger relationaler Zustand beschreib
 
 Das liefert ein Argument für die Verbindung von Potentialitätsmetaphysik und Sozialtheorie: Eine Theorie, die unmanifestierte Vermögen grundsätzlich aus der Wirklichkeit entfernt, muss erklären, wie nicht ausgeübte, aber verfügbare Beherrschung als gegenwärtiger Zustand bestehen kann.
 
+### Kriterien der Strukturinvariante
+
+Damit O5 nicht zu einer universell passenden Beschreibungsschablone wird, werden drei Stufen unterschieden.
+
+**1. Bloße Bedingungswirkung**
+
+Ein Faktor X verändert, ob oder wie sich ein Vermögen von B manifestiert.
+
+Das allein genügt nicht für Macht und nicht einmal für ein extrinsisches Vermögen. Ein Tisch kann verhindern, dass ein Glas fällt; Wind kann die Flugbahn verändern.
+
+**2. Relationale Manifestationsabhängigkeit**
+
+Ein Vermögen oder eine spezifische Manifestationsweise von B hängt systematisch von einer Relation R ab. Entfernt oder verändert man R bei ansonsten relevant gleicher Trägerstruktur, verändert sich das betreffende Vermögen oder seine Manifestierbarkeit.
+
+Das ist stärker als beliebiger kausaler Einfluss. Ein Schlüssel kann beispielsweise das relationale Vermögen besitzen, genau ein bestimmtes Schloss zu öffnen; ein intrinsisch gleicher Schlüssel in einer anderen Schlossrelation besitzt dieses spezifische Vermögen nicht.
+
+**3. Kontrolle von Manifestationsbedingungen**
+
+Für Macht zweiter Stufe reicht auch Manifestationsabhängigkeit nicht. Zusätzlich muss A über eine relevante Bedingung verfügen können, von der ein Vermögen B's abhängt.
+
+Provisorisch:
+
+> **A hat Macht zweiter Stufe über ein Vermögen V von B, wenn (i) V oder seine Ausübbarkeit von einer Bedingung C abhängt, (ii) A ein reales Vermögen besitzt, C gezielt zu verändern, aufrechtzuerhalten oder zu entziehen, und (iii) B diese Verfügung A's nicht symmetrisch in gleicher Weise kontrolliert.**
+
+Damit gilt:
+
+**Einfluss ≠ Abhängigkeit ≠ Kontrolle ≠ Beherrschung.**
+
+Beherrschung verlangt weitere soziale und normative Bedingungen; insbesondere ist noch zu klären, wann Kontrolle willkürlich, unkontrolliert oder rechtfertigungsbedürftig ist.
+
+### Gegenproben
+
+- **Wind und Glas:** Bedingungswirkung, aber keine Macht zweiter Stufe.
+- **Tisch und Glas:** Manifestationsbedingung ohne Akteurskontrolle.
+- **Schlüssel und Schloss:** Kandidat für ein relational individuiertes Vermögen, aber normalerweise keine Macht.
+- **Lehrer und Schüler:** Der Lehrer kann Bedingungen des Fähigkeitserwerbs beeinflussen. Macht zweiter Stufe liegt nur vor, soweit er relevante Bedingungen tatsächlich disponieren kann; daraus folgt noch keine Beherrschung.
+- **Gesetz und Bürger:** Institutionelle Regeln können praktische Manifestationsbedingungen verändern. Die Wirkungsweise läuft teilweise über Sanktionen, Gründe, Erwartungen und Anerkennung und darf nicht mit mechanischer Blockierung identifiziert werden.
+- **Wohlwollender Herr und Sklave:** Paradigmatischer Kandidat für Macht zweiter Stufe ohne manifestierten Eingriff: Die Abhängigkeit besteht darin, dass A relevante Bedingungen der Handlungsfähigkeit B's nach eigener Verfügung verändern kann.
+
+Diese Gegenproben zeigen zugleich die Grenze der behaupteten Invariante: Gemeinsam ist nicht der Mechanismus, sondern die strukturierte Abhängigkeit eines Vermögens bzw. seiner Manifestierbarkeit von Bedingungen. **Macht** beginnt erst dort, wo diese Bedingungen ihrerseits asymmetrisch disponibel werden.
+
 ### Die entscheidende Grenze: Normativität
 
 Ein Gesetz, eine Drohung, eine soziale Rolle oder Anerkennungsordnung wirkt nicht notwendig so wie eine mechanische Stütze oder Barriere. Soziale Bedingungen können über Gründe, Erwartungen, Bedeutungen, Normen und wechselseitige Anerkennung wirksam werden.
