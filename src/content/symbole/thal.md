@@ -1,7 +1,7 @@
 ---
 title: "⇅ Thal"
 zeichen: "⇅"
-kurz: "Austausch zwischen Ebenen — Mikro- und Makrokosmos im Dialog."
+kurz: "Skalenbeziehung — Rückwirkungen zwischen Prozessen unterschiedlicher Größenordnung."
 farbe: reso
 ebene: symbolsprache
 status: "[W]"
@@ -10,4 +10,8 @@ stufe: "I"
 order: 28
 ---
 
-Thal ist die lebendige Brücke zwischen Welten: das Flüstern des Himmels zur Erde, das Echo der Zelle im Kosmos.
+Thal bezeichnet Beziehungen zwischen unterschiedlichen Skalen: Lokale Prozesse können größere Formationen mitprägen, größere Strukturen setzen Bedingungen für lokale Prozesse.
+
+Mikro und Makro müssen weder denselben Mechanismus besitzen noch einander symbolisch spiegeln. Das ältere „Echo der Zelle im Kosmos“ bleibt poetische Metapher [HIST].
+
+Thal fragt nach konkreten Kopplungen, Randbedingungen und Rückwirkungen.
