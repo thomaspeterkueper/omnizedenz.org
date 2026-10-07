@@ -2,13 +2,17 @@
 title: "⊕ Kora"
 zeichen: "⊕"
 entity_id: "CON:L2:kora"
-kurz: "Integration von Dissonanz — Konflikt als Information, nicht als Störfall."
+kurz: "Konfliktbearbeitung — Spielräume, Macht und Folgen statt erzwungener Harmonie."
 farbe: avi
 ebene: ethik
-status: "[H]"
+status: "[W]"
 gruppe: kernprinzipien
 stufe: "kernprinzip"
 order: 4
 ---
 
-Kora sucht nicht den Kompromiss in der Mitte, sondern die dritte Option, die beide Perspektiven auf neuer Ebene integriert. Ziel ist Heilung, nicht Strafe — mit Berührungspunkten zur Restorative Justice.
+Kora bezeichnet Konfliktbearbeitung unter der Frage, welche gegenwärtigen und künftigen Spielräume bewahrt, eröffnet oder regeneriert werden können.
+
+Eine dritte Option kann wertvoll sein, ist aber weder immer vorhanden noch automatisch besser. Manche Konflikte verlangen Entscheidung, Grenze, Schutz, Wiedergutmachung oder das Aushalten bleibender Differenz.
+
+Restorative Ansätze können Werkzeuge sein; Versöhnung und Harmonie sind keine Pflichtziele jedes Konflikts.
