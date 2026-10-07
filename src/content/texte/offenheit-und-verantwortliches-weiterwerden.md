@@ -34,7 +34,7 @@ Damit beginnt die Omnizedenz nicht beim Bewusstsein, sondern bei Relationen und 
 
 Was geschieht, verändert mögliche Fortsetzungen.
 
-> **Bestimmung ist die Einschränkung möglicher Fortsetzungen durch wirksame Relationen.**
+> **Bestimmung verändert durch wirksame Relationen, welche Fortsetzungen mit den gewordenen Bedingungen kompatibel sind.**
 
 Bestimmung ist noch keine Wahrheit. Sie ist ein ontologischer Sachverhalt.
 
