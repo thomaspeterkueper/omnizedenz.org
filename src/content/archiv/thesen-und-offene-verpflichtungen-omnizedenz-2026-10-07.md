@@ -273,6 +273,65 @@ Ein positiver Fall verlangt dagegen mindestens:
 
 Damit besitzt die Strukturinvariante erstmals echte Ausschlusskraft.
 
+### Emergenztest: Erzeugt Verschachtelung neue Vermögen?
+
+Aus **P_A(C(P_B))** folgt nicht automatisch Emergenz. Verschachtelte Regulation kann lediglich bereits vorhandene Vermögen von Teilsystemen koordinieren.
+
+Für einen stärkeren Fall wird ein Gesamtsystem S betrachtet, das aus Teilen und ihrer Organisation R besteht:
+
+**S = <A, B, ..., R>**
+
+Ein Kandidat für ein organisational emergentes Vermögen liegt vor, wenn:
+
+1. **P_S dem organisierten System S zugeschrieben werden muss**, nicht einem isolierten Teil;
+2. die relevanten Teile ohne Organisation R weiter bestehen können, während P_S verschwindet;
+3. P_S systematisch von der Organisation und den wechselseitigen Manifestationsbedingungen der Teilvermögen abhängt;
+4. P_S neue Interaktionsmöglichkeiten des Gesamtsystems eröffnet, die keinem Teil isoliert zukommen.
+
+Provisorisch:
+
+> **Organisationale Emergenz liegt vor, wenn eine relationale Organisation von Vermögen ein reales Vermögen des Gesamtsystems trägt, das den isolierten Komponenten nicht zukommt und mit dem Verlust der relevanten Organisation verschwindet.**
+
+Das ist ausdrücklich noch **keine starke Emergenz**. Es wird weder behauptet, dass P_S aus vollständigem Wissen über die Komponenten prinzipiell unerklärbar wäre, noch dass neue fundamentale Naturgesetze entstehen.
+
+### Gegenproben
+
+**Thermostat und Motor:** Die bloße Tatsache, dass ein Thermostat die Motoraktivität reguliert, genügt noch nicht. Wenn dem Gesamtsystem kein neues Vermögen zukommt, liegt nur verschachtelte Regulation vor.
+
+**Elektronischer Regelkreis:** Ein geschlossen organisierter Regelkreis kann als Gesamtsystem die Fähigkeit zur Stabilisierung einer Regelgröße besitzen. Kein einzelnes Bauteil besitzt isoliert dieses Systemvermögen. Wird die Rückkopplungsorganisation zerstört, verschwindet die Stabilisierungskapazität, obwohl die Bauteile fortbestehen. Das ist ein guter Kandidat für organisationale Emergenz.
+
+**Biologisches Regulationsnetz:** Mehrere molekulare Komponenten können gemeinsam robuste Regulation, Homöostase oder zustandsabhängige Umschaltung ermöglichen. Auch hier ist zu prüfen, ob das betreffende Vermögen sinnvoll dem Netzwerk als organisiertem Träger zugeschrieben wird und bei Erhalt der Komponenten, aber Verlust ihrer Organisation verschwindet.
+
+**Haufen von Teilen:** Räumliches Beisammensein allein genügt nicht. Ohne relevante wechselseitige Bedingungsstruktur entsteht kein organisationales Systemvermögen.
+
+### Emergenz ist nicht bloß Überraschung
+
+Ein Vermögen ist nicht deshalb emergent, weil ein Beobachter es nicht vorhergesehen hat.
+
+**epistemische Überraschung ≠ organisationale Emergenz ≠ starke ontologische Emergenz**
+
+Die Definition muss daher unabhängig davon funktionieren, was wir wissen oder berechnen können.
+
+### Verhältnis zu Reduktion
+
+Organisationale Emergenz ist mit mehreren Reduktionspositionen vereinbar. Ein Reduktionist kann zugestehen, dass nur das organisierte Ganze P_S besitzt, und dennoch behaupten, P_S sei vollständig durch Mikrostruktur, Relationen und Naturgesetze erklärt.
+
+Die Omnizedenz muss deshalb nicht zwischen „alles reduzierbar“ und „mysteriös irreduzibel“ wählen. Die zunächst relevante These ist bescheidener und zugleich ontologisch gehaltvoll:
+
+> **Relationale Organisation kann Träger realer Vermögen sein.**
+
+Wenn das stimmt, sind Relationen nicht nur äußere Bedingungen bereits fertiger Träger. Bestimmte organisierte Relationen können selbst konstitutiv dafür sein, **welcher Träger mit welchen Vermögen überhaupt besteht**.
+
+Damit entsteht eine Rückwirkung auf O1: O1 betrifft nicht mehr nur extrinsische Vermögen eines vorgegebenen Trägers. Organisationale Emergenz eröffnet die stärkere Möglichkeit, dass relationale Organisation neue Vermögensträger konstituiert.
+
+### Offene stärkere These
+
+Erst in einem weiteren Schritt wäre zu prüfen:
+
+> **Sind manche emergenten Vermögen nicht nur organisationsabhängig, sondern gegenüber einer vollständigen Beschreibung ihrer Komponenten und Relationen ontologisch irreduzibel?**
+
+Diese These wird vorläufig **nicht** übernommen. Sie verlangt ein eigenes Argument und darf nicht aus Komplexität, Nichtvorhersagbarkeit oder Neuheit abgeleitet werden.
+
 ### Die entscheidende Grenze: Normativität
 
 Ein Gesetz, eine Drohung, eine soziale Rolle oder Anerkennungsordnung wirkt nicht notwendig so wie eine mechanische Stütze oder Barriere. Soziale Bedingungen können über Gründe, Erwartungen, Bedeutungen, Normen und wechselseitige Anerkennung wirksam werden.
