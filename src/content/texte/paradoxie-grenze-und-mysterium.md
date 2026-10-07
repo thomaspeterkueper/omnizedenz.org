@@ -1,7 +1,7 @@
 ---
 title: "Paradoxie, Grenze und lebendiges Mysterium"
 description: "Widerspruch, Perspektivendifferenz, epistemische Unentscheidbarkeit und ontologische Offenheit werden getrennt."
-ebene: erkenntnis
+ebene: ontologie
 typ: Kapitel
 band: "Einführung in die Omnizedenz"
 kapitel: 6
