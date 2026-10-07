@@ -497,6 +497,99 @@ Der Individuationsraum muss nun an mindestens zwei Gefahren getestet werden:
 
 Möglicherweise folgt daraus, dass **Gegenstand**, **System**, **Prozessindividuum**, **organisationales Individuum** und **Akteur** keine Synonyme sind, sondern verschiedene ontologische Kategorien bzw. Individuationsweisen.
 
+### Bias-Audit des Individuationsraums
+
+Der erste Individuationsraum **I(S) = <G, K, R, F, H>** enthält bereits mögliche Vorentscheidungen. Er darf deshalb nicht unmittelbar als ontologische Metrik behandelt werden.
+
+Insbesondere:
+
+- **Grenzbildung G** kann eine bereits gewählte Einheit voraussetzen: Um „innen“ und „außen“ zu unterscheiden, muss eine Kandidatengrenze bereits gesetzt sein.
+- **rekursive Selbsterhaltung R** enthält mit „Selbst“ möglicherweise genau die Individuation, die erst erklärt werden soll.
+- **funktionale Integration F** kann teleologische oder beobachterabhängige Funktionszuschreibungen einschleusen.
+- **historische Kontinuität H** setzt Kriterien dafür voraus, wann Zustände zu derselben Geschichte gehören.
+- selbst **interne Kopplung K** benötigt eine nichttriviale Bestimmung dessen, was als intern gilt.
+
+Der Vektor ist daher vorläufig ein **heuristisches Individuationsprofil**, keine interpretationsfreie Grundlage.
+
+### Ebene darunter: relationsbasierte Deskriptoren
+
+Um die Zirkularität zu reduzieren, wird zunächst eine beschreibende Ebene gesucht, die noch kein „Selbst“, keine Funktion und möglichst keine vorgegebene Systemgrenze voraussetzt.
+
+Kandidaten sind:
+
+**D — differentielle Kopplung:** Sind bestimmte Wechselwirkungen innerhalb eines gewählten Bereichs systematisch stärker, häufiger oder spezifischer als Wechselwirkungen über ihn hinaus?
+
+**A — Abhängigkeitsasymmetrie:** Hängen bestimmte Prozesse stärker von anderen Prozessen ab als umgekehrt?
+
+**Z — zyklische bzw. rekurrente Abhängigkeit:** Bilden Bedingungsrelationen Rückkopplungen oder wiederkehrende Abhängigkeitspfade?
+
+**P — Persistenz von Relationsmustern:** Bleiben charakteristische Kopplungsmuster trotz Austausch einzelner Komponenten über Zeit erhalten?
+
+**X — Austauschstruktur:** Welche Stoff-, Energie-, Informations- oder sonstigen relevanten Austauschrelationen bestehen, ohne Offenheit bereits als Mangel an Einheit zu interpretieren?
+
+Auch diese Größen sind nicht völlig interpretationsfrei. Schon die Wahl von Variablen, Zeitskalen und Relevanzschwellen ist modellabhängig. Der methodische Anspruch ist deshalb schwächer:
+
+> **Individuation soll nicht aus vorausgesetzten Begriffen wie Selbst, Zweck oder Organismus abgeleitet werden, sondern anhand explizit ausgewiesener relationaler Deskriptoren geprüft werden.**
+
+### Symmetrischer Über-/Unterinklusionstest
+
+Die folgenden Fälle erhalten zunächst keinen Rang und keine vorgegebene Kategorie:
+
+**Fels:** besitzt langlebige materielle Kopplungen und persistente Struktur. Ob daraus mehr als Gegenstandskohärenz folgt, bleibt offen.
+
+**Kristall:** zeigt hochgradige strukturelle Ordnung und Wachstumsmöglichkeiten. Ordnung allein darf nicht mit organisationaler Autonomie gleichgesetzt werden.
+
+**Wirbel:** zeigt dynamisch persistente Relationsmuster bei ständigem Stoffaustausch.
+
+**Zelle:** zeigt zahlreiche rekurrente Abhängigkeiten, Austausch und persistente Organisation. Dass wir sie biologisch bereits als Individuum kennen, darf nicht als Beweis im Modell verwendet werden.
+
+**Wald:** besitzt Stoffkreisläufe, trophische Abhängigkeiten, Rückkopplungen und langfristige Muster. Ob die gewählte Waldgrenze ontologisch ausgezeichnet oder ökologisch/pragmatisch gesetzt ist, muss separat geprüft werden.
+
+**Stadt:** weist dichte Infrastruktur-, Personen-, Energie-, Informations- und Regelbeziehungen auf. Verwaltungsgrenzen dürfen nicht ungeprüft als ontologische Grenzen dienen.
+
+**Firma:** institutionelle Regeln können eine starke diachrone Kontinuität erzeugen. Diese Kontinuität hängt jedoch teilweise von kollektiv anerkannten Normen ab und darf nicht mit physischer Grenzbildung gleichgesetzt werden.
+
+**Internet:** besitzt extreme Kopplung und funktionale Abhängigkeiten, aber keine offensichtliche einzelne Grenze oder zentrale Selbsterhaltung. Es ist ein wichtiger Überinklusionstest.
+
+**Biosphäre:** besitzt globale Stoffkreisläufe und starke Rückkopplungen. Gerade weil nahezu alles Leben in diese Relationen eingebunden ist, prüft sie, ob hohe Vernetzung allein fälschlich Individuation erzeugt.
+
+### Kein automatischer Übergang von Cluster zu Individuum
+
+Ein besonders wichtiger Schutzsatz lautet:
+
+> **Dass ein Relationsnetz statistisch oder kausal als Cluster hervortritt, beweist noch nicht, dass ein zusätzliches ontologisches Individuum existiert.**
+
+Clusterbildung kann ein Hinweis auf Individuation sein. Sie kann aber ebenso aus räumlicher Nähe, gemeinsamer externer Ursache, Beobachtungsskala oder Modellwahl entstehen.
+
+Damit werden drei Ebenen getrennt:
+
+**Musterentdeckung → Systemmodell → ontologische Individuationsbehauptung**
+
+Jeder Übergang benötigt ein eigenes Argument.
+
+### Revidierte Forschungsfrage
+
+Die Frage lautet deshalb vorläufig nicht:
+
+**„Wie stark ist X individuiert?“**
+
+sondern:
+
+> **Welche relationalen Muster rechtfertigen unter welchen zusätzlichen Bedingungen die Behauptung, dass ein Relationsgefüge selbst Träger eigener Vermögen ist?**
+
+Erst wenn diese Zusatzbedingungen gefunden sind, darf aus dem deskriptiven Relationsmuster ein organisationales Individuum werden.
+
+### Interpretationsprotokoll
+
+Für künftige Fälle werden vier Angaben getrennt:
+
+1. **Beobachtung/Daten:** Welche Wechselwirkungen oder Persistenzen werden tatsächlich festgestellt?
+2. **Modellierung:** Welche Variablen, Grenzen, Zeitskalen und Abstraktionen wurden gewählt?
+3. **Inferenz:** Welche Organisationsstruktur wird daraus erschlossen?
+4. **Ontologische These:** Warum soll diese Struktur einen realen Vermögensträger und nicht nur ein nützliches Modell darstellen?
+
+Damit wird das Prinzip der **Integrity of Observation** unmittelbar auf die Ontologie angewandt: Herkunft, Transformation und Interpretationsschritte einer Individuationsbehauptung müssen sichtbar bleiben.
+
 ### Die entscheidende Grenze: Normativität
 
 Ein Gesetz, eine Drohung, eine soziale Rolle oder Anerkennungsordnung wirkt nicht notwendig so wie eine mechanische Stütze oder Barriere. Soziale Bedingungen können über Gründe, Erwartungen, Bedeutungen, Normen und wechselseitige Anerkennung wirksam werden.
