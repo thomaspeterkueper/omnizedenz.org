@@ -332,6 +332,84 @@ Erst in einem weiteren Schritt wäre zu prüfen:
 
 Diese These wird vorläufig **nicht** übernommen. Sie verlangt ein eigenes Argument und darf nicht aus Komplexität, Nichtvorhersagbarkeit oder Neuheit abgeleitet werden.
 
+### Identitätstest: Wann wird Organisation zum Träger?
+
+Die frühere Formel
+
+**Identität = Kontinuität hinreichend stabiler Relationen**
+
+ist zu schwach. Stabilität allein individuiert keinen eigenständigen Träger. Ein Steinhaufen, eine Verkehrskonstellation oder ein beliebig abgegrenzter Ausschnitt der Welt kann lange stabile Relationen aufweisen.
+
+Umgekehrt kann ein System trotz erheblichem Stoff- und Teileaustausch fortbestehen. Identität darf deshalb weder mit materieller Konstanz noch mit bloßer relationaler Stabilität gleichgesetzt werden.
+
+#### Kandidat: organisationale Schließung
+
+Ein stärkeres Kriterium entsteht, wenn die Organisation selbst an der Erhaltung ihrer Existenzbedingungen beteiligt ist.
+
+Provisorisch:
+
+> **Ein organisationaler Vermögensträger liegt vor, wenn eine Menge gekoppelter Prozesse eine hinreichend geschlossene Bedingungsstruktur bildet, in der Prozesse des Systems Bedingungen erzeugen, erhalten oder regenerieren, von denen die Fortsetzung der Systemorganisation selbst abhängt.**
+
+„Schließung“ bedeutet hier ausdrücklich nicht energetische oder stoffliche Abgeschlossenheit. Ein Organismus ist thermodynamisch offen. Gemeint ist eine **Schließung von Bedingungsabhängigkeiten**: Prozesse ermöglichen andere Prozesse, deren Wirkungen wiederum Bedingungen der fortgesetzten Organisation herstellen.
+
+Schema:
+
+**P1 → C(P2), P2 → C(P3), ..., Pn → C(P1)**
+
+Die konkrete Struktur muss kein einfacher Kreis sein; entscheidend ist rekursive organisationale Abhängigkeit.
+
+#### Diachrone Identität
+
+Damit wird Identität prozessual formulierbar:
+
+> **Ein System bleibt dasselbe System, soweit eine für seine konstitutiven Vermögen relevante Organisationskontinuität durch Veränderung hindurch erhalten oder regeneriert wird.**
+
+Das erlaubt Teileaustausch, Wachstum und Reparatur. Es verlangt aber mehr als Ähnlichkeit zwischen zwei Zeitpunkten.
+
+### Gegenproben
+
+**Steinhaufen:** Hohe Stabilität genügt nicht. Die Steine erzeugen typischerweise keine rekursive Bedingungsstruktur, die die Organisation „Steinhaufen“ erhält. Daher kein paradigmatischer Fall organisationaler Schließung.
+
+**Wirbel:** Interessanter Grenzfall. Seine dynamische Organisation erhält sich durch fortlaufenden Durchsatz und Rückkopplung teilweise selbst. Er kann daher eher als Prozessindividuum gelten als ein Steinhaufen, auch wenn Art und Stärke seiner Schließung geringer sein können als bei einem Organismus.
+
+**Flamme:** Ebenfalls Prozessindividuum-Kandidat. Sie erhält Bedingungen weiterer Verbrennung teilweise durch ihre eigene Aktivität, bleibt aber stark von extern bereitgestelltem Brennstoff und Randbedingungen abhängig. Das zeigt, dass organisationale Schließung graduell oder mehrdimensional sein könnte.
+
+**Organismus:** Starker Kandidat. Stoffwechsel, Regulation, Reparatur und Grenzerhaltung bilden rekursive Bedingungsabhängigkeiten, während Materie fortlaufend ausgetauscht wird.
+
+**Technischer Regelkreis:** Kann funktionale Schließung besitzen, ohne biologisch autonom zu sein. Damit folgt aus Schließung allein weder Leben noch Bewusstsein.
+
+**Firma:** Besitzt institutionelle Reproduktionsprozesse, Rollen, Regeln und Ressourcenflüsse. Ihre Identität kann organisational fortbestehen, obwohl sämtliche Mitglieder wechseln. Ob institutionelle Schließung dieselbe ontologische Kategorie wie biologische Schließung oder eine sozial konstituierte Sonderform ist, bleibt offen.
+
+### Keine binäre Universaldefinition
+
+Organisationale Schließung soll vorläufig **kein notwendiges Kriterium für jedes existierende Ding** sein. Ein Elementarteilchen, ein Fels und ein Organismus müssen nicht auf dieselbe Weise individuiert werden.
+
+Die engere These lautet:
+
+> **Wo emergente Systemvermögen aus Organisation hervorgehen, muss die Individuation des entsprechenden Trägers durch die Organisation selbst und nicht bloß durch räumliche Zusammenfassung oder Beobachterinteresse begründet werden.**
+
+Organisationale Schließung ist ein Kandidat für dieses Individuationskriterium, besonders bei dynamischen und sich erhaltenden Systemen.
+
+### Konsequenz für Emergenz
+
+Damit wird die Emergenzthese strenger. Es genügt nicht:
+
+**Teile + Relation → irgendeine neue Beschreibung.**
+
+Gefordert wird vielmehr:
+
+**rekursiv organisierte Bedingungsstruktur → individuierbarer Systemträger → Systemvermögen P_S**
+
+Erst dann ist die Zuschreibung eines emergenten Vermögens ontologisch interessanter als die willkürliche Wahl eines Aggregats.
+
+### Offene Grenzfrage
+
+Der nächste Prüfpunkt lautet deshalb nicht einfach „Wie stabil ist das System?“, sondern:
+
+> **Welche Bedingungsabhängigkeiten müssen geschlossen sein, damit aus Organisation ein eigenständiger Vermögensträger wird, und welche Formen von externer Abhängigkeit sind damit vereinbar?**
+
+Diese Frage entscheidet darüber, ob organisationale Identität kategorial oder graduell verstanden werden sollte.
+
 ### Die entscheidende Grenze: Normativität
 
 Ein Gesetz, eine Drohung, eine soziale Rolle oder Anerkennungsordnung wirkt nicht notwendig so wie eine mechanische Stütze oder Barriere. Soziale Bedingungen können über Gründe, Erwartungen, Bedeutungen, Normen und wechselseitige Anerkennung wirksam werden.
