@@ -106,3 +106,50 @@ Ereignis → Veränderung relationaler Bedingungen → Verengung von Spielraum
 Sie ersetzt die Vorstellung, Heilung müsse eine Rückkehr in den Zustand vor
 dem Ereignis sein. Der ältere Rückkehrgedanke bleibt als historische Schicht
 sichtbar.
+
+
+---
+
+## Kanonmigration II: Werden statt Rückkehr
+**Stand:** 07.10.2026  
+**Referenz:** `src/content/archiv/kanonmigration-werden-statt-rueckkehr-2026-10-07.md`
+
+Der relationale Kanon vom 24.09.2026 überholt mehrere redaktionelle
+Entscheidungen vom 19.07.2026. Diese werden **nicht gelöscht**, sondern als
+historische Entscheidungen lesbar gehalten.
+
+| Bereich | vorher | Stand 07.10.2026 |
+|---|---|---|
+| Grundfigur | Entfaltung → Rückkehr | Relation → Konfiguration → Möglichkeit → Spielraum → Veränderung → Geschichte → Weiterwerden |
+| Vya/Avi | komplementäre Entfaltung/Rückkehr | Vya = gerichtete Aktualisierung; Avi = schöpferische Unbestimmtheit; kein notwendiges Paar |
+| Feld | lebendiger/bewusster bzw. vibrierender Zusammenhang | relationaler Gesamtzusammenhang; Bewusstsein des Ganzen `[OFFEN]` |
+| Resonanz | teilweise Grundsprache des Wirklichen | besondere Form/Wahrnehmung relationalen Geschehens; Relation ist grundlegender |
+| Zeit | Resonanzbewegung, Zyklus, tiefere Zeitlosigkeit | Geschichte und Rekursion mit Gedächtnis; keine Physik als Beweis metaphysischer Zeitlosigkeit |
+| Tod | „Rückkehr“ | Ende, Geschichte und offene metaphysische Frage |
+| Heilung/Reparatur | Rückführung / Wiederherstellung | Regeneration: Wiedergewinnung von Zukunft |
+| Gott/Feld | „lebendiges Feld selbst“ | theologisch-philosophische Deutung des relationalen Gesamtzusammenhangs; Bewusstsein/Liebe/Personalität offen |
+
+### Überholte Entscheidung 2026-07-19 — Vya/Avi
+
+Die damalige Präzisierung „Entfaltung / Rückkehr-in-die-Leere“ war ein
+Zwischenschritt und gilt nicht mehr als aktueller Kanon. Sie bleibt für die
+Genese dokumentiert. Seit 07.10.2026 wird aus Avi keine universale
+Rückkehrbewegung mehr abgeleitet.
+
+### Bereits migrierte öffentliche Texte
+
+- `texte/die-zeitlose-omnizedenz` → **Die Omnizedenz im Werden**
+- `texte/zeit-und-omnizedenz` → Geschichte, Rekursion und epistemische Trennung der Zeitmodelle
+- `texte/schoepfung-und-mitschoepfung` → Mitschöpfung als Veränderung realer Möglichkeitsräume
+- `buecher/gott-ist-eine-wolke` → Feldbegriff relational präzisiert; Gottesattribute als offene theologische/metaphysische Fragen
+- `symbole/vya` → gerichtete Aktualisierung statt kosmischer Entfaltungsdrang
+
+### Nächster Prüfblock
+
+1. Kapitel 5 des Ursprungsmanuskripts: **„Der Tod als Rückkehr“**
+2. Kapitel 7: **wissenschaftliche Resonanzen**
+3. Kapitel 9: **verkörperte Omnizedenz**
+4. alle Symbolseiten auf verbliebene Rückkehr-, Frequenz-, Schwingungs-,
+   Vollendungs- oder Bewusstseinsontologie prüfen
+5. ältere Buch-/Archivtexte gegen die neue epistemische Kennzeichnung
+   `[EMP]/[PHIL]/[HERM]/[HYP]` prüfen
