@@ -159,6 +159,44 @@ Beherrschung verlangt weitere soziale und normative Bedingungen; insbesondere is
 
 Diese Gegenproben zeigen zugleich die Grenze der behaupteten Invariante: Gemeinsam ist nicht der Mechanismus, sondern die strukturierte Abhängigkeit eines Vermögens bzw. seiner Manifestierbarkeit von Bedingungen. **Macht** beginnt erst dort, wo diese Bedingungen ihrerseits asymmetrisch disponibel werden.
 
+### Ontologischer Test der Verschachtelung
+
+Die Formel
+
+**P_A(C(P_B))**
+
+soll nicht bloß eine komplizierte Umschreibung von aktuellem Verhalten sein. Sie muss einen Unterschied zwischen gegenwärtigen Situationen erfassen, der in einer flachen Beschreibung aktueller Manifestationen verloren geht.
+
+Dazu dient folgende Kontrastprobe:
+
+- In Welt W1 greift A gegenwärtig nicht in B's Handeln ein und besitzt auch keine Verfügung über die relevanten Bedingungen.
+- In Welt W2 greift A gegenwärtig ebenfalls nicht ein, besitzt aber ein stabiles Vermögen, eine für B relevante Manifestationsbedingung C einseitig zu verändern oder zu entziehen.
+- B verhält sich im betrachteten Moment in beiden Welten gleich.
+
+Wenn nur aktuelle Manifestationen zählen, erscheinen W1 und W2 hinsichtlich der Machtbeziehung gleich. Nach O5 unterscheiden sie sich dagegen bereits gegenwärtig: In W2 besteht eine reale asymmetrische Abhängigkeitsstruktur.
+
+Diese Differenz kann Folgedynamiken erklären, ohne dass die Macht bereits ausgeübt wurde. Sie verändert insbesondere, welche Gegenstrategien B objektiv zur Verfügung stehen, welche Sicherungen erforderlich wären und welche späteren Eingriffe A ohne vorherige Strukturänderung aktualisieren kann.
+
+### Erkenntnis ist nicht konstitutiv für Macht
+
+B muss A's Verfügungsmacht nicht kennen, damit sie besteht.
+
+**Strukturelle Macht** bezeichnet die reale asymmetrische Verfügung über relevante Manifestationsbedingungen.
+
+**Erkannte Macht** liegt zusätzlich vor, wenn B diese Abhängigkeit epistemisch repräsentiert.
+
+Erst die zweite Ebene kann unmittelbar über Erwartung, Furcht, strategische Anpassung oder Selbstbeschränkung wirken. Damit gilt:
+
+**Macht ≠ Wissen um Macht ≠ psychologische Wirkung von Macht.**
+
+Diese Trennung verhindert, dass soziale Macht auf Erwartungspsychologie reduziert wird.
+
+### Revisionsbedingung für O5
+
+O5 wäre in seiner starken Form geschwächt, wenn sich zeigen ließe, dass alle Unterschiede zwischen W1 und W2 vollständig und verlustfrei durch aktuelle intrinsische Eigenschaften und aktuelle Manifestationen der Beteiligten beschrieben werden können, ohne auf unmanifestierte Verfügung oder relationale Abhängigkeit Bezug zu nehmen.
+
+Umgekehrt gewinnt O5 ontologisches Gewicht, wenn solche Verfügungslagen systematisch unterschiedliche Gegenmöglichkeiten, Interventionsempfindlichkeiten oder Entwicklungspfade erzeugen, obwohl die aktuell beobachtete Handlung identisch ist.
+
 ### Die entscheidende Grenze: Normativität
 
 Ein Gesetz, eine Drohung, eine soziale Rolle oder Anerkennungsordnung wirkt nicht notwendig so wie eine mechanische Stütze oder Barriere. Soziale Bedingungen können über Gründe, Erwartungen, Bedeutungen, Normen und wechselseitige Anerkennung wirksam werden.
