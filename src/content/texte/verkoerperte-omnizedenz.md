@@ -1,7 +1,7 @@
 ---
 title: "Die verkörperte Omnizedenz"
 description: "Verkörperung als situierte Wirklichkeit: Körper, Umwelt, Geschichte und Beziehung formen Wahrnehmung und Handlungsmöglichkeiten."
-ebene: erkenntnis
+ebene: ontologie
 typ: Kapitel
 band: "Einführung in die Omnizedenz"
 kapitel: 9
