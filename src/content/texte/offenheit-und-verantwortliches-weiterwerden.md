@@ -1,7 +1,7 @@
 ---
 title: "Offenheit und verantwortliches Weiterwerden"
 description: "Schlusskapitel: Wirklichkeit, Erkenntnis, Wahrheit, Handlung und ontologische Offenheit als zusammenhängende, aber getrennte Ebenen."
-ebene: philosophie
+ebene: ontologie
 typ: Kapitel
 band: "Einführung in die Omnizedenz"
 kapitel: 10
