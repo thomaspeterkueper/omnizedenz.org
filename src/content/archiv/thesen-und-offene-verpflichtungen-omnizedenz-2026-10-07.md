@@ -590,6 +590,78 @@ Für künftige Fälle werden vier Angaben getrennt:
 
 Damit wird das Prinzip der **Integrity of Observation** unmittelbar auf die Ontologie angewandt: Herkunft, Transformation und Interpretationsschritte einer Individuationsbehauptung müssen sichtbar bleiben.
 
+### Projektübergreifender Invarianztest: Struktur, Vermögen, Realisierung und Erkenntnis
+
+Der Vergleich mit aktuellen Arbeiten in NOXIA, AVI und Kontrakomologie zeigt eine wiederkehrende Trennung, aber **keine bislang bewiesene ontologische Universalstruktur**.
+
+#### Vorläufig gemeinsame Grammatik
+
+Mehrere Domänen lassen sich sinnvoll durch folgende Unterscheidungen analysieren:
+
+**1. Struktur/Bedingungen** — gegenwärtige Relationen, Zustände, Randbedingungen oder Organisation.
+
+**2. Vermögen/Disposition** — was aufgrund dieser Struktur manifestiert werden kann, ohne bereits manifestiert zu sein.
+
+**3. Realisierung/Manifestation** — das konkrete Ereignis bzw. der konkrete Verlauf.
+
+**4. Beobachtung** — welcher Ausschnitt der Realisierung einem Beobachter oder Messsystem zugänglich wird.
+
+**5. Rekonstruktion unter Unsicherheit** — welches Modell aus Daten, Vorwissen, Messfehlern und Unsicherheiten gebildet wird.
+
+**6. Ontologische Inferenz** — welche Aussage über das Wirkliche aus dieser Rekonstruktion zusätzlich vertreten wird.
+
+Damit wird das frühere Viererschema erweitert:
+
+**Struktur → Disposition → Realisierung → Beobachtung → Rekonstruktion → ontologische Inferenz**
+
+Die Pfeile bezeichnen keine notwendige zeitliche Kausalkette. Sie markieren zu trennende Erklärungsebenen.
+
+### Unabhängige Härtetests
+
+**NOXIA/AVI — biographische Closure:** ACCE-003/004 zeigt im konstruierten Modell, dass unterschiedliche Geschichten unterschiedliche Reaktionen erzeugen können, deren Unterschied durch gegenwärtig verkörperte Träger wie Reflexanpassung, Affekt und Gedächtniszustand geschlossen wird. Daraus folgt gerade **nicht**, dass Geschichte als irreduzibler zusätzlicher Zustandsträger benötigt wird.
+
+Methodische Konsequenz:
+
+**historisch verursacht ≠ gegenwärtig irreduzibel historisch**
+
+Ein starker O4-Fall wäre erst motiviert, wenn ein reproduzierbarer Residualunterschied nach einem hinreichend vollständigen Audit gegenwärtiger Träger bestehen bleibt.
+
+**AVI — Unsicherheits-Closure:** ACCE-005 konstruiert einen Fall, in dem die Reduktion einer Zustandsverteilung auf einen Punktwert eine scheinbare Anomalie erzeugt. Korrekte posterior-prädiktive Marginalisierung schließt sie. Ein verbleibender Residualfehler öffnet zunächst weitere Modell- und Evidenzaudits und legitimiert keine neue Ontologie.
+
+Methodische Konsequenz:
+
+**Residuum unter vereinfachter Rekonstruktion ≠ ontologische Anomalie**
+
+**Kontrakomologie — Zeit:** Die aktuelle Forschungsarchitektur trennt Zeitarchitektur bzw. Zeitdisposition eines Werkes von realisierter Zeitform sowie von beobachterseitiger Erinnerung, Aufmerksamkeit und Affekt. Das ist strukturell anschlussfähig, beweist aber keine Identität zwischen ästhetischer Zeitdisposition und ontologischen Vermögen.
+
+**Technische Integration Closure:** Der Knowledge Graph beschreibt unabhängig den Übergang von isolierten Fähigkeiten über Schnittstellen, Ressourcen, Kontrollschleifen und Betriebsbedingungen zu praktisch funktionsfähigen Gesamtsystemen. Dies ist eine relevante strukturelle Konvergenz zur organisationalen Schließung, aber zunächst Systems-Engineering-Evidenz, keine Bestätigung einer metaphysischen These.
+
+### Ergebnis: Invariante oder Projektion?
+
+Der Vergleich stützt derzeit nur eine **methodisch-strukturelle Invariante**:
+
+> **In mehreren unabhängigen Domänen verbessert sich die Erklärung, wenn Bedingungen/Struktur, nichtmanifestierte Vermögen bzw. Dispositionen, konkrete Realisierung, Beobachtung und epistemische Rekonstruktion nicht miteinander identifiziert werden.**
+
+Noch nicht gerechtfertigt ist die stärkere Behauptung:
+
+> „Alle Wirklichkeit besitzt genau diese sechsstufige ontologische Struktur.“
+
+Diese wäre eine Projektion des Analysewerkzeugs auf seinen Gegenstand, solange kein unabhängiges Argument vorliegt.
+
+### Neue Schutzregel
+
+Für jede vermeintlich neue Entität oder ontologische Kategorie gilt deshalb eine gestufte Closure-Prüfung:
+
+1. Lässt sich der Befund durch fehlende gegenwärtige Zustands- oder Relationsträger schließen?
+2. Lässt er sich durch bislang unmodellierte Manifestationsbedingungen schließen?
+3. Lässt er sich durch Beobachtungsselektion, Provenienz oder Messfehler erklären?
+4. Lässt er sich durch korrekte Unsicherheitsrepräsentation bzw. Marginalisierung schließen?
+5. Bleibt danach ein reproduzierbarer, kontrastiv spezifizierter Residualbefund?
+
+Erst Stufe 5 darf eine neue ontologische Hypothese **motivieren**; auch dann beweist sie diese nicht.
+
+Diese Regel verbindet Integrity of Observation mit einer konservativen Ontologie: **Keine ontologische Inflation, solange eine explizit prüfbare epistemische oder gegenwärtig strukturelle Closure möglich ist.**
+
 ### Die entscheidende Grenze: Normativität
 
 Ein Gesetz, eine Drohung, eine soziale Rolle oder Anerkennungsordnung wirkt nicht notwendig so wie eine mechanische Stütze oder Barriere. Soziale Bedingungen können über Gründe, Erwartungen, Bedeutungen, Normen und wechselseitige Anerkennung wirksam werden.
