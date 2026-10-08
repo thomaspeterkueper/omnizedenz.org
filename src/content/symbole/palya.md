@@ -2,15 +2,17 @@
 title: "✓ Palya"
 zeichen: "✓"
 entity_id: "CON:L2:palya"
-kurz: "Stimmigkeitsprüfung — nicht „Ist es erlaubt?“, sondern „Stimmt es?“."
+kurz: "Prüfung praktischer Kohärenz — ein Hinweis im Urteil, keine Wahrheits- oder Gutheitsgarantie."
 farbe: chrona
 ebene: ethik
-status: "[H]"
+status: "[W]"
 gruppe: kernprinzipien
 stufe: "kernprinzip"
 order: 2
 ---
 
-Palya fragt nach multidimensionaler Kohärenz einer Handlung: mit dem Kontext, den Beteiligten, dem eigenen Empfinden, dem längeren Zeithorizont.
+Palya prüft eine Handlung auf Kohärenz mit Kontext, Beteiligten, verfügbaren Gründen, Folgen und längerem Zeithorizont.
 
-Bekanntes Risiko: Ohne belastbare Operationalisierung droht Beliebigkeit.
+„Stimmigkeit“ ist dabei kein Wahrheitskriterium. Eine Handlung kann sich stimmig anfühlen und dennoch auf falschen Annahmen beruhen oder anderen Spielraum entziehen.
+
+Palya ist deshalb eine Prüfdimension innerhalb eines größeren ethischen Urteils, zusammen mit Macht, Folgen, Alternativen und Regenerierbarkeit.

@@ -1,7 +1,7 @@
 ---
 title: "Ψ Numa"
 zeichen: "Ψ"
-kurz: "Der tiefe Geist — archetypisches Feld, Quelle von Intuition und Musterbildung."
+kurz: "Implizites Musterwissen — Bilder, Ahnungen und gelernte Strukturen unterhalb expliziter Formulierung."
 farbe: avi
 ebene: symbolsprache
 status: "[W]"
@@ -10,4 +10,8 @@ stufe: "I"
 order: 23
 ---
 
-Numa ist das Flüstern uralter Gedanken, das Echo von Mythen in der Seele — sie trägt Bilder und Ahnungen, nicht nur klare Worte.
+Numa steht für Inhalte und Muster, die Wahrnehmung und Denken beeinflussen können, bevor sie klar sprachlich gefasst sind: implizites Wissen, Erinnerungsfragmente, Bilder, Assoziationen und Intuitionen.
+
+Das Symbol setzt kein objektiv existierendes „archetypisches Feld“ voraus. Archetypen, Mythen und kulturell wiederkehrende Bilder können wichtige Deutungsräume bilden `[HERM]`; ihre Herkunft und Gültigkeit müssen jeweils gesondert geprüft werden.
+
+Numa ist deshalb eine Einladung zur Wahrnehmung des noch nicht Expliziten — keine Garantie, dass eine Ahnung wahr ist.

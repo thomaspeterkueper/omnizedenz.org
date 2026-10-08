@@ -1,7 +1,7 @@
 ---
 title: "⟰ Observa"
 zeichen: "⟰"
-kurz: "Beobachter zweiter Ordnung — Reflexion über die eigene Erkenntnisrolle."
+kurz: "Bestimmung und Beobachtung — von der hinterlassenen Spur bis zur reflexiven Rekonstruktion."
 farbe: ink
 ebene: symbolsprache
 status: "[W]"
@@ -10,4 +10,8 @@ stufe: "II"
 order: 38
 ---
 
-Inspirationsquelle: Systemtheorie. Anwendung: Reflexion über die eigene Rolle im Erkenntnisprozess.
+Observa unterscheidet mehrere Stufen: Eine **Wechselwirkung** kann eine unterscheidbare **Spur** hinterlassen, ohne Bewusstsein vorauszusetzen. Ein sensitives System kann solche Unterschiede als Signale nutzen. **Erkenntnis** beginnt dort, wo zugängliche Spuren perspektivisch rekonstruiert werden; **Selbstreflexion** dort, wo auch die eigene Perspektive Teil dieser Rekonstruktion wird.
+
+Menschliches Beobachten ist damit kein metaphysischer Sonderfall, sondern eine hoch entwickelte Form mit Gedächtnis, Modellbildung, Sprache und sozialer Prüfung.
+
+Observa bedeutet ausdrücklich nicht, dass jede Wechselwirkung bereits Wissen oder Bewusstsein besitzt.
