@@ -32,7 +32,9 @@ Drei Kandidaten sind zu unterscheiden:
 2. **Teilhabe / Mereologie**: Beide Welten sind unterscheidbare Formationen der einen Omnizedenz. Offen ist, wie Grenzen und Teil-Ganzes-Verhältnisse bei verschiedenartigen Welten genau zu bestimmen wären und ob das Ganze über seinen relationalen Zusammenhang hinaus zusätzliche Eigenschaften besitzt.
 3. **Resonanzfähigkeit**: Ein möglicher, aber nicht notwendiger Sonderfall. Gemeinsame Herkunft beweist keine spätere Kommunikation oder wechselseitige Beeinflussung. Analogie von Strukturen ist nicht bereits physikalische Kopplung.
 
-**Arbeitsminimalismus:** Zugehörigkeit zum Ganzen und generative Geschichte reichen als philosophischer Zusammenhang aus. Resonanz zwischen Welten bleibt eine zusätzliche, begründungsbedürftige Hypothese.
+**Arbeitsminimalismus:** Zugehörigkeit zum Ganzen und generative Geschichte sind unterschiedliche Begründungswege. Bei genealogisch verbundenen Welten bleibt eine einstige Relation Teil der Geschichte, selbst wenn keine fortdauernde Erreichbarkeit besteht. Bei Welten ohne gemeinsame Herkunft oder andere Relation wäre ihre Einheit dagegen eine ausdrücklich gesetzte ontologische Annahme, keine aus Verbindung abgeleitete Folgerung. Resonanz zwischen Welten bleibt eine zusätzliche, begründungsbedürftige Hypothese.
+
+**Präzisierte These:** Gemeinsame Wirklichkeit setzt keine *fortdauernde* Erreichbarkeit voraus. Das ist schwächer und genauer als die Behauptung, es bedürfe überhaupt keiner Relation. Als Prüfgegner dient David Lewis’ modalrealistisches Kriterium, nach dem Welten durch raumzeitliche Verknüpfung abgegrenzt werden; zu prüfen ist, ob eine historische genealogische Relation die hier benötigte Zugehörigkeit begründet. Die Gegenüberstellung ist philosophisch, kein empirischer Nachweis von Weltgenese.
 
 Die „Grammatik des Werdens“ – Differenz und Relation, Formation, Möglichkeit, Geschichte – ist eine Beschreibungsebene des Modells. Sie darf nicht stillschweigend als universell gemessenes Metagesetz aller hypothetischen Welten behandelt werden.
 
@@ -79,9 +81,8 @@ Die problematische Gegenposition eines grundsätzlichen Einwands gegen das Hervo
 3. Wo liegt die Grenze zwischen bloßer Zugehörigkeit, Geschichte und tatsächlicher Wechselwirkung?
 4. Wie ist Verantwortung für künftig mögliche, noch nicht existierende Betroffene zu begründen?
 5. Welche Einwände ergeben sich aus antinatalistischer Ethik und Theodizee?
-6. Für eine separate spätere Revision von *Spielraum* 1.4 die missverständliche Ganzes-Leiden-Formulierung prüfen; die publizierte Version nicht automatisch ändern.
-7. Gemeldeten Formatverlust in Abschnitten 77–95 des betreffenden Ausgangsdokuments lokalisieren und am Original überprüfen; keine Rekonstruktion aus Vermutung.
+6. Die in *Spielraum* 1.5 präzisierte Formulierung zum Leiden des Teils im Ganzen mit dem Kanonstand zur Nicht-Personifizierung des Ganzen abgleichen.
 
 ## Dokumentationsregel
 
-Die Kanonstände vom 15. und 24. September 2026 und der Essay *Spielraum* 1.4 bleiben unverändert. Dieser Text ist eine nachgelagerte Interpretation und ein offener Diskussionsentwurf.
+Die Kanonstände vom 15. und 24. September 2026 bleiben unverändert; der Essay *Spielraum* liegt inzwischen in Fassung 1.5 vor. Dieser Text ist eine nachgelagerte Interpretation und ein offener Diskussionsentwurf.
