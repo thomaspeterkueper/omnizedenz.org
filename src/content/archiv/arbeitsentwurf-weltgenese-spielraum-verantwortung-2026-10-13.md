@@ -86,3 +86,33 @@ Die problematische Gegenposition eines grundsätzlichen Einwands gegen das Hervo
 ## Dokumentationsregel
 
 Die Kanonstände vom 15. und 24. September 2026 bleiben unverändert; der Essay *Spielraum* liegt inzwischen in Fassung 1.5 vor. Dieser Text ist eine nachgelagerte Interpretation und ein offener Diskussionsentwurf.
+
+## 8. Prüfnotiz: generative Herkunft jenseits gemeinsamer Zeit (13. Oktober 2026)
+
+**Status: offene Begriffsprüfung, kein Kanonsatz.**
+
+### Drei unterschiedliche Abhängigkeitsbegriffe
+
+- **Existenzabhängigkeit:** B könnte ohne A nicht existieren. Allein daraus folgt noch kein Hervorbringungsakt. Gegenfaktische Abhängigkeit ist eine notwendige oder plausible Bedingung in manchen Deutungen, aber nicht automatisch hinreichend für Genealogie.
+- **Generative Herkunft:** B geht aus A hervor. Der Ausdruck verlangt eine zusätzlich zu begründende Herkunftsrelation, auch wenn zwischen ihren internen Zeitordnungen kein gemeinsames Früher/Später definiert ist.
+- **Fortdauernde Abhängigkeit:** B benötigt A in jeder Phase seines Bestehens. Diese starke Forderung ist für eigenständige Tochterwelten **nicht** Voraussetzung.
+
+**Kandidat einer Kernformulierung:** „Generative Herkunft bezeichnet die Beziehung, kraft derer eine Welt aus einer anderen hervorgeht, ohne dass beide eine gemeinsame Zeitordnung oder eine fortdauernde Wechselwirkung teilen müssen.“ Sie setzt die Möglichkeit einer solchen Relation voraus, erklärt aber noch nicht, worin ihre Realisierung besteht.
+
+### Relationseigenschaften nicht vermischen
+
+- **Unmittelbare Genese** G(A,B): A bringt B direkt hervor. Sie kann als irreflexiv und asymmetrisch modelliert werden; darüber hinaus ist zu prüfen, ob Zyklen ausdrücklich ausgeschlossen werden sollen.
+- **Genealogische Abstammung** G⁺(A,C): Es gibt eine endliche Kette unmittelbar generativer Beziehungen von A nach C. Diese transitive Hülle ist definitionsgemäß transitiv, unabhängig davon, ob G selbst transitiv ist.
+- **Azyklizität** ist stärker als bloße Asymmetrie. Die Behauptung, generative Abhängigkeit sei einfach „nicht transitiv“, wäre ohne Unterscheidung dieser beiden Relationen irreführend.
+
+### Drei Gegenproben
+
+1. **David Lewis:** Im konkreten modalen Realismus sind mögliche Welten maximal raumzeitlich zusammenhängende Ganze und voneinander isoliert. Zu prüfen ist, ob unsere hypothetischen Weltformationen überhaupt denselben Gegenstandsbegriff verwenden; sie sind nicht ohne weiteres Lewis-Welten. Quelle: Stanford Encyclopedia of Philosophy, „Possible Worlds“ (https://plato.stanford.edu/entries/possible-worlds/).
+2. **Zirkularität:** Sind A → B → C → A und andere genealogische Zyklen denkbar? Asymmetrie allein reicht nicht, sie auszuschließen. Ein azyklisches Modell ist vorläufig einfacher, muss jedoch argumentativ begründet werden.
+3. **Zeitlose Minimalwelt:** Eine hypothetische Welt mit nur einem Zustand könnte keine interne Abfolge besitzen und dennoch in einer postulierten Herkunftsrelation stehen. Das zeigt begriffliche Vorstellbarkeit, **nicht** tatsächliche physikalische Realisierbarkeit oder eine hinreichende Erklärung der Genese.
+
+### Offener Unterschied zu metaphysischem Grounding
+
+Die Debatte über *metaphysical grounding* untersucht nichtkausale Fundierungsbeziehungen; umstritten ist unter anderem, ob diese stets transitiv, asymmetrisch und irreflexiv sind. Quelle: Stanford Encyclopedia of Philosophy, „Metaphysical Grounding“ (https://plato.stanford.edu/entries/grounding/). Für die Omnizedenz darf generative Herkunft weder stillschweigend mit zeitlicher Kausalität noch mit Grounding gleichgesetzt werden.
+
+**Methodische Grenze:** Weder eine geteilte abstrakte Ontologie noch die Behauptung „ohne A kein B“ liefert allein einen Mechanismus, der Kosmen mit unterschiedlichen Naturgesetzen erzeugt. Hier bleibt eine erkenntnistheoretische und möglicherweise physikalisch unentscheidbare Lücke.
