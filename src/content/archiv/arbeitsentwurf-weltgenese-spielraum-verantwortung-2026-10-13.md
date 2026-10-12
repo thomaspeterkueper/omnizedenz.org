@@ -116,3 +116,26 @@ Die Kanonstände vom 15. und 24. September 2026 bleiben unverändert; der Essay 
 Die Debatte über *metaphysical grounding* untersucht nichtkausale Fundierungsbeziehungen; umstritten ist unter anderem, ob diese stets transitiv, asymmetrisch und irreflexiv sind. Quelle: Stanford Encyclopedia of Philosophy, „Metaphysical Grounding“ (https://plato.stanford.edu/entries/grounding/). Für die Omnizedenz darf generative Herkunft weder stillschweigend mit zeitlicher Kausalität noch mit Grounding gleichgesetzt werden.
 
 **Methodische Grenze:** Weder eine geteilte abstrakte Ontologie noch die Behauptung „ohne A kein B“ liefert allein einen Mechanismus, der Kosmen mit unterschiedlichen Naturgesetzen erzeugt. Hier bleibt eine erkenntnistheoretische und möglicherweise physikalisch unentscheidbare Lücke.
+
+## 9. Gegenprobe: Weltentstehung ohne Elternwelt (13. Oktober 2026)
+
+**Status:** philosophische Fallunterscheidung, kein neuer Kanon, kein physikalischer Nachweis.
+
+Die Frage, ob eine Welt ohne Elternwelt entstehen könne, setzt nicht schon die stärkere These voraus, sie entstehe ohne Bedingungen oder aus absolutem Nichts. Vier Modelle sind zu unterscheiden:
+
+1. **Genealogisch:** Eine Welt B geht aus einer bestimmten Welt A hervor.
+2. **Mehrfach-relational:** Eine neue Weltformation entsteht aus dem Zusammenspiel verschiedener Formationen, ohne eindeutig eine Elternwelt zu besitzen.
+3. **Nichtgenealogisch-fundamental:** Eine Welt ist hinsichtlich anderer Welten genealogisch unbegründet, gehört aber dennoch zur als Ganzes gesetzten Omnizedenz.
+4. **Absolutes Nichts:** Eine Welt entsteht ohne jede ontologische Voraussetzung. Das wird hier nicht erklärt und folgt insbesondere nicht aus den ersten drei Fällen.
+
+Im Kanon vom 24. September entstehen Unterschied und Relation miteinander; Formationen sind historisch stabilisierte Muster relationaler Rückwirkungen. Daher ist eine **Weltbildung durch Differenzierung und Stabilisierung** als ontologische Modelloption grundsätzlich anschlussfähig. Dabei bleibt offen, was eine Formation mit einem eigenen Gesetzesregime überhaupt von anderen Formationen unterscheidet und ob dieser Übergang physikalisch realisiert werden kann.
+
+**Test auf Erklärungskraft:** Der Ausdruck „Weltbildung“ darf nicht lediglich umbenennen, was erklärt werden soll. Erforderlich wären Kriterien für (a) eine unterscheidbare Weltgrenze, (b) Stabilität oder eigene Beschreibungsgesetze, (c) Entstehungsrelation beziehungsweise deren begründete Abwesenheit, (d) historische Identität und mögliche Verzweigung.
+
+**Keine automatische erste Welt:** Nicht jede Welt muss eine Elternwelt haben. Daraus folgt weder, dass es tatsächlich elternlose Welten gibt, noch, dass es eine erste Welt geben muss. Fundierung, unendliche Abhängigkeitsreihen und mögliche Zyklen sind getrennte metaphysische Optionen (vgl. Stanford Encyclopedia of Philosophy, „Fundamentality“, https://plato.stanford.edu/entries/fundamentality/).
+
+**Raumzeitliche Vorsicht:** In der Philosophie der Kosmologie wird unterschieden zwischen dem Ursprung klassischer Raumzeit aus einer tieferen physikalischen Beschreibung und der metaphysischen Frage einer absoluten Schöpfung aus Nichts; ein physikalisches Vakuum ist nicht „nichts“ (Stanford Encyclopedia of Philosophy, „Philosophy of Cosmology“, https://plato.stanford.edu/entries/cosmology/).
+
+**Vorläufige These:** „Eine Welt kann innerhalb der Omnizedenz als neue relationale Formation gedacht werden, ohne genealogisch aus einer bestimmten Elternwelt hervorgegangen zu sein. Diese Denkbarkeit ist keine Erklärung eines realen Entstehungsmechanismus.“
+
+**Nächster Prüfstein:** Wann ist eine neue Formation tatsächlich eine *neue Welt* und nicht nur ein neuer Bereich innerhalb derselben Welt? Eine mögliche Antwort darf nicht bloß voraussetzen, dass unterschiedliche Naturgesetze immer eine getrennte Welt definieren; auch das Verhältnis von Grenze, Erklärung und Gesetzesregime muss geklärt werden.
