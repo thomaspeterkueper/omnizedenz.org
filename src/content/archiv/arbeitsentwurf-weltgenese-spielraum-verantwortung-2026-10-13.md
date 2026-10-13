@@ -172,3 +172,26 @@ Der dritte Punkt ist die kritische, bisher nicht operationalisierte Lücke. Das 
 Philosophische Vergleichspunkte: Stanford Encyclopedia of Philosophy, „Possible Worlds“ (https://plato.stanford.edu/entries/possible-worlds/) zu Lewis' maximaler raumzeitlicher Verbundenheit und „Philosophy of Cosmology“ (https://plato.stanford.edu/entries/cosmology/) zu Multiversumshypothesen. Diese Texte bestätigen die Ontologie der Omnizedenz nicht.
 
 **Nächster Untersuchungsauftrag:** Ist Welt-Eigenständigkeit eine graduelle Eigenschaft oder eine kategoriale Grenze? Welche begründete Schwelle würde die Entstehung einer weiteren Welt gegenüber der Entstehung einer neuen Formation unterscheiden?
+
+## 11. Gegenprobe: Welt ohne innere Geschichte (13. Oktober 2026)
+
+**Status:** offener ontologischer Arbeitsstand, keine Kanonrevision.
+
+Der Satz „Eine Welt ist das, was eine eigene Geschichte hervorbringt“ ist als allgemeines notwendiges Kriterium zu stark. Wir unterscheiden:
+
+1. **Innere Geschichte:** Ereignisse und Veränderungen, die innerhalb einer Welt geordnet sind.
+2. **Generative Geschichte:** eine Herkunftsbeziehung zwischen der Welt und anderen Formationen, die keine gemeinsame Zeit voraussetzen muss; ob eine solche Beziehung ohne Zeit kohärent realisiert werden kann, bleibt offen.
+3. **Relationale Geschichte:** Veränderungen ihrer konstitutiven Beziehungen, gegebenenfalls aus einer äußeren Beschreibungsperspektive. Diese Form darf bei einer vollständig zeitlosen und unverbundenen Formation nicht einfach unterstellt werden.
+
+**Minimalfälle:**
+
+- **Zeitlose, aber strukturierte Formation:** Konstante innere Beziehungen können existieren, ohne eine Ereignisfolge zu bilden. Geschichte ist nicht notwendig für innere Bestimmtheit.
+- **Zeitlose Tochterwelt:** Kann eine generative Herkunft besitzen, ohne innere Zeit zu haben; philosophische Möglichkeit, kein physikalisch begründeter Entstehungsmechanismus.
+- **Elternlose, zeitlose Formation:** Weder innere Ereignisse noch genealogische Vergangenheit sind gegeben. Ihr Weltstatus lässt sich nicht über Geschichte begründen, sondern müsste durch ihre interne Bestimmtheit und eine begründete Abgrenzung gezeigt werden.
+- **Vollkommen unterschiedslose Formation:** Für die relationale Prozessontologie ist unklar, wodurch sie als *eigene* Welt individuiert werden kann. Das ist eine Grenze unseres Erklärungsansatzes, kein Beweis ihrer logischen Unmöglichkeit.
+
+**Vorläufige Schlussfolgerung:** Nicht Geschichte allein, sondern die Bestimmbarkeit eines eigenständigen Zusammenhangs ist Kandidat für den Weltbegriff. Innere Geschichte, generative Herkunft und dynamische Autonomie sind mögliche, aber einzeln nicht notwendige Indizien. Die „Eigenständigkeit“ darf hierbei nicht schon vorausgesetzt werden: Offen ist, welches nichtzirkuläre Kriterium den eigenen Zusammenhang gegenüber einem Teilbereich, einer abstrakten Beschreibung oder einem simulierten System ausweist.
+
+**Prüfproblem:** Trägt die Ontologie wirklich Welten ohne jede Veränderung, obwohl der Kanon Wirklichkeit als prozessual verfasst versteht? Die beiden Aussagen sind nicht identisch: Eine statische Teilformation könnte in einer prozessualen Gesamtwirklichkeit vorkommen; eine insgesamt unveränderliche Omnizedenz würde die ontologische Grundannahme herausfordern. Dieser Unterschied ist nicht entschieden.
+
+**Nächster Schritt:** Den Weltbegriff über Individuation, interne Relationen und Grenzen testen, ohne Zeit, Gesetzesverschiedenheit oder Erreichbarkeit von vornherein als universell zwingend anzusetzen.
