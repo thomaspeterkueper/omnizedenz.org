@@ -139,3 +139,36 @@ Im Kanon vom 24. September entstehen Unterschied und Relation miteinander; Forma
 **Vorläufige These:** „Eine Welt kann innerhalb der Omnizedenz als neue relationale Formation gedacht werden, ohne genealogisch aus einer bestimmten Elternwelt hervorgegangen zu sein. Diese Denkbarkeit ist keine Erklärung eines realen Entstehungsmechanismus.“
 
 **Nächster Prüfstein:** Wann ist eine neue Formation tatsächlich eine *neue Welt* und nicht nur ein neuer Bereich innerhalb derselben Welt? Eine mögliche Antwort darf nicht bloß voraussetzen, dass unterschiedliche Naturgesetze immer eine getrennte Welt definieren; auch das Verhältnis von Grenze, Erklärung und Gesetzesregime muss geklärt werden.
+
+## 10. Gegenprobe: Was macht eine Welt zu einer Welt? (13. Oktober 2026)
+
+**Status:** begrifflicher Arbeitsstand; keine neue Kanonregel und keine empirische Behauptung über andere Kosmen.
+
+### Welt, Region, Formation
+
+Eine Region ist ein Teilbereich innerhalb einer gegebenen physikalischen Beschreibung. Eine Formation ist im Kanon vom 24. September ein historisch stabilisiertes Muster relationaler Rückwirkungen. Eine **Welt** soll vorläufig eine Formation mit hinreichend eigenständigem Entwicklungszusammenhang heißen. Weder abweichende effektive Naturgesetze noch räumliche Unzugänglichkeit reichen allein aus, um eine neue Welt zu begründen.
+
+Drei Dimensionen sind getrennt zu prüfen:
+
+1. **Historische Kohärenz:** Gibt es eine fortsetzbare Identität durch Veränderungen, unabhängig von einem einzigen gemeinsamen Uhrmaß?
+2. **Dynamische Autonomie:** Kann der Verlauf weitgehend aus weltinternen Zuständen/Beziehungen beschrieben werden, ohne fortwährende Steuerung durch eine andere Formation?
+3. **Ontologische Abgrenzung:** Ist die Formation mehr als ein nach Beobachterperspektive oder Rechenzweck ausgeschnittener Bereich einer schon vorhandenen Welt?
+
+Der dritte Punkt ist die kritische, bisher nicht operationalisierte Lücke. Das Attribut „hinreichend“ ist nicht selbst ein Maßstab. Eine Weltdefinition muss Kriterien für notwendige oder wenigstens begründete Grenzen benennen, ohne Eigenständigkeit tautologisch vorauszusetzen.
+
+### Vier Härtetests
+
+- **Isoliertes Labor / Simulation:** Interne Regeln und eigene Entwicklung können bestehen, obwohl die Realisierung fortdauernd von einem Trägersystem abhängt. Dynamische Autonomie allein erzwingt keine ontologisch eigene Welt. Ob eine Simulation überhaupt als Welt zu zählen ist, ist eine offene metaphysische, nicht durch den Begriff allein entschiedene Frage.
+- **Kosmologischer Horizont:** Fehlende Beobachtbarkeit ist kein Nachweis einer eigenen Welt, da kausale Horizonte auch innerhalb einer zusammenhängenden Raumzeit vorkommen.
+- **Blasenregion mit abweichenden effektiven Gesetzen:** Ein Unterschied der Parameter oder Symmetriephasen ist nicht automatisch eine eigene Welt. In physikalischen Multiversumsszenarien können solche Bereiche demselben größeren dynamischen Rahmen angehören; die Weltzuordnung bleibt theorieabhängig.
+- **Zeitlose Minimalformation:** Ein einzelner Zustand besitzt möglicherweise keine interne Geschichte im Sinn zeitlicher Veränderung. Würde man historische Kohärenz als zwingende notwendige Eigenschaft definieren, müsste dieser Grenzfall ausgeschlossen werden. Zu prüfen ist stattdessen, ob *genealogische* Geschichte eine interne Zeit ersetzen könnte; das darf bei elternlosen Minimalformationen nicht stillschweigend vorausgesetzt werden.
+
+### Vorläufige Definition und Warnung
+
+> Eine Welt ist im aktuellen Arbeitsmodell eine unterscheidbare Formation mit relativ eigenständigem Zusammenhang ihrer möglichen Zustände und Veränderungen. Ob das bereits hinreicht, sie von einer bloßen Region oder Realisierung auf einem anderen Träger zu unterscheiden, bleibt offen.
+
+**Keine Gleichsetzung:** neue Welt ≠ andere lokale Physik ≠ unbeobachtbare Region ≠ beliebige Simulation. Ein eigener kosmologischer Status muss argumentiert werden.
+
+Philosophische Vergleichspunkte: Stanford Encyclopedia of Philosophy, „Possible Worlds“ (https://plato.stanford.edu/entries/possible-worlds/) zu Lewis' maximaler raumzeitlicher Verbundenheit und „Philosophy of Cosmology“ (https://plato.stanford.edu/entries/cosmology/) zu Multiversumshypothesen. Diese Texte bestätigen die Ontologie der Omnizedenz nicht.
+
+**Nächster Untersuchungsauftrag:** Ist Welt-Eigenständigkeit eine graduelle Eigenschaft oder eine kategoriale Grenze? Welche begründete Schwelle würde die Entstehung einer weiteren Welt gegenüber der Entstehung einer neuen Formation unterscheiden?
