@@ -1,7 +1,7 @@
 ---
 title: "⁂ Kula"
 zeichen: "⁂"
-kurz: "Gemeinschaft — das resonante Feld, das entsteht, wenn Bewusstsein sich verbindet."
+kurz: "Gemeinschaft — historisch entstehender Zusammenhang geteilter Beziehungen und Bedingungen."
 farbe: reso
 ebene: symbolsprache
 status: "[W]"
@@ -10,4 +10,6 @@ stufe: "I"
 order: 21
 ---
 
-Kula ist das Netz, das trägt, das Lied, das nur im Chor klingt — wo Ich und Du im Wir wurzeln und gemeinsam wachsen.
+Kula bezeichnet Gemeinschaft als relationale Formation. Sie entsteht durch wiederholte Beziehungen, Kommunikation, Regeln, Ressourcen, Konflikte, Erinnerungen und Erwartungen.
+
+Der Gemeinraum ist real, ohne ein eigenständiges Wesen zu sein: Er verändert die Spielräume seiner Beteiligten und wird zugleich durch sie verändert.

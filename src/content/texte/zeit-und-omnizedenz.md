@@ -1,37 +1,56 @@
 ---
 title: "Zeit und die Omnizedenz"
-description: "Zeit nicht als Linie, sondern als Resonanzbewegung — zwischen linearer Wahrnehmung, zyklischen Rhythmen und der Ahnung einer tieferen Zeitlosigkeit."
+description: "Zeit als Geschichte des Werdens: Wiederkehr ist möglich, aber jeder neue Vollzug beginnt auf verändertem Grund."
 ebene: ontologie
 typ: Kapitel
 band: "Einführung in die Omnizedenz"
 kapitel: 2
 status: "[T]"
 order: 2
-symbole: []
+symbole:
+  - ori
 bautAuf:
   - die-zeitlose-omnizedenz
 ---
 
-Im Alltag erscheint Zeit wie ein Fluss: Vergangenheit, Gegenwart, Zukunft reihen sich scheinbar unumkehrbar aneinander. Die Philosophie der Omnizedenz betrachtet Zeit stattdessen als Resonanzbewegung im Feld des Seins — eine Perspektive, kein absolutes Gerüst.
+Im Alltag ordnen wir Ereignisse als Vergangenheit, Gegenwart und Zukunft. Die gegenwärtige Omnizedenz setzt dem nicht einfach eine „wahre“ zyklische oder zeitlose Wirklichkeit entgegen. Entscheidend ist eine andere Frage: **Was bedeutet es, dass Gewordenes die Bedingungen weiteren Werdens verändert?**
 
-## Zyklische Zeit
+> **Das Jetzt ist das Gewordene im Werden.**
 
-In vielen Traditionen erscheint Zeit nicht als Linie, sondern als Rhythmus: Geburt und Tod, Tag und Nacht, die Jahreszeiten. Der Hinduismus kennt den Zyklus von Schöpfung, Erhaltung und Auflösung (Samsara); der Daoismus das ewige Fließen des Dao; die jüdische Mystik und indigene Traditionen erfahren Zeit oft als wiederkehrenden, heiligen Kreis statt als lineare Strecke.
+Diese Formulierung ist philosophisch `[PHIL]`. Sie behauptet kein zusätzliches messbares Zeitfeld.
 
-## Blockzeit: ein Hinweis aus der Physik
+## Wiederkehr mit Geschichte
 
-Die Relativitätstheorie stützt ein Bild, in dem Ereignisse — Vergangenheit, Gegenwart, Zukunft — gleichwertig existieren `[T]`. Was für eine Beobachterin „jetzt" ist, kann für einen anderen bereits Vergangenheit sein. Das ist kein Beweis für ein bestimmtes metaphysisches Zeitbild, aber ein Hinweis darauf, dass lineare Abfolge eher Wahrnehmungsperspektive als fundamentale Eigenschaft der Wirklichkeit sein könnte `[H]`.
+Viele Prozesse kehren wieder: Tag und Nacht, Jahreszeiten, biologische Rhythmen, soziale Routinen. Doch Wiederholung ist keine identische Rückkehr. Ein Organismus, eine Beziehung oder eine Gesellschaft tritt nach einem Durchlauf nicht unter exakt denselben Bedingungen wieder an.
 
-Ein häufiger Einwand: Bedeutet Blockzeit, dass alles unabänderlich feststeht? In der Omnizedenz-Perspektive bleibt Resonanz dennoch lebendig — jeder Moment birgt neue Schwingungen, neue Wahlmöglichkeiten, unabhängig davon, wie das physikalische Modell zu deuten ist.
+Darum steht **Ori** für die Spirale:
 
-## Zeitlosigkeit als tiefere Schicht
+> **Die Spirale ist Rekursion mit Gedächtnis.**
 
-Momente völliger Vertiefung — im Tanzen, im Musizieren, im Blick eines Kindes — berühren eine Schicht, in der Zeit ihre gewohnte Struktur verliert. Solche Erfahrungen sind keine Flucht aus der Zeit; sie zeigen, wie die Philosophie der Omnizedenz sie deutet: als Fenster auf eine Wirklichkeit, die sich nicht in Abfolge erschöpft.
+Gedächtnis meint hier nicht notwendig ein eigenes kosmisches Speichermedium. Geschichte kann in Zuständen, Strukturen, Relationen, Körpern, Institutionen, Artefakten und anderen fortwirkenden Bedingungen liegen.
 
-## Praktischer Zugang
+## Physik und philosophische Deutung
 
-Wenn die Gegenwart nicht bloßer Durchgang ist, sondern lebendiger Fokus, ändert sich die Haltung zum Augenblick. Ein einfacher Zugang: innehalten und spüren, wie ein einzelner Atemzug zugleich Anfang, Höhepunkt und Ende ist — nicht als Taktgeber der Uhrzeit, sondern als Kanal zu einem Rhythmus, der älter ist als jede Uhr.
+Relativitätstheorie zeigt, dass zeitliche Ordnung und Gleichzeitigkeit nicht so einfach sind, wie die Alltagserfahrung nahelegt `[EMP]`. Daraus folgt jedoch weder, dass Vergangenheit, Gegenwart und Zukunft in einem bestimmten metaphysischen Sinn „gleichwertig existieren“, noch dass lineare Zeit bloße Illusion sei.
+
+Blockuniversum und andere Zeitontologien sind Interpretationen beziehungsweise philosophisch-physikalische Modelle, die getrennt von den empirisch bestätigten Aussagen der Relativitätstheorie behandelt werden müssen `[PHIL]`.
+
+Physik dient der Omnizedenz deshalb nicht als Beweis einer „tieferen Zeitlosigkeit“.
+
+## Erlebte Zeit
+
+Vertiefung, Musik, Angst, Langeweile oder intensive Aufmerksamkeit können das subjektive Zeiterleben stark verändern `[EMP]`. Solche Erfahrungen sind philosophisch interessant, belegen aber keine zeitlose ontologische Schicht.
+
+Die Omnizedenz kann sie stattdessen als Erinnerung daran lesen, dass **erlebte Zeit, gemessene Zeit und metaphysische Aussagen über Zeit nicht dasselbe sind**.
+
+## Offenheit und Zukunft
+
+Dass Geschichte Bedingungen schafft, bedeutet nicht automatisch Determinismus. Ob ein konkreter Prozess mehr als einen realisierbaren Verlauf besitzt, muss auf der jeweiligen Ebene untersucht werden.
+
+Ontologische Offenheit bezeichnet zunächst nur, dass mehr als ein realisierbarer Verlauf mit den gegenwärtigen Bedingungen kompatibel ist. **Freiheit** ist enger: Sie bezeichnet realen Spielraum, in dem einem Akteur mehr als eine Fortsetzung zugänglich ist und er an ihrer Aktualisierung mitwirken kann `[PHIL]`. Nicht jede ontologische Offenheit ist deshalb schon Freiheit.
+
+Der praktische Akzent verschiebt sich damit: nicht Flucht aus der Zeit, sondern Verantwortung innerhalb gewordener Bedingungen — für die Möglichkeiten, die aus dem gegenwärtigen Handeln hervorgehen.
 
 ---
 
-*Hinweis: Eine frühere Fassung dieses Textes verwendete die Symbole Chrona, Reso und Lume. Das zugrundeliegende Kapitel-1–10-Manuskript (Version 28.04.2025) arbeitet an dieser Stelle ohne Symbolglyphen; die Zuordnung wird geprüft, sobald die entsprechende separate Kapitel-2-Fassung mit dem übrigen Werkbestand abgeglichen ist (siehe Konsistenz-Tracker).*
+*Historischer Hinweis: Frühere Fassungen dieses Kapitels arbeiteten stärker mit zyklischer Zeit, „Resonanzbewegung“, Zeitlosigkeit und teilweise den Symbolen Chrona, Reso und Lume. Diese Schicht bleibt Teil der Genese; die gegenwärtige Fassung folgt der relationalen Prozessontologie und trennt physikalischen Befund von metaphysischer Deutung.*

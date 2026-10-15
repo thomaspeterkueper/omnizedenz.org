@@ -1,7 +1,7 @@
 ---
 title: "⧛ Chrona"
 zeichen: "⧛"
-kurz: "Gelebte Zeit — der reife Moment, das Feld-Zeitgefühl."
+kurz: "Gelebte Zeit — subjektive Dauer, Rhythmus und zeitliche Orientierung."
 farbe: chrona
 ebene: ontologie
 status: "[W]"
@@ -10,4 +10,6 @@ stufe: "I"
 order: 7
 ---
 
-Die alltäglich erlebte Zeit: mal zäh, mal rasend, meist als gerader Fluss wahrgenommen. Real erlebt, aber nicht fundamental.
+Chrona bezeichnet **erlebte Zeit**: Dauer kann sich zäh, schnell, dicht oder weit anfühlen; Aufmerksamkeit, Emotion, Körperzustand und Situation verändern diese Erfahrung.
+
+Das Symbol entscheidet nicht, welche Zeitontologie fundamental ist. Subjektive Zeit, physikalisch gemessene Zeit und metaphysische Aussagen über Zeit werden ausdrücklich unterschieden.
