@@ -15,3 +15,5 @@ Ira verdichtet die Erfahrung reflexiver Rückkopplung: Ein wahrnehmendes Wesen k
 Das Symbol setzt nicht voraus, dass das Ganze als solches ein reflektierendes Subjekt ist. Es markiert Selbstreflexion dort, wo eine Formation die dafür nötige Wahrnehmungs- und Reflexionsfähigkeit tatsächlich hervorbringt.
 
 *Hinweis: Eine zwischenzeitliche Fassung dieser Seite beschrieb Ira als „Katalysator/Durchbruch" — gemäß der Schnellreferenz-Tabelle aus Band I, Kapitel 4 zurückgesetzt auf „Rückkopplung/Selbstreflexion" und im aktuellen relationalen Kanon präzisiert.*
+
+*Mishkenaz:* Suffix ***-ira*** – Meta-Operator der Selbstreflexion, z. B. *Saha-ira-ath*: „Ich bemerke, dass mein Sehen nicht stimmt.“ (In den Galut-Schichten bedeutet *-ira* noch Anziehung.)
