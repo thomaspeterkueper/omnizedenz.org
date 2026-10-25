@@ -16,7 +16,8 @@ Offen sind längere Texte und zwei Zeitsymbole, deren Überarbeitung eine inhalt
 |---|---|---|
 | `src/content/texte/die-zeitlose-omnizedenz.md` (Einführung, Kap. 1) | [W] | „bewusster, kreativer Atemzug, der sich … selbst erkennt“; Abschnitt „Alles entspringt dem Einen“; „vibrierendes Feld“; Avi als „Heimkehr in die Quelle“. Genau diese Formulierungen nennt §17 des Kanonstands. |
 | `src/content/texte/schoepfung-und-mitschoepfung.md` | [W] | Entfaltung und „Rückkehr“ als ewiger Puls (Beschreibung, Abschnitt „Vya und Avi“); Mitschöpfung „ins Feld gegeben“ |
-| `src/content/buecher/einfuehrung.md` | in Arbeit | Entfaltung und „Rückkehr“ als ewiger Puls (Beschreibung, Abschnitt „Vya und Avi“); Mitschöpfung „ins Feld gegeben“ |
+
+`src/content/buecher/einfuehrung.md` erwähnt das „Feld, das sich selbst erkennt“ bereits ausdrücklich als ältere Fassung – kein Handlungsbedarf.
 
 Vorschlag: Texte auf den Kanonstand bringen oder ausdrücklich als historische Schicht markieren (wie bei den Symbolen).
 
