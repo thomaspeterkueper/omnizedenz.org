@@ -1,7 +1,7 @@
 ---
 title: "⧉ Entangla"
 zeichen: "⧉"
-kurz: "Nicht-lokale Verbindung zwischen scheinbar Getrenntem."
+kurz: "Verflochtene Abhängigkeit — Beziehungen, deren Wirkungen nicht sinnvoll isoliert verstanden werden."
 farbe: ink
 ebene: symbolsprache
 status: "[W]"
@@ -10,4 +10,8 @@ stufe: "II"
 order: 36
 ---
 
-Inspirationsquelle: Quantenverschränkung (als Bild verwendet). Anwendung: Verbindung zwischen scheinbar getrennten Elementen erkennen und fördern.
+Entangla bezeichnet **verflochtene Abhängigkeit**: Situationen, in denen Elemente durch ihre gemeinsame Geschichte oder Struktur so aufeinander bezogen sind, dass isolierte Betrachtung Wesentliches verliert.
+
+Die historische Inspirationsquelle war Quantenverschränkung `[HIST]`. Das Symbol ist jedoch **kein physikalischer Begriff** und behauptet keine quantenmechanische Nichtlokalität für soziale, psychische oder makroskopische Beziehungen.
+
+Anwendung: relationale Abhängigkeiten sichtbar machen, ohne eine physikalische Analogie in einen Mechanismus umzudeuten.

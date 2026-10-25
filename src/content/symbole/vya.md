@@ -1,7 +1,7 @@
 ---
 title: "→ Vya"
 zeichen: "→"
-kurz: "Der Wille — gerichtete Bewegung, die einem inneren Impuls folgt."
+kurz: "Gerichtete Aktualisierung — eine Möglichkeit gewinnt Verlauf und Form."
 farbe: ink
 ebene: symbolsprache
 status: "[W]"
@@ -10,4 +10,8 @@ stufe: "I"
 order: 15
 ---
 
-Nicht das Ziel allein bewegt Vya, sondern der Ruf zur Entfaltung: der Fluss, der sein Meer noch sucht, die Intention, die Form annimmt.
+Vya verdichtet gerichtete Bewegung innerhalb eines Möglichkeitsraums: Eine Intention, Tendenz oder andere wirksame Bedingung führt dazu, dass ein Verlauf Gestalt gewinnt.
+
+Vya setzt keinen metaphysisch freien Willen und keinen kosmischen „Entfaltungsdrang“ voraus. Das Zeichen kann bewusste Handlung darstellen, aber ebenso andere gerichtete Prozesse.
+
+Historisch bildete Vya mit Avi ein Ausatmen/Einatmen- beziehungsweise Entfaltung/Rückkehr-Paar. Diese Lesart gehört zur Genese `[HIST]`. Im gegenwärtigen Modell steht **Avi** für schöpferische Unbestimmtheit und **Vya** für gerichtete Aktualisierung; daraus folgt keine notwendige Rückkehrbewegung.
