@@ -11,3 +11,5 @@ order: 24
 ---
 
 Lume ist das Gewicht des Geistes im Körper, die Landung der Seele im Hier und Jetzt — das „Ja" des Körpers zur Seele, Lernen durch Tun.
+
+*Mishkenaz:* ***Om-Kin*** – verkörpertes Wesen (Om) in gerichteter Bewegung (Kin): Verstehen durch Tun.
