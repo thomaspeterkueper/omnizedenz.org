@@ -1,0 +1,141 @@
+---
+import Basis from '../layouts/Basis.astro';
+
+const fragen = [
+  {
+    nr: '01',
+    titel: 'Braucht das Ganze ein Bewusstsein?',
+    frage: 'Kann das Ganze vollständig sein, während Bewusstsein erst innerhalb seiner Teile entsteht?',
+    stand: 'Offen. Die relationale Ontologie setzt kein bewusstes Gesamtsubjekt voraus; sie schließt unterschiedliche Bewusstseinstheorien nicht schon begrifflich aus.',
+    pruefung: 'Alternative Modelle am selben Fragenkatalog prüfen: ontologische Annahmen, Erklärungskraft, Gegenargumente und empirische Anschlussfähigkeit.',
+  },
+  {
+    nr: '02',
+    titel: 'Wie kann ein vollständiges Ganzes werden?',
+    frage: 'Was verändert sich, wenn nichts außerhalb des Ganzen liegt und dennoch Neues geschieht?',
+    stand: 'Arbeitsthese: Vollständigkeit bezeichnet die Reichweite des Zusammenhangs, nicht einen abgeschlossenen Bestand an Erfahrungen, Beziehungen und Möglichkeiten.',
+    pruefung: 'Unterscheiden zwischen räumlicher Ausdehnung, geschichtlicher Veränderung, Zunahme von Komplexität und neuer Erfahrung.',
+  },
+  {
+    nr: '03',
+    titel: 'Was ist Zeit?',
+    frage: 'Wie verhalten sich Geschichte und Offenheit zu Blockzeit, Zeitpfeil und erlebter Gegenwart?',
+    stand: 'Offen. Physikalische Modelle und phänomenologische Erfahrung betreffen verschiedene Erklärungsebenen; keine davon beweist für sich die Omnizedenz.',
+    pruefung: 'Verschiedene Zeitontologien und ihre Konsequenzen für Werden, Freiheit und Kausalität getrennt vergleichen.',
+  },
+  {
+    nr: '04',
+    titel: 'Was ermöglicht Freiheit?',
+    frage: 'Genügt die Existenz verschiedener Wege, wenn Menschen sie nicht erkennen oder tatsächlich gehen können?',
+    stand: 'Tragfähiger Ausgangspunkt: Möglichkeiten entstehen relational. Praktische Freiheit benötigt auch Wahrnehmung, Reflexion und realen Zugang.',
+    pruefung: 'Konkrete Fälle zu Abhängigkeit, institutionellen Hindernissen und Verantwortung untersuchen.',
+  },
+  {
+    nr: '05',
+    titel: 'Wie entsteht verbindliche Gerechtigkeit?',
+    frage: 'Wie können Normen auch dann schützen, wenn niemand spontan Mitleid empfindet?',
+    stand: 'Offene Brückenfrage zwischen Ontologie und Ethik: Persönliche Resonanz kann motivieren, ersetzt aber keine begründeten und verlässlichen Institutionen.',
+    pruefung: 'Mitleid, Rechte, Schutzregeln, Macht und Regenerierbarkeit gemeinsam und ohne naturalistischen Fehlschluss prüfen.',
+  },
+  {
+    nr: '06',
+    titel: 'Was lernen wir aus anderen Weltdeutungen?',
+    frage: 'Welche Gemeinsamkeiten und Gegensätze zeigen Religionen und philosophische Traditionen?',
+    stand: 'Vergleich ist ein Erkenntnisweg, kein Beweis und keine Behauptung, andere Traditionen hätten bereits die Omnizedenz vertreten.',
+    pruefung: 'Originalquellen, historische Lesart und heutige philosophische Interpretation ausdrücklich trennen.',
+  },
+];
+---
+
+<Basis
+  title="Offene Werkstatt — Omnizedenz"
+  description="Einblick in die offenen Forschungsfragen der Omnizedenz: Bewusstsein, Ganzes, Zeit, Freiheit, Gerechtigkeit und alternative Deutungen."
+>
+  <section class="seitenkopf">
+    <div class="column">
+      <span class="eyebrow">Forschung und Entwicklung · Stand 15. November 2026</span>
+      <h1>Die Offene Werkstatt</h1>
+      <p class="lead">
+        Nicht jede gute Frage braucht sofort eine Antwort. Hier zeigen wir, wo sich
+        die Omnizedenz verändert, welche Alternativen wir prüfen und welche Einwände
+        noch offen sind.
+      </p>
+    </div>
+  </section>
+  <hr class="rule" />
+
+  <section class="section artikel">
+    <div class="column">
+      <h2>Eine Philosophie darf lernen</h2>
+      <p>
+        Omnizedenz ist kein abgeschlossenes Lehrgebäude. Ihre Grundbegriffe werden
+        überarbeitet, wenn neue Argumente, Gegenbeispiele oder präzisere Unterscheidungen
+        dies erfordern. Ein früher formulierter Gedanke kann wertvoll bleiben, ohne
+        weiterhin als begründete These zu gelten.
+      </p>
+      <div class="kasten">
+        <h3>Wie wir Erkenntnisstände unterscheiden</h3>
+        <p><strong>Grundsetzung:</strong> Was eine philosophische Position annimmt, ohne es als Naturgesetz auszugeben.</p>
+        <p><strong>Arbeitshypothese:</strong> Eine mögliche Erklärung, die Alternativen und Einwänden ausgesetzt bleibt.</p>
+        <p><strong>Analogie:</strong> Ein Bild oder wissenschaftlicher Bezug, der Verständnis ermöglicht, aber nichts beweist.</p>
+        <p><strong>Historische Fassung:</strong> Ein älterer Denkstand, der lesbar bleibt, jedoch nicht automatisch die heutige Position darstellt.</p>
+      </div>
+      <p>
+        Die aktuelle begriffliche Orientierung steht in
+        <a href="/philosophie/">Die Omnizedenz</a>.
+        Die <a href="/bibliothek/">Bibliothek</a> enthält auch ältere Texte
+        und Erkundungen. Unredigierte private Notizen gehören weiterhin in das
+        geschützte Archiv und werden hier nicht automatisch veröffentlicht.
+      </p>
+
+      <h2>Fragen, an denen wir arbeiten</h2>
+      <p>
+        Die folgenden Positionen sind keine sechs neuen Dogmen, sondern ein
+        öffentlicher Zwischenstand. Wir unterscheiden jeweils die Frage,
+        den gegenwärtigen Denkstand und das, was noch geprüft werden muss.
+      </p>
+
+      {fragen.map((f) => (
+        <section class="kasten" aria-label={f.titel}>
+          <p class="eyebrow">Forschungsfrage {f.nr}</p>
+          <h3>{f.titel}</h3>
+          <p><strong>Die Frage:</strong> {f.frage}</p>
+          <p><strong>Zwischenstand:</strong> {f.stand}</p>
+          <p><strong>Weiter zu prüfen:</strong> {f.pruefung}</p>
+        </section>
+      ))}
+
+      <h2>Widerspruch gehört dazu</h2>
+      <p>
+        Ein starkes Argument ist nicht deshalb richtig, weil es gut zum bisherigen
+        Denken passt. Wir prüfen auch Erklärungen, die ohne ein bewusstes
+        Gesamtsubjekt auskommen, sowie Modelle mit anderen Annahmen über Zeit
+        und Kausalität. Sie dürfen nicht schon durch die Wortwahl ausgeschlossen
+        werden.
+      </p>
+      <p>
+        <strong>Offene Frage bedeutet nicht Beliebigkeit.</strong> Behauptungen
+        müssen zu ihren Voraussetzungen passen, Gegenargumente aushalten und
+        wissenschaftliche Befunde korrekt von philosophischer Interpretation unterscheiden.
+      </p>
+
+      <h2>Verwandte Arbeitsfelder</h2>
+      <p>
+        Die <a href="/resonanzethik/">Resonanzethik</a> fragt nach den Folgen
+        unserer Handlungen für gegenwärtige und zukünftige Spielräume. Die
+        <a href="/symbolsprache/">Symbolsprache</a> erprobt eine andere Form
+        begrifflicher Annäherung. Die eigenständige
+        <a href="https://fluide-hermeneutics.org">Fluide Hermeneutik</a>
+        beschäftigt sich mit dem Umgang mit Deutungen.
+      </p>
+      <p>
+        Anmerkungen und begründeter Widerspruch sind willkommen. Wichtig ist nicht,
+        jede frühere Behauptung zu retten, sondern die Fragen präziser stellen zu können.
+      </p>
+      <div class="btn-row">
+        <a class="btn" href="/philosophie/">Zur aktuellen Philosophie</a>
+        <a class="btn btn--ghost" href="/bibliothek/">Zur Bibliothek</a>
+      </div>
+    </div>
+  </section>
+</Basis>
