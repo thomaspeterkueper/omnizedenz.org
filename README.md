@@ -53,3 +53,15 @@ AUTH_SECRET=<beliebiger langer Zufallsstring, signiert die Session-Cookies>
 Reifegrad-Stufen eines Archiveintrags: `rohidee → entwurf → reift →
 bereit-fuer-oeffentlich`. Wird ein Gedanke reif genug, wandert er redigiert
 nach `src/content/texte/` und wird damit Teil der öffentlichen Seite.
+
+## Redaktionelle Aktualitätsregel für die Startseite
+
+Die öffentliche Startseite (`src/pages/index.astro`) ist der Einstieg in den **jüngsten redaktionell abgeglichenen Denkstand**. Wenn eine neue philosophische Arbeitsthese in der Offenen Werkstatt dokumentiert oder die Hauptposition revidiert wird, muss im selben Änderungsvorgang geprüft werden, ob die Startseite und `src/pages/philosophie.astro` noch stimmen.
+
+- Unterschied zwischen Grundsetzung, offener Hypothese, Analogie und historischem Denkstand bewahren.
+- Keine offenen Bewusstseins- oder Zeitmodelle stillschweigend zur allein gültigen Ontologie machen.
+- Ältere Fassungen bleiben erhalten, erhalten aber sichtbare Hinweise, wenn ihre starken Behauptungen nicht mehr den heutigen Stand wiedergeben.
+- Für neue Modellvarianten zuerst Primärnotiz und Gegenargumente dokumentieren; danach knappe, allgemeinverständliche Folgen auf der Startseite nennen.
+- Die Offene Werkstatt `/werkstatt/` ist öffentlich kuratiert und bleibt vom geschützten Roharchiv `/archiv/` getrennt.
+
+Abgleich vom 15.11.2026: `docs/abgleich-2026-11-15-stand-und-offene-werkstatt.md`.
