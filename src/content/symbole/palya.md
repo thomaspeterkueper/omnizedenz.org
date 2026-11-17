@@ -14,3 +14,5 @@ order: 2
 Palya fragt nach multidimensionaler Kohärenz einer Handlung: mit dem Kontext, den Beteiligten, dem eigenen Empfinden, dem längeren Zeithorizont.
 
 Bekanntes Risiko: Ohne belastbare Operationalisierung droht Beliebigkeit.
+
+*Mishkenaz:* ***Om'Ta*** – Stimmigkeit (Om), die das Andere (Ta) einschließt: stimmig erst, wenn auch das Gegenüber zustimmen kann.

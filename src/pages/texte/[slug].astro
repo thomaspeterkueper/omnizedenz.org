@@ -12,6 +12,15 @@ export async function getStaticPaths() {
 const { text } = Astro.props;
 const { Content } = await text.render();
 
+// Redaktioneller Fassungsvermerk: Diese historischen Kapitel weichen in
+// entscheidenden Aussagen vom gegenwärtigen relationalen Arbeitsstand ab.
+const historischeFassung = new Set([
+  'die-zeitlose-omnizedenz',
+  'zeit-und-omnizedenz',
+  'schoepfung-und-mitschoepfung',
+]);
+const istHistorischeFassung = historischeFassung.has(text.slug);
+
 const symbole = await getCollection('symbole');
 const verwendet = symbole.filter((s) => text.data.symbole.some((r) => r.id === s.slug));
 ---
@@ -38,6 +47,19 @@ const verwendet = symbole.filter((s) => text.data.symbole.some((r) => r.id === s
 
   <section class="section artikel">
     <div class="column">
+      {istHistorischeFassung && (
+        <div class="kasten" role="note">
+          <h2>Hinweis zur Fassung</h2>
+          <p>
+            Dieses Kapitel dokumentiert eine frühere Phase der Omnizedenz.
+            Aussagen über ein bewusstes Ganzes, kosmische Rückkehr oder die Natur
+            der Zeit sind nicht durchweg die heutige philosophische Position.
+            Der <a href="/philosophie/">aktuelle begriffliche Stand</a> und
+            die <a href="/werkstatt/">offenen Forschungsfragen</a> unterscheiden
+            bestätigte Argumente, Arbeitshypothesen und historische Bilder.
+          </p>
+        </div>
+      )}
       <Content />
       <Rueckverweise slug={text.slug} />
       <div class="btn-row">

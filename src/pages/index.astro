@@ -9,18 +9,20 @@ const anzahl = texte.length;
 const archivEintraege = await getCollection('archiv');
 const reifend = archivEintraege.filter((e) => e.data.reifegrad !== 'bereit-fuer-oeffentlich').length;
 
+const standDatum = '15. November 2026';
+
 const zugaenge = [
   {
     href: '/philosophie/',
     ebene: 'Ebene I — Ontologie',
     titel: 'Die Omnizedenz',
-    text: 'Was ist wirklich? Ein bewusstes Feld im ewigen Zyklus von Entfaltung und Rückkehr — jenseits der Trennung von Geist und Materie.',
+    text: 'Was ist wirklich? Omnizedenz denkt Wirklichkeit als Werden von Unterschieden in Beziehung — ohne fertigen Endzustand und ohne absolute Getrenntheit.',
   },
   {
     href: '/resonanzethik/',
     ebene: 'Ebene II — Praxis',
     titel: 'Resonanzethik',
-    text: 'Was soll ich tun? Nicht Regelbefolgung, sondern Stimmigkeit im Feld — fünf Prinzipien für ethisches Handeln unter Ungewissheit.',
+    text: 'Was soll ich tun? Ethisches Handeln heißt, relationale Spielräume wahrzunehmen, tragfähig zu erhalten und nach Beschädigung wieder Zukunft zu eröffnen.',
   },
   {
     href: '/symbolsprache/',
@@ -32,29 +34,90 @@ const zugaenge = [
 ---
 
 <Basis
-  title="Omnizedenz — Die Wirklichkeit als lebendiges Feld"
-  description="Die Omnizedenz beschreibt die Wirklichkeit als bewusstes, sich entfaltendes Feld. Philosophie, Resonanzethik und Symbolsprache von Thomas Peter Küper."
+  title="Omnizedenz — Eine Philosophie des Ganzen im Werden"
+  description="Omnizedenz ist eine relationale Philosophie des Werdens: Unterschiede sind wirklich, Beziehungen konstitutiv und kein Zustand ist als endgültig ausgezeichnet."
 >
   <section class="hero">
     <div class="wrap hero__grid">
       <div>
         <span class="eyebrow">Eine Philosophie von Thomas Peter Küper</span>
-        <h1>Die Wirklichkeit ist<br />kein Ding.<br />Sie antwortet.</h1>
+        <h1>Die Wirklichkeit ist<br />kein Ding.<br />Sie wird.</h1>
         <p class="lead">
-          Die <strong>Omnizedenz</strong> — von <em>omnis</em> (alles) und <em>sedere</em>
-          (innewohnen) — beschreibt den Urgrund allen Seins als ein bewusstes, sich
-          entfaltendes Feld: transzendent als Quelle, immanent in jeder Erscheinung.
-          Kein fertiges System, sondern ein offener Weg.
+          Die <strong>Omnizedenz</strong> verbindet <em>omni</em> — alles, das Ganze — mit
+          <em>Zedenz</em>, einer bewussten Wortschöpfung aus <em>Transzendenz</em>,
+          bei der sowohl <em>trans-</em> als auch eines der beiden <em>n</em> entfallen.
+          Letzteres aus einem einfachen Grund: <em>Zedenz</em> gefiel mir klanglich besser.
+          Sie bezeichnet das Ganze nicht als etwas jenseits der Welt,
+          sondern als den Zusammenhang, der sich in allem Wirklichen vollzieht und mit ihm wird.
+          <br /><br />
+          <strong>Das Ganze ist vollständig, aber nicht fertig.</strong> Nichts Wirkliches
+          liegt außerhalb des Ganzen; dennoch können innerhalb dieses Zusammenhangs neue
+          Beziehungen, Geschichten, Erfahrungen und Möglichkeiten entstehen. Unterschied
+          und Beziehung entstehen miteinander. Die Grenze ist wirklich, die absolute
+          Getrenntheit ist es nicht.
+          <br /><br />
+          <strong>Ob das Ganze selbst Bewusstsein besitzt, bleibt offen.</strong>
+          Bewusste Teile könnten zu einem Ganzen gehören, ohne dass dieses Ganze
+          selbst ein erlebendes Subjekt sein muss. Wir vergleichen diese Möglichkeit
+          mit einer relationalen Prozessontologie ohne universalen Bewusstseinsträger
+          und mit Modellen einer umfassenden Bewusstseinswirklichkeit.
+          <br /><br />
+          Omnizedenz ist eine philosophische Grammatik des Werdens, kein
+          naturwissenschaftlicher Beweis und kein abgeschlossenes System.
         </p>
         <div class="btn-row">
           <a class="btn" href="/philosophie/">Die Philosophie lesen</a>
-          <a class="btn btn--ghost" href="/bibliothek/">Alle {anzahl} Texte durchsehen</a>
+          <a class="btn btn--ghost" href="/werkstatt/#modelle">Bewusstseinsmodelle vergleichen</a>
         </div>
       </div>
       <figure class="hero__figure">
         <Feld />
-        <figcaption class="hero__caption">Das Feldmodell — Zeit, Resonanz, Unbestimmtheit, Verkörperung</figcaption>
+        <figcaption class="hero__caption">Symbolisches Feldmodell — kein physikalischer oder ontologischer Bauplan</figcaption>
       </figure>
+    </div>
+  </section>
+
+  <hr class="rule" />
+
+  <section class="section artikel">
+    <div class="column">
+      <span class="eyebrow">Aktueller Denkstand · {standDatum}</span>
+      <h2>Was wir unterscheiden</h2>
+      <p>
+        <strong>Philosophische Grundsetzung:</strong> Wirklichkeit wird als relationaler
+        Zusammenhang gedacht, in dem Unterschiede und Beziehungen gemeinsam entstehen.
+        Dass Prozessualität eine Eigenschaft aller denkbaren Wirklichkeit sein muss,
+        behaupten wir nicht.
+      </p>
+      <p>
+        <strong>Offene Hypothesen:</strong> Es ist nicht entschieden, ob Bewusstsein
+        fundamental, emergent, auf einzelne Perspektiven begrenzt oder dem Ganzen
+        selbst zuzuschreiben ist. Ebenso untersuchen wir, wie zeitlose Ganzheit und
+        die wirkliche Geschichte ihrer Teile zusammen gedacht werden können.
+      </p>
+      <p>
+        <strong>Ethische Konsequenzen:</strong> Resonanz ist kein automatischer
+        Wahrheits- oder Moraltest. Wir fragen, ob Handeln tragfähige Spielräume
+        bewahrt, eröffnet oder nach Beschädigung wieder möglich macht. Gerechtigkeit
+        muss auch dort begründet werden, wo spontanes Mitgefühl fehlt.
+      </p>
+      <p>
+        <strong>Symbolsprache im Wandel:</strong> Zeichen wie Palya (Stimmigkeit),
+        Kora (Integration) und Kesh (Verantwortung) werden an neueren Einwänden
+        geprüft: Auch Dritte zählen, ein Nein darf bestehen bleiben, und
+        Rechenschaft reicht über unmittelbare Begegnungen hinaus.
+        <a href="/symbolsprache/">Die Symbolsprache</a> zeigt den veröffentlichten
+        Stand und kennzeichnet offene Präzisierungen ausdrücklich.
+      </p>
+      <div class="btn-row">
+        <a class="btn" href="/werkstatt/">Die Offene Werkstatt</a>
+        <a class="btn btn--ghost" href="/bibliothek/">Alle {anzahl} Texte einschließlich älterer Fassungen</a>
+      </div>
+      <p class="muted">
+        Die Startseite fasst den jeweils jüngsten redaktionell abgeglichenen
+        Denkstand zusammen. Ältere Texte bleiben als Entwicklungsstufen lesbar
+        und sind nicht in jeder Aussage die heutige Position.
+      </p>
     </div>
   </section>
 
@@ -66,7 +129,7 @@ const zugaenge = [
         <span class="eyebrow">Drei Zugänge</span>
         <h2>Ein Gedanke, drei Ebenen</h2>
         <p class="muted">
-          Das Werk baut aufeinander auf: eine Ontologie, eine daraus folgende Ethik und
+          Das Werk baut aufeinander auf: eine Ontologie, eine daraus entwickelte Ethik und
           eine Sprache, in der beides erfahrbar wird. Man kann bei jeder der drei Ebenen
           anfangen.
         </p>
@@ -115,10 +178,8 @@ const zugaenge = [
   <section class="section section--tint">
     <div class="column">
       <blockquote>
-        Die Omnizedenz ist die zeitlose Quelle und die immanente, pulsierende Lebendigkeit
-        allen Seins und Werdens — eine bewusste, sich selbst erkennende Präsenz im ewigen
-        Zyklus von schöpferischer Entfaltung und integrativer Rückkehr.
-        <cite>Die Omnizedenz — Umfassende Gedanken</cite>
+        Was sich entfaltet, kreist nicht um seinen Ursprung — es hebt ihn.
+        <cite>Omnizedenz — Eine Philosophie des Ganzen im Werden</cite>
       </blockquote>
     </div>
   </section>

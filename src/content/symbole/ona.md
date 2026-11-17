@@ -1,7 +1,7 @@
 ---
 title: "◯ Ona"
 zeichen: "◯"
-kurz: "Der Kreis — Ganzheit ohne Anfang und Ende im linearen Sinn."
+kurz: "Ganzheit — der Zusammenhang, der seine Unterschiede umfasst, ohne sie aufzulösen."
 farbe: ink
 ebene: symbolsprache
 status: "[W]"
@@ -10,4 +10,6 @@ stufe: "I"
 order: 18
 ---
 
-Ona kennt kein Vorher, kein Danach — nur das Jetzt in seiner Fülle. Der Moment der Vollendung, in dem Alles gleichzeitig ist und in sich ruht.
+Ona steht für Ganzheit, nicht für einen endgültigen Zustand der Vollendung. Das Ganze ist vollständig, weil nichts Wirkliches außerhalb seines Zusammenhangs liegt; es ist nicht fertig, weil seine relationalen Konfigurationen Geschichte haben und weitere Möglichkeiten hervorbringen können.
+
+Der Kreis bleibt ein Symbol der Zusammengehörigkeit. Er darf nicht als Behauptung verstanden werden, dass Werden in einen identischen Ausgangspunkt zurückkehrt oder irgendwann stillsteht.

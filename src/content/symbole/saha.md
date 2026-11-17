@@ -2,7 +2,7 @@
 title: "𓂀 Saha"
 zeichen: "𓂀"
 entity_id: "CON:L2:saha"
-kurz: "Achtsame Feldwahrnehmung — die bewusste Wahrnehmung relationaler Qualitäten."
+kurz: "Achtsame relationale Wahrnehmung — Bedingungen, Beziehungen und Wirkungen sehen, bevor sie bewertet werden."
 farbe: ink
 ebene: ethik
 status: "[H]"
@@ -11,6 +11,6 @@ stufe: "kernprinzip"
 order: 1
 ---
 
-Anders als diffuse Intuition meint Saha spezifische Wahrnehmungsfähigkeiten, die sich prinzipiell trainieren lassen.
+Saha bezeichnet keine besondere Wahrnehmung eines metaphysischen Feldstoffs. Gemeint sind trainierbare Fähigkeiten, körperliche, soziale und situative Hinweise wahrzunehmen und die eigene Perspektive als Teil der Situation mitzudenken.
 
-Anschlusspunkte in der Forschung: Spiegelneuronen (Rizzolatti u. a. 1996), Interozeption (Craig 2009), Embodied Cognition (Varela u. a. 1991). Diese Forschung stützt die Plausibilität — sie beweist die These nicht.
+Anschlusspunkte bestehen zu Forschung über Interozeption, soziale Wahrnehmung und Embodied Cognition. Solche Bezüge können einzelne Mechanismen plausibilisieren; sie beweisen weder die Omnizedenz noch eine eigenständige „Feldwahrnehmung“.

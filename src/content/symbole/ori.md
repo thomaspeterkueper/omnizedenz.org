@@ -1,7 +1,7 @@
 ---
 title: "⟳ Ori"
 zeichen: "⟳"
-kurz: "Der Zyklus — Wiederkehr als heiliger Rhythmus, nicht bloße Wiederholung."
+kurz: "Die Spirale — Wiederkehr von Prozessen auf verändertem Grund."
 farbe: chrona
 ebene: symbolsprache
 status: "[W]"
@@ -10,4 +10,6 @@ stufe: "I"
 order: 17
 ---
 
-Ori erinnert nicht nur an Vergangenes, sondern an ewige Muster im Wandel: Entstehen, Blühen, Vergehen und erneute Geburt auf tieferer Ebene der Spirale.
+Ori bezeichnet keine identische kosmische Wiederkehr. Prozesse können erneut auftreten, aber ihre Bedingungen tragen die Geschichte früherer Durchläufe.
+
+**Die Spirale ist Rekursion mit Gedächtnis:** Wiederkehr ohne Rückkehr des Gleichen. Entstehen, Stabilisieren, Vergehen und Neubildung können sich ähneln, doch jeder neue Vollzug beginnt auf einem durch vorheriges Geschehen veränderten Grund.
