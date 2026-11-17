@@ -9,7 +9,9 @@ const anzahl = texte.length;
 const archivEintraege = await getCollection('archiv');
 const reifend = archivEintraege.filter((e) => e.data.reifegrad !== 'bereit-fuer-oeffentlich').length;
 
-const standDatum = '15. November 2026';\n\nconst zugaenge = [
+const standDatum = '15. November 2026';
+
+const zugaenge = [
   {
     href: '/philosophie/',
     ebene: 'Ebene I — Ontologie',
